@@ -1,0 +1,231 @@
+// // .button-wrap {
+// //     display: flex;
+// //     -webkit-box-align: center;
+// //     align-items: center;
+// //     padding: 0px 12px;
+// //     height: 42px;
+// //     background-color: rgba(22, 24, 35, 0.06);
+// //     border-radius: 8px;
+// //     font-size: 17px;
+// //     color: rgb(22, 24, 35);
+// //     cursor: pointer;
+// //     gap: 6px;
+// //     border: none;
+// // }
+
+// // .span-class {
+// //     font-size: 16px;
+// //     line-height: 24px;
+// //     font-weight: 500;
+    
+// // }
+
+// // .div-wrap{
+// //     max-width: 1104px;
+// // }
+
+// .wrapper {
+//     width: 356px;
+//     padding: 20px 0 26px 8px;
+//     margin-left: -300px;
+//     bottom: 0;
+//     left:0;
+//     position: relative; /* or absolute if inside a positioned container */
+//     margin-top: 200px;
+//     overflow: auto
+//     // margin: 10px; /* Optional: Adds a margin from the bottom and left edges */
+//     // background-color: lightblue; /* Optional: For better visibility */
+//     // padding: 10px;
+// }
+
+// body {
+//     font-family: Arial, sans-serif;
+//     background-color: #f5f5f5;
+//     display: flex;
+//     justify-content: center;
+//     align-items: flex-start;
+//     height: 100vh;
+//     margin: 0;
+//     padding-top: 20px;
+// }
+// .playlist-container {
+//     background-color: white;
+//     border-radius: 10px;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//     width: 100%;
+//     max-width: 600px;
+//     padding: 15px;
+// }
+// .item-container {
+//     display: flex;
+//     align-items: center;
+//     margin-bottom: 15px;
+// }
+// .thumbnail {
+//     position: relative;
+//     margin-right: 15px;
+// }
+// .thumbnail img {
+//     border-radius: 5px;
+//     width: 80px;
+//     height: 80px;
+// }
+// .thumbnail .play-button {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     width: 24px;
+//     height: 24px;
+//     background-color: white;
+//     border-radius: 50%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+//     cursor: pointer; 
+// }
+// .play-button::before {
+//     content: '';
+//     display: inline-block;
+//     margin-left: 3px;
+//     border-style: solid;
+//     border-width: 6px 0 6px 10px;
+//     border-color: transparent transparent transparent black;
+// }
+// .details {
+//     flex-grow: 1;
+// }
+// .title {
+//     font-size: 18px;
+//     font-weight: bold;
+//     margin: 0;
+// }
+// .subtitle {
+//     color: #666;
+//     margin: 5px 0 0;
+// }
+// .options {
+//     display: flex;
+//     align-items: center;
+//     margin-left: auto;
+// }
+// .options .icon {
+//     width: 24px;
+//     height: 24px;
+//     margin-left: 10px;
+//     cursor: pointer;
+// }
+  
+
+
+
+
+
+
+
+
+
+// .button-wrap {
+//     display: flex;
+//     -webkit-box-align: center;
+//     align-items: center;
+//     padding: 0px 12px;
+//     height: 42px;
+//     background-color: rgba(22, 24, 35, 0.06);
+//     border-radius: 8px;
+//     font-size: 17px;
+//     color: rgb(22, 24, 35);
+//     cursor: pointer;
+//     gap: 6px;
+//     border: none;
+// }
+
+// .span-class {
+//     font-size: 16px;
+//     line-height: 24px;
+//     font-weight: 500;
+    
+// }
+
+// .div-wrap{
+//     max-width: 1104px;
+// }
+
+.wrapper {
+    width: 356px;
+    overflow: scroll;
+    margin: 10px; /* Optional: Adds a margin from the bottom and left edges */
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.playlist-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.item-container:hover {
+    background-color: #f0f0f0;
+}
+
+.thumbnail {
+    position: relative;
+    margin-right: 15px;
+}
+
+.thumbnail img {
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+}
+
+.details {
+    flex-grow: 1;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtitle {
+    color: #666;
+    margin: 5px 0 0;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.options .icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
