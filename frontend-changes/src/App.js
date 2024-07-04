@@ -18,6 +18,7 @@ function App() {
                             Layout = Fragment;
                         }
 
+                        console.log("printing route path ", route.path)
                         return (
                             <Route
                                 key={index}

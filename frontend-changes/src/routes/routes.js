@@ -12,6 +12,7 @@ import Search from '~/pages/Search';
 import Live from '~/pages/Live';
 import Music from '~/pages/Music'
 import MagicTiles from '~/pages/MagicTiles'
+// import MagicTilesNew from '~/pages/MagicTilesNew'
 
 // Public routes
 const publicRoutes = [
@@ -22,7 +23,8 @@ const publicRoutes = [
     { path: config.routes.upload, component: Upload, layout: HeaderOnly },
     { path: config.routes.search, component: Search, layout: null },
     { path: config.routes.music, component: Music},
-    {path: config.routes.magictiles, component: MagicTiles, layout: null}
+    { path: config.routes.magicTiles(':id'), component: MagicTiles, layout: null },
+    // { path: config.routes.magicTilesNew(':id'), component: MagicTilesNew, layout: null }
 ];
 
 const privateRoutes = [];

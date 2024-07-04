@@ -6,7 +6,8 @@ const routes = {
     search: '/search',
     live: '/live',
     music: '/music',
-    magictiles: '/magic-tiles'
+    magicTiles: (id) => `/magic-tiles/${id}`,
+    // magicTilesNew: (id) => `/magic-tiles-new/${id}`,
 };
 
 export default routes;
