@@ -11,6 +11,7 @@ import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
 import Live from '~/pages/Live';
 import Music from '~/pages/Music'
+import Games from '~/pages/Games';
 import MagicTiles from '~/pages/MagicTiles'
 // import MagicTilesNew from '~/pages/MagicTilesNew'
 
@@ -23,6 +24,7 @@ const publicRoutes = [
     { path: config.routes.upload, component: Upload, layout: HeaderOnly },
     { path: config.routes.search, component: Search, layout: null },
     { path: config.routes.music, component: Music},
+    { path: config.routes.games, component: Games},
     { path: config.routes.magicTiles(':id'), component: MagicTiles, layout: null },
     // { path: config.routes.magicTilesNew(':id'), component: MagicTilesNew, layout: null }
 ];

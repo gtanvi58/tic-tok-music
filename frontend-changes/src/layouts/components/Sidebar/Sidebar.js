@@ -9,7 +9,8 @@ import {
     LiveIcon,
     LiveActiveIcon,
     MusicIcon,
-    MusicActionIcon
+    MusicActionIcon,
+    GameIcon
 } from '~/components/Icons';
 import SuggestedAccounts from '~/components/SuggestedAccounts';
 import config from '~/config';
@@ -21,6 +22,7 @@ function Sidebar() {
         <aside className={cx('wrapper')}>
             <Menu>
                 <MenuItem title="Music" to={config.routes.music} icon={<MusicIcon />} activeIcon={<MusicActionIcon />} />
+                <MenuItem title="Games" to={config.routes.games} icon={<GameIcon />} activeIcon={<MusicActionIcon />} />
                 <MenuItem title="For You" to={config.routes.home} icon={<HomeIcon />} activeIcon={<HomeActiveIcon />} />
                 <MenuItem
                     title="Following"

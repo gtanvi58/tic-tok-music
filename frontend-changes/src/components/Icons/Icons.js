@@ -18,6 +18,7 @@
 //     <svg fill="rgba(255, 59, 92, 1)" width="1em" height="1em" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M24 40.5a16.5 16.5 0 1 0 0-33 16.5 16.5 0 0 0 0 33Zm4.43-14.54c-.12.6-.49 1.12-1.01 1.44l-8.88 5.37a.65.65 0 0 1-.98-.69l2.01-10.18c.12-.6.49-1.12 1.01-1.44l8.88-5.37a.65.65 0 0 1 .98.69l-2.01 10.18Z"></path><path d="m21.92 26.89 3.4-2.05.76-3.9-3.4 2.06-.76 3.89Z"></path></svg>
 // )
 
+
 export const UploadIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
     <svg
         className={className}
@@ -205,3 +206,93 @@ export const MusicIcon = () => (
 export const MusicActionIcon = () => (
     <img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAhFBMVEVHcEwbFyAbFR8bFR4gFBsiExkbFiAeFB0kEhgbFiAnERYrAAAuDxIHoJsLAQAC//ed+/e/2NmsACMVERL/////A0gEEhPyrr1XAA8Jv7j/zNfYADgcPT3/6O9T+/S8/vvZ+vmKAibZP2X/S3YA7eT+epYcFR4aFiD5bYsagX2WX23/cpIvOAPpAAAACnRSTlMAb8Hw//9f//+MVnReTQAAAX5JREFUeAFdkwdiwjAQBOWGAgruvTtNKf//X9Yn7gwsnRmvbRVF8fwgDKO7hGHge4pz0iHhF45TQn1y/HzwC4UcMs5yvGBRjg6tiTM2CCm7oTWu74G/misSH4anfCcQRUySplle4JcTfBUQd8JlF8qyrGqpCBQXEL4JTXuRil3gAhZgxMag4l4AFwHJOlypE+QSRXDBldI5RABDDqEf6ifBjNeuM7swDc2doEkA75J5WXMS8nh7e3eCXKT5SFYUVzEJRRHH0cNdmA7gTnATJkJ0GffjP6uKhaeBisx13nlOtykN4BC+YISmS1G/YQpYkPlmYYEALg3EIXwpq3WozRXCd4yCHwg9BpELrLJfMF5GnKL8jcHx5W8rgIl/QdgNbboSST8+wKeqjoRbFZARxlnJqbbi4IHyretgo6/yGpQ4kK88y8Zv0/fNO27WYeLWU8qSAaWO221r6+KGidt941hRbF1bjU/B9qSQs2UFElHG9gzMHRyBfDxvf/sU3v7/p6c6d0XDWZwAAAAASUVORK5CYII=" height="18px" width="18px" alt="" data-csiid="I2CFZtvkE53awPAPzq2XoAk_10" data-atf="1"></img>
 )
+
+// export const GameIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+//     <svg
+//         className={className}
+//         width={width}
+//         height={height}
+//         viewBox="0 0 64 64"
+//         fill="none"
+//         xmlns="http://www.w3.org/2000/svg"
+//     >
+//         <rect x="4" y="22" width="8" height="20" fill="#00F2EA" />
+//         <rect x="12" y="14" width="10" height="8" fill="#ff004f" />
+//         <rect x="22" y="12" width="12" height="10" fill="#00F2EA" />
+//         <rect x="34" y="12" width="10" height="8" fill="#ff004f" />
+//         <rect x="44" y="14" width="8" height="20" fill="#00F2EA" />
+//         <rect x="36" y="26" width="8" height="6" fill="#ff004f" />
+//         <rect x="31" y="16" width="6" height="6" fill="#00F2EA" />
+//         <rect x="40" y="27" width="4" height="4" fill="#ff004f" />
+//         <rect x="45" y="23" width="4" height="4" fill="#00F2EA" />
+//         <rect x="28" y="34" width="8" height="6" fill="#ff004f" />
+//         <rect x="25" y="16" width="6" height="6" fill="#00F2EA" />
+//         <rect x="36" y="34" width="8" height="6" fill="#ff004f" />
+//         <rect x="41" y="29" width="4" height="4" fill="#00F2EA" />
+//         <rect x="33" y="22" width="6" height="6" fill="#00F2EA" />
+//         <rect x="45" y="29" width="4" height="4" fill="#00F2EA" />
+//     </svg>
+// );
+
+
+export const GameIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+    <svg className={className}
+        width={width}
+        height={height}
+        viewBox="0 0 64 64"
+        fill="currentColor"
+    >
+        <path  
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M16 8C7.16344 8 0 15.1634 0 24V40C0 48.8366 7.16344 56 16 56H48C56.8366 56 64 48.8366 64 40V24C64 15.1634 56.8366 8 48 8H16ZM24 12C25.1046 12 26 12.8954 26 14V22H34V14C34 12.8954 34.8954 12 36 12H46C47.1046 12 48 12.8954 48 14V22H56C57.1046 22 58 22.8954 58 24V40C58 41.1046 57.1046 42 56 42H48V50C48 51.1046 47.1046 52 46 52H36C34.8954 52 34 51.1046 34 50V42H26V50C26 51.1046 25.1046 52 24 52H14C12.8954 52 12 51.1046 12 50V42H4C2.89543 42 2 41.1046 2 40V24C2 22.8954 2.89543 22 4 22H12V14C12 12.8954 12.8954 12 14 12H24ZM36 26C35.4477 26 35 26.4477 35 27C35 27.5523 35.4477 28 36 28H38.5858C38.9609 27.5858 39.5858 27 40 27C40.4142 27 41.0391 27.5858 41.4142 28H44C44.5523 28 45 27.5523 45 27C45 26.4477 44.5523 26 44 26H36Z"
+        ></path>
+        <path d="M28 40C29.6569 40 31 38.6569 31 37C31 35.3431 29.6569 34 28 34C26.3431 34 25 35.3431 25 37C25 38.6569 26.3431 40 28 40Z" fill="#ff004f"></path>
+        <path d="M33 22C34.6569 22 36 20.6569 36 19C36 17.3431 34.6569 16 33 16C31.3431 16 30 17.3431 30 19C30 20.6569 31.3431 22 33 22Z" fill="#00F2EA"></path>
+        <path d="M40 33C41.6569 33 43 31.6569 43 30C43 28.3431 41.6569 27 40 27C38.3431 27 37 28.3431 37 30C37 31.6569 38.3431 33 40 33Z" fill="#ff004f"></path>
+        <path d="M45 29C46.6569 29 48 27.6569 48 26C48 24.3431 46.6569 23 45 23C43.3431 23 42 24.3431 42 26C42 27.6569 43.3431 29 45 29Z" fill="#00F2EA"></path>
+    </svg>
+);
+
+// export const GameIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+//     <svg
+//         className={className}
+//         width={width}
+//         height={height}
+//         viewBox="0 0 48 48"
+//         fill="currentColor"
+//         xmlns="http://www.w3.org/2000/svg"
+//     >
+//         <path
+//             fillRule="evenodd"
+//             clipRule="evenodd"
+//             d="M24 40.5a16.5 16.5 0 1 0 0-33 16.5 16.5 0 0 0 0 33Zm4.43-14.54c-.12.6-.49 1.12-1.01 1.44l-8.88 5.37a.65.65 0 0 1-.98-.69l2.01-10.18c.12-.6.49-1.12 1.01-1.44l8.88-5.37a.65.65 0 0 1 .98.69l-2.01 10.18Z"
+//         ></path>
+//         <path
+//             d="m21.92 26.89 3.4-2.05.76-3.9-3.4 2.06-.76 3.89Z"
+//         ></path>
+//     </svg>
+// );
+
+// export const GameIcon = ({ width = '3.2rem', height = '3.2rem', className }) => (
+//     <svg
+//         className={className}
+//         width={width}
+//         height={height}
+//         viewBox="0 0 48 48"
+//         fill="none"
+//         xmlns="http://www.w3.org/2000/svg"
+//     >
+//         <circle cx="24" cy="24" r="22.5" stroke="currentColor" strokeWidth="3"></circle>
+//         <path
+//             fillRule="evenodd"
+//             clipRule="evenodd"
+//             d="M24 40.5a16.5 16.5 0 1 0 0-33 16.5 16.5 0 0 0 0 33Zm4.43-14.54c-.12.6-.49 1.12-1.01 1.44l-8.88 5.37a.65.65 0 0 1-.98-.69l2.01-10.18c.12-.6.49-1.12 1.01-1.44l8.88-5.37a.65.65 0 0 1 .98.69l-2.01 10.18Z"
+//             fill="currentColor"
+//         ></path>
+//         <path
+//             d="m21.92 26.89 3.4-2.05.76-3.9-3.4 2.06-.76 3.89Z"
+//             fill="currentColor"
+//         ></path>
+//     </svg>
+// );
