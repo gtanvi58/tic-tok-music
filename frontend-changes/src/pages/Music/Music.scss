@@ -1,0 +1,39 @@
+.new-artist-wrapper {
+    position: absolute; /* or fixed */
+    top: 100px;
+    right: 50px;
+    width:500px;
+    text-align:center;
+    margin: 0;
+    padding: 40px;
+    // background-color:black
+    // margin-left: 0px;
+}
+
+.following-wrapper{
+    position: absolute;
+    width:400px;
+    margin: 0;
+    padding: 40px;
+}
+
+.recommended-wrapper{
+    // background-color: black;
+    position: absolute;
+    width:400px;
+    margin: 0;
+    padding: 40px;
+}
+
+.daylist{
+    // background-color: black;
+    position: absolute;
+    width:400px;
+    // margin: 0;
+    padding: 140px;
+    // top:0
+    justify-content: center; /* Horizontal centering */
+    align-items: center;   
+    top:0;
+    right:280px
+}

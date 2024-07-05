@@ -1,11 +1,15 @@
-.leaderboard {
+.new-artists-leaderboard {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
-    margin: 0;
-    padding: 20px;
-    margin-top:20px
+    // margin: 0;
+    padding: 5px;
+    width:350px;
+    right:0;
+    position: fixed;
+    margin-right:0px;
+    margin-top:35px
 }
-.chart-container {
+.new-artists-leaderboard-container {
     max-width: 800px;
     margin: 0 auto;
     background-color: #ffffff;
@@ -17,17 +21,19 @@
     background-color: #fe2c55;
     padding: 10px 20px;
 }
-.chart-header {
+.new-artists-header {
+    background-color: #fe2c55;
+    padding: 10px 20px;
     color: #ffffff;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
 }
 .score-header {
     color: #ffffff;
     font-size: 18px;
     text-align: right;
 }
-.chart-row {
+.new-artists-row {
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -36,7 +42,7 @@
 .chart-row:last-child {
     border-bottom: none;
 }
-.chart-position {
+.new-artists-position {
     flex: 0 0 40px;
     font-size: 24px;
     font-weight: bold;
@@ -50,12 +56,12 @@
     border-radius: 4px;
     margin-right: 20px;
 }
-.chart-details {
+.new-artists-details {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-.chart-title {
+.new-artists-title {
     font-size: 16px;
     font-weight: bold;
     margin: 0;

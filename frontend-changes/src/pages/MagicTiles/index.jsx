@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import classNames from 'classnames/bind';
 import styles from './MagicTiles.scss';
-import allOfMe from './all-of-me.mp3';
+import allOfMe from './bad-guy.mp3';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 

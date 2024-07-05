@@ -1,0 +1,49 @@
+.banner {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100vw; /* 100% of the viewport width */
+    background-color: black; /* Black background for the banner */
+    padding: 0.1px; /* Adjust padding as needed */
+    text-align: center; /* Center the text within the banner */
+    z-index: 1000; /* Ensures the banner is above other elements */
+}
+
+.fancy-title {
+    font-family: 'Arial', sans-serif; /* Change to your preferred font */
+    font-size: 3rem; /* Adjust size as needed */
+    color: white;
+    text-shadow: 3px 3px 0px #fe2c55; /* Pink shadow */
+                //  6px 6px 0px #fe2c55; /* Additional shadow for depth */
+    font-weight: bold;
+    letter-spacing: 2px; /* Adjust spacing as needed */
+    margin: 10px 0; /* Adjust margins as needed */
+    text-align: center; /* Center the text */
+    z-index: 2;
+    margin-left:140px
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px; /* Adjust based on the banner height */
+    background-color: #f0f0f0; /* For visual reference */
+}
+
+.daylist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px; /* Space between videos */
+    padding: 20px;
+    right:220px;
+    margin-top:70px
+}
+
+.daylist-item {
+    border-radius: 8px; /* Rounded corners for the player */
+    padding: 20px;
+    position: relative;
+}

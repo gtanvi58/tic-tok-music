@@ -1,6 +1,7 @@
 .wrapper {
-    position: relative;  /* Ensures child positioning is relative to this container */
+    position: fixed;  /* Ensures child positioning is relative to this container */
     width: 200px;
     padding: 20px 0 26px 8px;
     margin-left: -150px;
+    margin-top:30px
 }

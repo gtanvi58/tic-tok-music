@@ -1,11 +1,13 @@
-.leaderboard {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    margin: 0;
-    padding: 20px;
-    margin-top:20px
-}
-.chart-container {
+.rec-artists {
+ 
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        left:200px;
+        position:fixed;
+        margin-top:35px
+    }
+.rec-artists-container {
     max-width: 800px;
     margin: 0 auto;
     background-color: #ffffff;
@@ -17,17 +19,19 @@
     background-color: #fe2c55;
     padding: 10px 20px;
 }
-.chart-header {
+.rec-artists-header {
+    background-color: black;
+    padding: 10px 20px;
     color: #ffffff;
     font-size: 18px;
-    text-align: left;
+    text-align: center;
 }
 .score-header {
     color: #ffffff;
     font-size: 18px;
     text-align: right;
 }
-.chart-row {
+.rec-artists-row {
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -36,7 +40,7 @@
 .chart-row:last-child {
     border-bottom: none;
 }
-.chart-position {
+.new-artists-position {
     flex: 0 0 40px;
     font-size: 24px;
     font-weight: bold;
@@ -50,12 +54,12 @@
     border-radius: 4px;
     margin-right: 20px;
 }
-.chart-details {
+.rec-artists-details {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-.chart-title {
+.rec-artists-title {
     font-size: 16px;
     font-weight: bold;
     margin: 0;

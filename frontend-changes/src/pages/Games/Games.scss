@@ -2,13 +2,15 @@
     position: absolute; /* or fixed */
     top: 100px;
     right: 50px;
-    width:500px
+    width:500px;
     // margin-left: 0px;
+    margin-top:30px
+
 }
 
 .playlist-wrapper{
     position: absolute;
     width:400px;
     margin: 0;
-    padding: 40px;
+    padding: 40px;margin-top:30px;
 }
