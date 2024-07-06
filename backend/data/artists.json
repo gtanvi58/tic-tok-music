@@ -1,0 +1,4953 @@
+[
+  {
+    "_id": "66879b84b5c5359c240bef0a",
+    "SpotifyId": "01pFDtbY3k5uOmy0Pbg93C",
+    "Username": "Rovalio",
+    "popularity_score": 56,
+    "genres": [
+      "bossanova",
+      "ska",
+      "house"
+    ],
+    "spotify_follower_count": 118492,
+    "tiktok_follower_count": 0,
+    "total_views_count": 4151,
+    "total_likes_count": 3980,
+    "total_share_count": 1061,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef0b",
+    "SpotifyId": "01s4ShAG94PCe2oJbziSwY",
+    "Username": "Pankaj Tandi",
+    "popularity_score": 37,
+    "genres": [
+      "holidays"
+    ],
+    "spotify_follower_count": 1931,
+    "tiktok_follower_count": 0,
+    "total_views_count": 13170,
+    "total_likes_count": 2743,
+    "total_share_count": 883,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef0c",
+    "SpotifyId": "048LktY5zMnakWq7PTtFrz",
+    "Username": "CKay",
+    "popularity_score": 67,
+    "genres": [
+      "soul",
+      "Soft rock"
+    ],
+    "spotify_follower_count": 1480237,
+    "tiktok_follower_count": 0,
+    "total_views_count": 34751,
+    "total_likes_count": 11949,
+    "total_share_count": 3200,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef0d",
+    "SpotifyId": "04TycqJU9QoZ0DRQfuDM5S",
+    "Username": "Nadav Cohen",
+    "popularity_score": 52,
+    "genres": [
+      "holidays"
+    ],
+    "spotify_follower_count": 3024,
+    "tiktok_follower_count": 0,
+    "total_views_count": 12586,
+    "total_likes_count": 3229,
+    "total_share_count": 1163,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef0e",
+    "SpotifyId": "05YVYeV4HxYp5rrWalvuE1",
+    "Username": "Grover Washington, Jr.",
+    "popularity_score": 62,
+    "genres": [
+      "techno"
+    ],
+    "spotify_follower_count": 369905,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15532,
+    "total_likes_count": 6682,
+    "total_share_count": 1487,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef0f",
+    "SpotifyId": "05etL4pzWd6TSv1x5WrlG3",
+    "Username": "Faheem Abdullah",
+    "popularity_score": 58,
+    "genres": [
+      "singer-songwriter"
+    ],
+    "spotify_follower_count": 33336,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18831,
+    "total_likes_count": 6954,
+    "total_share_count": 1507,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef10",
+    "SpotifyId": "07CimrZi5vs9iEao47TNQ4",
+    "Username": "Flowdan",
+    "popularity_score": 64,
+    "genres": [
+      "dance"
+    ],
+    "spotify_follower_count": 95859,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19541,
+    "total_likes_count": 5633,
+    "total_share_count": 2096,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef11",
+    "SpotifyId": "0AkpPlFLnr0VQwZQeMGht0",
+    "Username": "Modjo",
+    "popularity_score": 63,
+    "genres": [
+      "rap",
+      "electronic"
+    ],
+    "spotify_follower_count": 210066,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20055,
+    "total_likes_count": 7264,
+    "total_share_count": 2101,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef12",
+    "SpotifyId": "0C8ZW7ezQVs4URX5aX7Kqx",
+    "Username": "Selena Gomez",
+    "popularity_score": 80,
+    "genres": [
+      "pop",
+      "Acoustic pop"
+    ],
+    "spotify_follower_count": 50226264,
+    "tiktok_follower_count": 0,
+    "total_views_count": 31418,
+    "total_likes_count": 14164,
+    "total_share_count": 3851,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef13",
+    "SpotifyId": "0DxeaLnv6SyYk2DOqkLO8c",
+    "Username": "MAGIC!",
+    "popularity_score": 67,
+    "genres": [
+      "pop",
+      "j-pop"
+    ],
+    "spotify_follower_count": 1308163,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20713,
+    "total_likes_count": 7357,
+    "total_share_count": 2127,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef14",
+    "SpotifyId": "0EdvGhlC1FkGItLOWQzG4J",
+    "Username": "Sublime",
+    "popularity_score": 73,
+    "genres": [
+      "heavy-metal",
+      "r-n-b",
+      "power-pop",
+      "Acoustic pop"
+    ],
+    "spotify_follower_count": 2844695,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22322,
+    "total_likes_count": 6265,
+    "total_share_count": 1622,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef15",
+    "SpotifyId": "0EmeFodog0BfCgMzAIvKQp",
+    "Username": "Shakira",
+    "popularity_score": 85,
+    "genres": [
+      "honky-tonk",
+      "blues",
+      "latin pop",
+      "pop"
+    ],
+    "spotify_follower_count": 33351532,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23282,
+    "total_likes_count": 6133,
+    "total_share_count": 1934,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef16",
+    "SpotifyId": "0LyOADBjj28cbvJWTXUEGA",
+    "Username": "Loren Allred",
+    "popularity_score": 57,
+    "genres": [
+      "deep-house",
+      "honky-tonk",
+      "bluegrass"
+    ],
+    "spotify_follower_count": 187911,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20965,
+    "total_likes_count": 6500,
+    "total_share_count": 1983,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef17",
+    "SpotifyId": "0Mz5XE0kb1GBnbLQm2VbcO",
+    "Username": "Mos Def",
+    "popularity_score": 63,
+    "genres": [
+      "dub",
+      "funk",
+      "honky-tonk"
+    ],
+    "spotify_follower_count": 1484906,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5985,
+    "total_likes_count": 1453,
+    "total_share_count": 1329,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef18",
+    "SpotifyId": "0NErdIJtuKBjtxKmlqaWdj",
+    "Username": "Divya Kumar",
+    "popularity_score": 62,
+    "genres": [
+      "opera",
+      "trance",
+      "country"
+    ],
+    "spotify_follower_count": 417315,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5369,
+    "total_likes_count": 3649,
+    "total_share_count": 1005,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef19",
+    "SpotifyId": "0OTnx2X2FDXeewcm72lavT",
+    "Username": "Alison Krauss & Union Station",
+    "popularity_score": 51,
+    "genres": [
+      "j-pop"
+    ],
+    "spotify_follower_count": 194292,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18260,
+    "total_likes_count": 3628,
+    "total_share_count": 1112,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef1a",
+    "SpotifyId": "0RGOfLzWx0CMIwpVPOZwgH",
+    "Username": "GenX",
+    "popularity_score": 34,
+    "genres": [
+      "soul"
+    ],
+    "spotify_follower_count": 2848,
+    "tiktok_follower_count": 0,
+    "total_views_count": 8032,
+    "total_likes_count": 4174,
+    "total_share_count": 820,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef1b",
+    "SpotifyId": "0WPCPYm5IDNtQjuJOGNPcy",
+    "Username": "Brothers of Metal",
+    "popularity_score": 57,
+    "genres": [
+      "country",
+      "honky-tonk",
+      "show-tunes"
+    ],
+    "spotify_follower_count": 246536,
+    "tiktok_follower_count": 0,
+    "total_views_count": 12227,
+    "total_likes_count": 678,
+    "total_share_count": 1482,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef1c",
+    "SpotifyId": "0Y5tJX1MQlPlqiwlOH1tJY",
+    "Username": "Travis Scott",
+    "popularity_score": 92,
+    "genres": [
+      "rap",
+      "k-pop"
+    ],
+    "spotify_follower_count": 30348985,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23982,
+    "total_likes_count": 6680,
+    "total_share_count": 1826,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef1d",
+    "SpotifyId": "0aOIluXr131XqrXFwFCFGT",
+    "Username": "Sevek",
+    "popularity_score": 61,
+    "genres": [
+      "electronic",
+      "gospel",
+      "disney",
+      "gospel",
+      "psych-rock",
+      "punk"
+    ],
+    "spotify_follower_count": 20925,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19711,
+    "total_likes_count": 6096,
+    "total_share_count": 1734,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef1e",
+    "SpotifyId": "0fauHpmSHwodVYIjTqOGHz",
+    "Username": "Yiruma",
+    "popularity_score": 64,
+    "genres": [
+      "disney",
+      "reggaeton",
+      "new age piano"
+    ],
+    "spotify_follower_count": 1133326,
+    "tiktok_follower_count": 0,
+    "total_views_count": 44520,
+    "total_likes_count": 8196,
+    "total_share_count": 3670,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240bef1f",
+    "SpotifyId": "0fhunuOz2OuOEr3YK5ctSm",
+    "Username": "Thalapathy Vijay",
+    "popularity_score": 61,
+    "genres": [
+      "k-pop",
+      "reggae"
+    ],
+    "spotify_follower_count": 776698,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22276,
+    "total_likes_count": 3110,
+    "total_share_count": 2026,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef20",
+    "SpotifyId": "0rEuaTPLMhlViNCJrg3NEH",
+    "Username": "Beast In Black",
+    "popularity_score": 60,
+    "genres": [
+      "pop",
+      "bossanova",
+      "bluegrass"
+    ],
+    "spotify_follower_count": 313825,
+    "tiktok_follower_count": 0,
+    "total_views_count": 9684,
+    "total_likes_count": 9096,
+    "total_share_count": 1790,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef21",
+    "SpotifyId": "0u6GtibW46tFX7koQ6uNJZ",
+    "Username": "Topic",
+    "popularity_score": 71,
+    "genres": [
+      "disco",
+      "j-pop",
+      "jazz",
+      "progressive-house"
+    ],
+    "spotify_follower_count": 251542,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19594,
+    "total_likes_count": 7173,
+    "total_share_count": 2159,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef22",
+    "SpotifyId": "0xFsJRSOYJmmuozISzreTR",
+    "Username": "Toaka",
+    "popularity_score": 54,
+    "genres": [
+      "punk",
+      "blues",
+      "dance",
+      "disney",
+      "blues",
+      "holidays",
+      "punk",
+      "Soft rock",
+      "pop"
+    ],
+    "spotify_follower_count": 19470,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16905,
+    "total_likes_count": 6642,
+    "total_share_count": 833,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef23",
+    "SpotifyId": "0y59o4v8uw5crbN9M3JiL1",
+    "Username": "Badshah",
+    "popularity_score": 77,
+    "genres": [
+      "jazz",
+      "trip-hop",
+      "reggaeton",
+      "dance"
+    ],
+    "spotify_follower_count": 26469095,
+    "tiktok_follower_count": 0,
+    "total_views_count": 40319,
+    "total_likes_count": 12311,
+    "total_share_count": 4492,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef24",
+    "SpotifyId": "0z4gvV4rjIZ9wHck67ucSV",
+    "Username": "Akon",
+    "popularity_score": 80,
+    "genres": [
+      "groove"
+    ],
+    "spotify_follower_count": 4631108,
+    "tiktok_follower_count": 0,
+    "total_views_count": 14670,
+    "total_likes_count": 5343,
+    "total_share_count": 1675,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef25",
+    "SpotifyId": "13YmWQJFwgZrd4bf5IjMY4",
+    "Username": "Brad Paisley",
+    "popularity_score": 64,
+    "genres": [
+      "trance",
+      "country",
+      "heavy-metal"
+    ],
+    "spotify_follower_count": 2787183,
+    "tiktok_follower_count": 0,
+    "total_views_count": 7601,
+    "total_likes_count": 3313,
+    "total_share_count": 798,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef26",
+    "SpotifyId": "17fY0VRyqRgmqI3dHlE1UU",
+    "Username": "IRAH",
+    "popularity_score": 60,
+    "genres": [
+      "indie-pop",
+      "jazz",
+      "edm"
+    ],
+    "spotify_follower_count": 7704,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19541,
+    "total_likes_count": 5633,
+    "total_share_count": 2096,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef27",
+    "SpotifyId": "183DgO92lAqgpVVNKI7ZKF",
+    "Username": "Raj Ranjodh",
+    "popularity_score": 65,
+    "genres": [
+      "progressive-house"
+    ],
+    "spotify_follower_count": 255892,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20206,
+    "total_likes_count": 6394,
+    "total_share_count": 2104,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef28",
+    "SpotifyId": "19eLuQmk9aCobbVDHc6eek",
+    "Username": "Louis Armstrong",
+    "popularity_score": 69,
+    "genres": [
+      "ska",
+      "disney",
+      "bossanova",
+      "ska",
+      "samba",
+      "soul",
+      "holidays",
+      "groove"
+    ],
+    "spotify_follower_count": 2918114,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19872,
+    "total_likes_count": 5501,
+    "total_share_count": 1938,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef29",
+    "SpotifyId": "1Clwe5e4xyRasANUVlpcCf",
+    "Username": "Vedan",
+    "popularity_score": 58,
+    "genres": [
+      "j-pop"
+    ],
+    "spotify_follower_count": 192267,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5042,
+    "total_likes_count": 5253,
+    "total_share_count": 699,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef2a",
+    "SpotifyId": "1DrbUfeyLZxVE5wOvgc5AP",
+    "Username": "Pratham Kumbhar",
+    "popularity_score": 41,
+    "genres": [
+      "j-pop",
+      "deep-house"
+    ],
+    "spotify_follower_count": 6561,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15745,
+    "total_likes_count": 5896,
+    "total_share_count": 1390,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef2b",
+    "SpotifyId": "1EowJ1WwkMzkCkRomFhui7",
+    "Username": "RADWIMPS",
+    "popularity_score": 71,
+    "genres": [
+      "j-pop",
+      "show-tunes",
+      "honky-tonk"
+    ],
+    "spotify_follower_count": 4000119,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16905,
+    "total_likes_count": 6642,
+    "total_share_count": 833,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef2c",
+    "SpotifyId": "1FClsNYBUoNFtGgzeG74dW",
+    "Username": "Hank Williams",
+    "popularity_score": 56,
+    "genres": [
+      "country",
+      "gospel",
+      "power-pop",
+      "Acoustic pop"
+    ],
+    "spotify_follower_count": 985632,
+    "tiktok_follower_count": 0,
+    "total_views_count": 12554,
+    "total_likes_count": 8014,
+    "total_share_count": 2913,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240bef2d",
+    "SpotifyId": "1Ffb6ejR6Fe5IamqA5oRUF",
+    "Username": "Bring Me The Horizon",
+    "popularity_score": 80,
+    "genres": [
+      "k-pop",
+      "metalcore",
+      "trip-hop",
+      "rock",
+      "electronic"
+    ],
+    "spotify_follower_count": 5656791,
+    "tiktok_follower_count": 0,
+    "total_views_count": 56455,
+    "total_likes_count": 21236,
+    "total_share_count": 5609,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240bef2e",
+    "SpotifyId": "1GxkXlMwML1oSg5eLPiAz3",
+    "Username": "Michael Bublé",
+    "popularity_score": 72,
+    "genres": [
+      "soul",
+      "singer-songwriter",
+      "indie garage rock",
+      "hard-rock"
+    ],
+    "spotify_follower_count": 6318660,
+    "tiktok_follower_count": 0,
+    "total_views_count": 35056,
+    "total_likes_count": 12581,
+    "total_share_count": 4244,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef2f",
+    "SpotifyId": "1KiNUGL3r0GgyLwqYCY1yV",
+    "Username": "Kanine",
+    "popularity_score": 52,
+    "genres": [
+      "trip-hop"
+    ],
+    "spotify_follower_count": 81213,
+    "tiktok_follower_count": 0,
+    "total_views_count": 6736,
+    "total_likes_count": 1517,
+    "total_share_count": 1139,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef30",
+    "SpotifyId": "1LZEQNv7sE11VDY3SdxQeN",
+    "Username": "Bee Gees",
+    "popularity_score": 76,
+    "genres": [
+      "disco",
+      "metalcore",
+      "hard-rock"
+    ],
+    "spotify_follower_count": 7865336,
+    "tiktok_follower_count": 0,
+    "total_views_count": 37003,
+    "total_likes_count": 11791,
+    "total_share_count": 4127,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef31",
+    "SpotifyId": "1QAJqy2dA3ihHBFIHRphZj",
+    "Username": "Cigarettes After Sex",
+    "popularity_score": 81,
+    "genres": [
+      "trip-hop",
+      "soul",
+      "power-pop",
+      "deep-house"
+    ],
+    "spotify_follower_count": 11554386,
+    "tiktok_follower_count": 0,
+    "total_views_count": 97383,
+    "total_likes_count": 34956,
+    "total_share_count": 10105,
+    "total_video_count": 5
+  },
+  {
+    "_id": "66879b84b5c5359c240bef32",
+    "SpotifyId": "1QMgre3BHX161ZHtWMUu6S",
+    "Username": "Dimension",
+    "popularity_score": 61,
+    "genres": [
+      "Soft rock",
+      "rock",
+      "punk"
+    ],
+    "spotify_follower_count": 129673,
+    "tiktok_follower_count": 0,
+    "total_views_count": 4530,
+    "total_likes_count": 4412,
+    "total_share_count": 1003,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef33",
+    "SpotifyId": "1Qp56T7n950O3EGMsSl81D",
+    "Username": "Ghost",
+    "popularity_score": 73,
+    "genres": [
+      "rock",
+      "soul"
+    ],
+    "spotify_follower_count": 3157100,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16690,
+    "total_likes_count": 5443,
+    "total_share_count": 2117,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef34",
+    "SpotifyId": "1Rkz7wbIgGz8wBCN8TsfKU",
+    "Username": "Pompi",
+    "popularity_score": 38,
+    "genres": [
+      "folk",
+      "pop",
+      "dubstep",
+      "gospel"
+    ],
+    "spotify_follower_count": 71729,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5020,
+    "total_likes_count": 998,
+    "total_share_count": 306,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef35",
+    "SpotifyId": "1ThoqLcyIYvZn7iWbj8fsj",
+    "Username": "Bill Withers",
+    "popularity_score": 73,
+    "genres": [
+      "reggae",
+      "funk",
+      "show-tunes",
+      "soul"
+    ],
+    "spotify_follower_count": 1720277,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15532,
+    "total_likes_count": 6682,
+    "total_share_count": 1487,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef36",
+    "SpotifyId": "1VJ0briNOlXRtJUAzoUJdt",
+    "Username": "FISHER",
+    "popularity_score": 76,
+    "genres": [
+      "punk",
+      "house"
+    ],
+    "spotify_follower_count": 953614,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22649,
+    "total_likes_count": 7696,
+    "total_share_count": 2181,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef37",
+    "SpotifyId": "1Vr7DTbtTpOp4tn4hAGOYo",
+    "Username": "Lirico En La Casa",
+    "popularity_score": 60,
+    "genres": [
+      "gospel",
+      "indie garage rock"
+    ],
+    "spotify_follower_count": 211269,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17417,
+    "total_likes_count": 6243,
+    "total_share_count": 1659,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef38",
+    "SpotifyId": "1W7FNibLa0O0b572tB2w7t",
+    "Username": "Pink Sweat$",
+    "popularity_score": 64,
+    "genres": [
+      "psych-rock"
+    ],
+    "spotify_follower_count": 1844329,
+    "tiktok_follower_count": 0,
+    "total_views_count": 9672,
+    "total_likes_count": 3102,
+    "total_share_count": 1058,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef39",
+    "SpotifyId": "1WgXqy2Dd70QQOU7Ay074N",
+    "Username": "AURORA",
+    "popularity_score": 74,
+    "genres": [
+      "electronic",
+      "country"
+    ],
+    "spotify_follower_count": 3676493,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18394,
+    "total_likes_count": 5201,
+    "total_share_count": 1465,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef3a",
+    "SpotifyId": "1Xylc3o4UrD53lo9CvFvVg",
+    "Username": "Zara Larsson",
+    "popularity_score": 76,
+    "genres": [
+      "pop",
+      "dance",
+      "show-tunes",
+      "dub"
+    ],
+    "spotify_follower_count": 10480290,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18067,
+    "total_likes_count": 5530,
+    "total_share_count": 1808,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef3b",
+    "SpotifyId": "1Yj5Xey7kTwvZla8sqdsdE",
+    "Username": "Cris Mj",
+    "popularity_score": 86,
+    "genres": [
+      "deep-house",
+      "bossanova",
+      "Acoustic pop",
+      "study beats"
+    ],
+    "spotify_follower_count": 3195608,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22511,
+    "total_likes_count": 7490,
+    "total_share_count": 2645,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef3c",
+    "SpotifyId": "1aSxMhuvixZ8h9dK9jIDwL",
+    "Username": "Kate Bush",
+    "popularity_score": 70,
+    "genres": [
+      "soundtracks",
+      "punk",
+      "j-pop",
+      "dance",
+      "drum-and-bass",
+      "reggae",
+      "singer-songwriter"
+    ],
+    "spotify_follower_count": 2024720,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22391,
+    "total_likes_count": 5991,
+    "total_share_count": 1915,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef3d",
+    "SpotifyId": "1cJ5tVoeAEFcZBAwSZ0CtF",
+    "Username": "The Plot In You",
+    "popularity_score": 61,
+    "genres": [
+      "metalcore"
+    ],
+    "spotify_follower_count": 413976,
+    "tiktok_follower_count": 0,
+    "total_views_count": 13683,
+    "total_likes_count": 4706,
+    "total_share_count": 434,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef3e",
+    "SpotifyId": "1cUxl5laTZRQwXPCV6j1BH",
+    "Username": "Duke Luke",
+    "popularity_score": 43,
+    "genres": [
+      "holidays",
+      "opera",
+      "trip-hop",
+      "Acoustic pop",
+      "dub",
+      "bossanova",
+      "techno",
+      "punk",
+      "Acoustic pop",
+      "psych-rock"
+    ],
+    "spotify_follower_count": 4773,
+    "tiktok_follower_count": 0,
+    "total_views_count": 10375,
+    "total_likes_count": 2566,
+    "total_share_count": 1357,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef3f",
+    "SpotifyId": "1gl0S9pS0Zw0qfa14rDD3D",
+    "Username": "Surf Curse",
+    "popularity_score": 67,
+    "genres": [
+      "anime",
+      "techno",
+      "progressive-house",
+      "r-n-b",
+      "bossanova"
+    ],
+    "spotify_follower_count": 1164814,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18640,
+    "total_likes_count": 7289,
+    "total_share_count": 2185,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef40",
+    "SpotifyId": "1i8SpTcr7yvPOmcqrbnVXY",
+    "Username": "Ozuna",
+    "popularity_score": 85,
+    "genres": [
+      "Soft rock",
+      "reggaeton",
+      "rap",
+      "study beats"
+    ],
+    "spotify_follower_count": 36745793,
+    "tiktok_follower_count": 0,
+    "total_views_count": 14940,
+    "total_likes_count": 6164,
+    "total_share_count": 1806,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef41",
+    "SpotifyId": "1mBydYMVBECdDmMfE2sEUO",
+    "Username": "Sachin-Jigar",
+    "popularity_score": 76,
+    "genres": [
+      "new age piano",
+      "punk",
+      "disney"
+    ],
+    "spotify_follower_count": 2327942,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17629,
+    "total_likes_count": 6481,
+    "total_share_count": 2001,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef42",
+    "SpotifyId": "1opkgYTufsVtb79lGTp2Qa",
+    "Username": "Maruati Hnamte",
+    "popularity_score": 21,
+    "genres": [
+      "reggae"
+    ],
+    "spotify_follower_count": 3125,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5215,
+    "total_likes_count": 1005,
+    "total_share_count": 268,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef43",
+    "SpotifyId": "1pSefalk3Yw0CblqfLvy05",
+    "Username": "Reuben Morgan",
+    "popularity_score": 56,
+    "genres": [
+      "dub"
+    ],
+    "spotify_follower_count": 10693,
+    "tiktok_follower_count": 0,
+    "total_views_count": 13741,
+    "total_likes_count": 4599,
+    "total_share_count": 974,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef44",
+    "SpotifyId": "1uNFoZAHBGtllmzznpCI3s",
+    "Username": "Justin Bieber",
+    "popularity_score": 88,
+    "genres": [
+      "reggae",
+      "pop"
+    ],
+    "spotify_follower_count": 75662189,
+    "tiktok_follower_count": 0,
+    "total_views_count": 34303,
+    "total_likes_count": 13466,
+    "total_share_count": 3789,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef45",
+    "SpotifyId": "1vCWHaC5f2uS3yhpwWbIA6",
+    "Username": "Avicii",
+    "popularity_score": 80,
+    "genres": [
+      "power-pop",
+      "edm",
+      "pop",
+      "k-pop"
+    ],
+    "spotify_follower_count": 22834153,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20213,
+    "total_likes_count": 6132,
+    "total_share_count": 1805,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef46",
+    "SpotifyId": "1wRPtKGflJrBx9BmLsSwlU",
+    "Username": "Pritam",
+    "popularity_score": 86,
+    "genres": [
+      "trip-hop",
+      "rap",
+      "Afrobeats"
+    ],
+    "spotify_follower_count": 33562867,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16949,
+    "total_likes_count": 5303,
+    "total_share_count": 1593,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef47",
+    "SpotifyId": "1yMP2gzEFgUkib4khXN6hi",
+    "Username": "Taimour Baig",
+    "popularity_score": 55,
+    "genres": [
+      "techno",
+      "techno"
+    ],
+    "spotify_follower_count": 232429,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17390,
+    "total_likes_count": 5617,
+    "total_share_count": 618,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef48",
+    "SpotifyId": "1yi5kfaxTc1TtLqJi4lDmL",
+    "Username": "Aseema Panda",
+    "popularity_score": 50,
+    "genres": [
+      "folk"
+    ],
+    "spotify_follower_count": 77359,
+    "tiktok_follower_count": 0,
+    "total_views_count": 11551,
+    "total_likes_count": 6442,
+    "total_share_count": 1489,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef49",
+    "SpotifyId": "1zNqDE7qDGCsyzJwohVaoX",
+    "Username": "Anne-Marie",
+    "popularity_score": 77,
+    "genres": [
+      "pop"
+    ],
+    "spotify_follower_count": 11962285,
+    "tiktok_follower_count": 0,
+    "total_views_count": 38454,
+    "total_likes_count": 13549,
+    "total_share_count": 3771,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef4a",
+    "SpotifyId": "1zPtT8rIn2NjlXr37K57Mb",
+    "Username": "Кипелов",
+    "popularity_score": 39,
+    "genres": [
+      "hard-rock",
+      "soundtracks",
+      "latin pop",
+      "Acoustic pop"
+    ],
+    "spotify_follower_count": 106744,
+    "tiktok_follower_count": 0,
+    "total_views_count": 10772,
+    "total_likes_count": 2729,
+    "total_share_count": 1124,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef4b",
+    "SpotifyId": "1zxDewzd2j1ZdSBGaYcr0y",
+    "Username": "The Outfield",
+    "popularity_score": 0.69,
+    "genres": [
+      "singer-songwriter"
+    ],
+    "spotify_follower_count": 661422,
+    "tiktok_follower_count": 0,
+    "total_views_count": 0,
+    "total_likes_count": 0,
+    "total_share_count": 0,
+    "total_video_count": null
+  },
+  {
+    "_id": "66879b84b5c5359c240bef4c",
+    "SpotifyId": "205i7E8fNVfojowcQSfK9m",
+    "Username": "Dom Dolla",
+    "popularity_score": 69,
+    "genres": [
+      "Ambient pop",
+      "disco",
+      "house"
+    ],
+    "spotify_follower_count": 414643,
+    "tiktok_follower_count": 0,
+    "total_views_count": 38390,
+    "total_likes_count": 11871,
+    "total_share_count": 4059,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef4d",
+    "SpotifyId": "20DZAfCuP1TKZl5KcY7z3Q",
+    "Username": "SLANDER",
+    "popularity_score": 64,
+    "genres": [
+      "dubstep"
+    ],
+    "spotify_follower_count": 510754,
+    "tiktok_follower_count": 0,
+    "total_views_count": 8205,
+    "total_likes_count": 3466,
+    "total_share_count": 486,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef4e",
+    "SpotifyId": "21UPYSRWFKwtqvSAnFnSvS",
+    "Username": "Amaarae",
+    "popularity_score": 65,
+    "genres": [
+      "trance",
+      "folk",
+      "r-n-b",
+      "deep-house",
+      "power-pop"
+    ],
+    "spotify_follower_count": 396538,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20405,
+    "total_likes_count": 5113,
+    "total_share_count": 1611,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef4f",
+    "SpotifyId": "21dVknSLCsK37cWozWDZZS",
+    "Username": "Matt Sassari",
+    "popularity_score": 66,
+    "genres": [
+      "metalcore",
+      "j-pop",
+      "disney"
+    ],
+    "spotify_follower_count": 75316,
+    "tiktok_follower_count": 0,
+    "total_views_count": 24835,
+    "total_likes_count": 7061,
+    "total_share_count": 1971,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef50",
+    "SpotifyId": "22I9QWygJ2IfxR855VsA3t",
+    "Username": "Hedex",
+    "popularity_score": 59,
+    "genres": [
+      "punk"
+    ],
+    "spotify_follower_count": 124552,
+    "tiktok_follower_count": 0,
+    "total_views_count": 6888,
+    "total_likes_count": 6252,
+    "total_share_count": 1285,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef51",
+    "SpotifyId": "22UtphG4LcwxlhhV0aP4js",
+    "Username": "Rauhan Malik",
+    "popularity_score": 57,
+    "genres": [
+      "psych-rock"
+    ],
+    "spotify_follower_count": 8601,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18831,
+    "total_likes_count": 6954,
+    "total_share_count": 1507,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef52",
+    "SpotifyId": "24CzPFC4y3bM4AkUnZfuAU",
+    "Username": "Karra",
+    "popularity_score": 52,
+    "genres": [
+      "rap",
+      "hard-rock"
+    ],
+    "spotify_follower_count": 30675,
+    "tiktok_follower_count": 0,
+    "total_views_count": 10128,
+    "total_likes_count": 1890,
+    "total_share_count": 1312,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef53",
+    "SpotifyId": "26T3LtbuGT1Fu9m0eRq5X3",
+    "Username": "Cage The Elephant",
+    "popularity_score": 74,
+    "genres": [
+      "electronic",
+      "ska",
+      "progressive-house",
+      "opera",
+      "rock"
+    ],
+    "spotify_follower_count": 3748856,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16104,
+    "total_likes_count": 7420,
+    "total_share_count": 1608,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef54",
+    "SpotifyId": "2AasvmwafZPTgQANaoLoQY",
+    "Username": "Mandragora",
+    "popularity_score": 53,
+    "genres": [
+      "trance",
+      "country",
+      "heavy-metal"
+    ],
+    "spotify_follower_count": 371818,
+    "tiktok_follower_count": 0,
+    "total_views_count": 4884,
+    "total_likes_count": 1451,
+    "total_share_count": 1179,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef55",
+    "SpotifyId": "2BM933ADIluGGrPBOhPgIt",
+    "Username": "SiM",
+    "popularity_score": 57,
+    "genres": [
+      "heavy-metal",
+      "power-pop"
+    ],
+    "spotify_follower_count": 390032,
+    "tiktok_follower_count": 0,
+    "total_views_count": 4503,
+    "total_likes_count": 3704,
+    "total_share_count": 1383,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef56",
+    "SpotifyId": "2DFCHTDIA0t638a4mm37dK",
+    "Username": "Raj Shekhar",
+    "popularity_score": 67,
+    "genres": [
+      "hip-hop"
+    ],
+    "spotify_follower_count": 48596,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23962,
+    "total_likes_count": 6309,
+    "total_share_count": 1689,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef57",
+    "SpotifyId": "2ExGrw6XpbtUAJHTLtUXUD",
+    "Username": "Stefflon Don",
+    "popularity_score": 67,
+    "genres": [
+      "metalcore",
+      "punk",
+      "study beats",
+      "ska"
+    ],
+    "spotify_follower_count": 1186060,
+    "tiktok_follower_count": 0,
+    "total_views_count": 6571,
+    "total_likes_count": 6116,
+    "total_share_count": 741,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef58",
+    "SpotifyId": "2FF8wcGpikv5RFbAK1rvdZ",
+    "Username": "Culture Code",
+    "popularity_score": 45,
+    "genres": [
+      "drum-and-bass",
+      "rap",
+      "edm",
+      "pop"
+    ],
+    "spotify_follower_count": 44030,
+    "tiktok_follower_count": 0,
+    "total_views_count": 10128,
+    "total_likes_count": 1890,
+    "total_share_count": 1312,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef59",
+    "SpotifyId": "2FKWNmZWDBZR4dE5KX4plR",
+    "Username": "Diljit Dosanjh",
+    "popularity_score": 78,
+    "genres": [
+      "Acoustic pop",
+      "show-tunes",
+      "brazil"
+    ],
+    "spotify_follower_count": 21144105,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20206,
+    "total_likes_count": 6394,
+    "total_share_count": 2104,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef5a",
+    "SpotifyId": "2FgHPfRprDaylrSRVf1UlN",
+    "Username": "Thaman S",
+    "popularity_score": 69,
+    "genres": [
+      "deep-house",
+      "house"
+    ],
+    "spotify_follower_count": 7155812,
+    "tiktok_follower_count": 0,
+    "total_views_count": 8766,
+    "total_likes_count": 2157,
+    "total_share_count": 1156,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef5b",
+    "SpotifyId": "2FwDTncULUnmANIh7qKa5z",
+    "Username": "FKJ",
+    "popularity_score": 68,
+    "genres": [
+      "punk",
+      "folk"
+    ],
+    "spotify_follower_count": 1530116,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22210,
+    "total_likes_count": 5744,
+    "total_share_count": 2149,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef5c",
+    "SpotifyId": "2I4hRNCYkPKJQlkoEZKjYx",
+    "Username": "Monolink",
+    "popularity_score": 58,
+    "genres": [
+      "house",
+      "reggaeton"
+    ],
+    "spotify_follower_count": 489241,
+    "tiktok_follower_count": 0,
+    "total_views_count": 6705,
+    "total_likes_count": 5899,
+    "total_share_count": 694,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef5d",
+    "SpotifyId": "2JJKoRrK7Eec7jlcjFB7sc",
+    "Username": "Dabzee",
+    "popularity_score": 71,
+    "genres": [
+      "soul"
+    ],
+    "spotify_follower_count": 669543,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5042,
+    "total_likes_count": 5253,
+    "total_share_count": 699,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef5e",
+    "SpotifyId": "2LAqcqAQ8KPTsl1HBgBrqM",
+    "Username": "Michelle Williams",
+    "popularity_score": 58,
+    "genres": [
+      "power-pop"
+    ],
+    "spotify_follower_count": 15822,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15899,
+    "total_likes_count": 5684,
+    "total_share_count": 1973,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef5f",
+    "SpotifyId": "2LhsePRtgCo4THVKULQBL7",
+    "Username": "L.V.",
+    "popularity_score": 68,
+    "genres": [
+      "honky-tonk",
+      "bluegrass",
+      "opera",
+      "j-pop",
+      "deep-house",
+      "indie-pop",
+      "power-pop",
+      "soul",
+      "rock"
+    ],
+    "spotify_follower_count": 32495,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20781,
+    "total_likes_count": 6491,
+    "total_share_count": 1793,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef60",
+    "SpotifyId": "2OpqcUtj10HHvGG6h9VYC5",
+    "Username": "George Jones",
+    "popularity_score": 60,
+    "genres": [
+      "Acoustic pop",
+      "country",
+      "edm",
+      "jazz"
+    ],
+    "spotify_follower_count": 1214490,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15971,
+    "total_likes_count": 2816,
+    "total_share_count": 1197,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef61",
+    "SpotifyId": "2SwhNukah1MYpLR594PnuC",
+    "Username": "Steve Edwards",
+    "popularity_score": 67,
+    "genres": [
+      "house",
+      "house",
+      "rock",
+      "samba",
+      "soundtracks",
+      "house"
+    ],
+    "spotify_follower_count": 5556,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22649,
+    "total_likes_count": 7696,
+    "total_share_count": 2181,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef62",
+    "SpotifyId": "2VkquxQ6H8d3eGK5ClilOf",
+    "Username": "Sajanka",
+    "popularity_score": 46,
+    "genres": [
+      "drum-and-bass"
+    ],
+    "spotify_follower_count": 174753,
+    "tiktok_follower_count": 0,
+    "total_views_count": 8349,
+    "total_likes_count": 3448,
+    "total_share_count": 1206,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef63",
+    "SpotifyId": "2YZyLoL8N0Wb9xBt1NhZWg",
+    "Username": "Kendrick Lamar",
+    "popularity_score": 92,
+    "genres": [
+      "progressive-house",
+      "study beats",
+      "rap",
+      "trip-hop"
+    ],
+    "spotify_follower_count": 30404358,
+    "tiktok_follower_count": 0,
+    "total_views_count": 24249,
+    "total_likes_count": 8433,
+    "total_share_count": 2819,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef64",
+    "SpotifyId": "2cQr2KbzdRtIFlfbHGnNsL",
+    "Username": "Ziv Zaifman",
+    "popularity_score": 55,
+    "genres": [
+      "drum-and-bass"
+    ],
+    "spotify_follower_count": 19334,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15899,
+    "total_likes_count": 5684,
+    "total_share_count": 1973,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef65",
+    "SpotifyId": "2cjQTf2J5yCaNY8qHpW855",
+    "Username": "AUR",
+    "popularity_score": 64,
+    "genres": [
+      "dubstep"
+    ],
+    "spotify_follower_count": 611370,
+    "tiktok_follower_count": 0,
+    "total_views_count": 36879,
+    "total_likes_count": 11386,
+    "total_share_count": 2361,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef66",
+    "SpotifyId": "2iMIs2Ndy5nbldn2pzhKRr",
+    "Username": "Kiran Dash",
+    "popularity_score": 40,
+    "genres": [
+      "indie garage rock",
+      "folk",
+      "power-pop",
+      "r-n-b"
+    ],
+    "spotify_follower_count": 1893,
+    "tiktok_follower_count": 0,
+    "total_views_count": 13170,
+    "total_likes_count": 2743,
+    "total_share_count": 883,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef67",
+    "SpotifyId": "2lMv8dtufbOPrrf5CPS7tS",
+    "Username": "Fraxo",
+    "popularity_score": 47,
+    "genres": [
+      "Soft rock"
+    ],
+    "spotify_follower_count": 6668,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3129,
+    "total_likes_count": 1101,
+    "total_share_count": 1466,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef68",
+    "SpotifyId": "2mAYpnSe3g2Y22JcZ2ddku",
+    "Username": "Soap&Skin",
+    "popularity_score": 59,
+    "genres": [
+      "folk",
+      "deep-house"
+    ],
+    "spotify_follower_count": 166644,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3695,
+    "total_likes_count": 4750,
+    "total_share_count": 307,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef69",
+    "SpotifyId": "2o5jDhtHVPhrJdv3cEQ99Z",
+    "Username": "Tiësto",
+    "popularity_score": 84,
+    "genres": [
+      "bluegrass",
+      "latin pop",
+      "rap",
+      "edm",
+      "house",
+      "edm",
+      "indie garage rock",
+      "soundtracks",
+      "trance"
+    ],
+    "spotify_follower_count": 7342332,
+    "tiktok_follower_count": 0,
+    "total_views_count": 40344,
+    "total_likes_count": 12070,
+    "total_share_count": 4148,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef6a",
+    "SpotifyId": "2qxJFvFYMEDqd7ui6kSAcq",
+    "Username": "Zedd",
+    "popularity_score": 73,
+    "genres": [
+      "trip-hop",
+      "edm",
+      "new age piano",
+      "pop",
+      "punk"
+    ],
+    "spotify_follower_count": 5918210,
+    "tiktok_follower_count": 0,
+    "total_views_count": 26741,
+    "total_likes_count": 10585,
+    "total_share_count": 3269,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef6b",
+    "SpotifyId": "2wUjUUtkb5lvLKcGKsKqsR",
+    "Username": "Alessia Cara",
+    "popularity_score": 71,
+    "genres": [
+      "deep-house",
+      "reggae",
+      "pop"
+    ],
+    "spotify_follower_count": 11790502,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18334,
+    "total_likes_count": 6144,
+    "total_share_count": 1642,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef6c",
+    "SpotifyId": "2wX6xSig4Rig5kZU6ePlWe",
+    "Username": "KSHMR",
+    "popularity_score": 64,
+    "genres": [
+      "groove",
+      "punk",
+      "edm",
+      "study beats",
+      "Soft rock",
+      "honky-tonk",
+      "samba",
+      "holidays"
+    ],
+    "spotify_follower_count": 1759052,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5042,
+    "total_likes_count": 5253,
+    "total_share_count": 699,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef6d",
+    "SpotifyId": "2zNmlxTlRfyMAAifd2f71Q",
+    "Username": "amies",
+    "popularity_score": 47,
+    "genres": [
+      "honky-tonk"
+    ],
+    "spotify_follower_count": 6921,
+    "tiktok_follower_count": 0,
+    "total_views_count": 7061,
+    "total_likes_count": 1475,
+    "total_share_count": 544,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef6e",
+    "SpotifyId": "31xyu7Ybb0pkisL85vvs7D",
+    "Username": "Ira Mohanty",
+    "popularity_score": 40,
+    "genres": [
+      "opera"
+    ],
+    "spotify_follower_count": 14629,
+    "tiktok_follower_count": 0,
+    "total_views_count": 13213,
+    "total_likes_count": 3526,
+    "total_share_count": 490,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef6f",
+    "SpotifyId": "329e4yvIujISKGKz1BZZbO",
+    "Username": "Farruko",
+    "popularity_score": 81,
+    "genres": [
+      "reggaeton",
+      "Acoustic pop",
+      "house"
+    ],
+    "spotify_follower_count": 15771301,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19255,
+    "total_likes_count": 6470,
+    "total_share_count": 1739,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef70",
+    "SpotifyId": "33ScadVnbm2X8kkUqOkC6Z",
+    "Username": "Don Omar",
+    "popularity_score": 82,
+    "genres": [
+      "dubstep",
+      "opera",
+      "reggaeton",
+      "ska",
+      "r-n-b"
+    ],
+    "spotify_follower_count": 11700270,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20355,
+    "total_likes_count": 7117,
+    "total_share_count": 1753,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef71",
+    "SpotifyId": "35dxfY1wywqVRUEaVuMm13",
+    "Username": "Bou",
+    "popularity_score": 63,
+    "genres": [
+      "gospel"
+    ],
+    "spotify_follower_count": 120585,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19541,
+    "total_likes_count": 5633,
+    "total_share_count": 2096,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef72",
+    "SpotifyId": "35jsUTwBj5cW9GuNB7Xp61",
+    "Username": "Hamsika Iyer",
+    "popularity_score": 58,
+    "genres": [
+      "heavy-metal"
+    ],
+    "spotify_follower_count": 21877,
+    "tiktok_follower_count": 0,
+    "total_views_count": 14670,
+    "total_likes_count": 5343,
+    "total_share_count": 1675,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef73",
+    "SpotifyId": "3668PlDRdTQc0uJQ0rDhEC",
+    "Username": "Gaurav Anand",
+    "popularity_score": 36,
+    "genres": [
+      "progressive-house"
+    ],
+    "spotify_follower_count": 10735,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3752,
+    "total_likes_count": 2061,
+    "total_share_count": 783,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef74",
+    "SpotifyId": "37czgDRfGMvgRiUKHvnnhj",
+    "Username": "Öwnboss",
+    "popularity_score": 63,
+    "genres": [
+      "Ambient pop"
+    ],
+    "spotify_follower_count": 91513,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19711,
+    "total_likes_count": 6096,
+    "total_share_count": 1734,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef75",
+    "SpotifyId": "3Ayl7mCk0nScecqOzvNp6s",
+    "Username": "Jimmy Eat World",
+    "popularity_score": 68,
+    "genres": [
+      "funk",
+      "dance",
+      "country",
+      "disney",
+      "singer-songwriter",
+      "k-pop",
+      "Afrobeats",
+      "punk",
+      "rap",
+      "punk",
+      "rock"
+    ],
+    "spotify_follower_count": 1566008,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17157,
+    "total_likes_count": 6342,
+    "total_share_count": 2113,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef76",
+    "SpotifyId": "3D04fb59z3ANxVaeHBfxtW",
+    "Username": "TAYA",
+    "popularity_score": 65,
+    "genres": [
+      "psych-rock",
+      "show-tunes",
+      "indie-pop"
+    ],
+    "spotify_follower_count": 112784,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18950,
+    "total_likes_count": 3700,
+    "total_share_count": 1193,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef77",
+    "SpotifyId": "3DnNQH13SfSOjZDsVEa0ht",
+    "Username": "Liu",
+    "popularity_score": 54,
+    "genres": [
+      "techno"
+    ],
+    "spotify_follower_count": 272240,
+    "tiktok_follower_count": 0,
+    "total_views_count": 8032,
+    "total_likes_count": 4174,
+    "total_share_count": 820,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef78",
+    "SpotifyId": "3EXfNuPuR3OFEdlyoSutcG",
+    "Username": "Sikdope",
+    "popularity_score": 44,
+    "genres": [
+      "deep-house",
+      "dubstep",
+      "blues",
+      "Afrobeats",
+      "k-pop"
+    ],
+    "spotify_follower_count": 81025,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3073,
+    "total_likes_count": 1599,
+    "total_share_count": 988,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef79",
+    "SpotifyId": "3IYUhFvPQItj6xySrBmZkd",
+    "Username": "Creedence Clearwater Revival",
+    "popularity_score": 81,
+    "genres": [
+      "house",
+      "k-pop",
+      "latin pop",
+      "anime",
+      "rock",
+      "folk",
+      "drum-and-bass"
+    ],
+    "spotify_follower_count": 6665882,
+    "tiktok_follower_count": 0,
+    "total_views_count": 47181,
+    "total_likes_count": 13606,
+    "total_share_count": 4008,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef7a",
+    "SpotifyId": "3Isy6kedDrgPYoTS1dazA9",
+    "Username": "Sean Paul",
+    "popularity_score": 80,
+    "genres": [
+      "bluegrass",
+      "holidays",
+      "pop",
+      "blues"
+    ],
+    "spotify_follower_count": 4719310,
+    "tiktok_follower_count": 0,
+    "total_views_count": 34260,
+    "total_likes_count": 12640,
+    "total_share_count": 3795,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef7b",
+    "SpotifyId": "3JGrxsZ6kfzJrfwsxwERhS",
+    "Username": "M.M.Manasi",
+    "popularity_score": 54,
+    "genres": [
+      "rock"
+    ],
+    "spotify_follower_count": 56371,
+    "tiktok_follower_count": 0,
+    "total_views_count": 8766,
+    "total_likes_count": 2157,
+    "total_share_count": 1156,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef7c",
+    "SpotifyId": "3MyB0MyKec3Jq0AH2llk7v",
+    "Username": "Evan Rachel Wood",
+    "popularity_score": 55,
+    "genres": [
+      "punk",
+      "reggaeton"
+    ],
+    "spotify_follower_count": 31021,
+    "tiktok_follower_count": 0,
+    "total_views_count": 7215,
+    "total_likes_count": 4210,
+    "total_share_count": 1454,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef7d",
+    "SpotifyId": "3NHwwyb1coYa5cLyI72xSk",
+    "Username": "Harrykahanhai",
+    "popularity_score": 61,
+    "genres": [
+      "brazil"
+    ],
+    "spotify_follower_count": 502771,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22534,
+    "total_likes_count": 7511,
+    "total_share_count": 1969,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef7e",
+    "SpotifyId": "3OLGltG8UPIea8sA4w0yg0",
+    "Username": "Rahat Fateh Ali Khan",
+    "popularity_score": 72,
+    "genres": [
+      "trip-hop",
+      "rap",
+      "singer-songwriter",
+      "Ambient pop",
+      "opera"
+    ],
+    "spotify_follower_count": 21342184,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19494,
+    "total_likes_count": 3733,
+    "total_share_count": 1162,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef7f",
+    "SpotifyId": "3PgeUFj9oHU4K4RGaITz2f",
+    "Username": "Paresh Kamath",
+    "popularity_score": 57,
+    "genres": [
+      "indie garage rock",
+      "study beats",
+      "honky-tonk",
+      "bluegrass",
+      "bossanova",
+      "show-tunes",
+      "rock",
+      "opera",
+      "country",
+      "j-pop",
+      "indie garage rock"
+    ],
+    "spotify_follower_count": 5085,
+    "tiktok_follower_count": 0,
+    "total_views_count": 9981,
+    "total_likes_count": 3729,
+    "total_share_count": 2275,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef80",
+    "SpotifyId": "3QMpCp3GHiHXgnX1LldXWe",
+    "Username": "DJ FKU",
+    "popularity_score": 74,
+    "genres": [
+      "soul"
+    ],
+    "spotify_follower_count": 234639,
+    "tiktok_follower_count": 0,
+    "total_views_count": 14836,
+    "total_likes_count": 6939,
+    "total_share_count": 1951,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef81",
+    "SpotifyId": "3QfiCv81HmSY1Oz434vIPZ",
+    "Username": "Hlimhlimi",
+    "popularity_score": 20,
+    "genres": [
+      "progressive-house",
+      "show-tunes",
+      "opera"
+    ],
+    "spotify_follower_count": 4695,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5215,
+    "total_likes_count": 1005,
+    "total_share_count": 268,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef82",
+    "SpotifyId": "3SFVIUlipGj3RpWCKe9s73",
+    "Username": "Lox Chatterbox",
+    "popularity_score": 50,
+    "genres": [
+      "brazil",
+      "trip-hop"
+    ],
+    "spotify_follower_count": 59581,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3129,
+    "total_likes_count": 1101,
+    "total_share_count": 1466,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef83",
+    "SpotifyId": "3SgHzT552wy2W8pNLaLk24",
+    "Username": "Hillsong Worship",
+    "popularity_score": 72,
+    "genres": [
+      "electronic",
+      "bossanova",
+      "bossanova",
+      "punk"
+    ],
+    "spotify_follower_count": 5808139,
+    "tiktok_follower_count": 0,
+    "total_views_count": 42584,
+    "total_likes_count": 9803,
+    "total_share_count": 4366,
+    "total_video_count": 4
+  },
+  {
+    "_id": "66879b84b5c5359c240bef84",
+    "SpotifyId": "3Xt3RrJMFv5SZkCfUE8C1J",
+    "Username": "Kim Petras",
+    "popularity_score": 74,
+    "genres": [
+      "indie garage rock",
+      "disney",
+      "pop",
+      "edm"
+    ],
+    "spotify_follower_count": 1102859,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19542,
+    "total_likes_count": 5442,
+    "total_share_count": 2086,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef85",
+    "SpotifyId": "3aT2GOh9Iy2WJmDhE6PorP",
+    "Username": "Luana Kiara",
+    "popularity_score": 46,
+    "genres": [
+      "anime",
+      "Afrobeats",
+      "psych-rock",
+      "blues",
+      "dubstep",
+      "holidays",
+      "samba",
+      "k-pop",
+      "Acoustic pop"
+    ],
+    "spotify_follower_count": 5775,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18575,
+    "total_likes_count": 4602,
+    "total_share_count": 677,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef86",
+    "SpotifyId": "3jNkaOXasoc7RsxdchvEVq",
+    "Username": "Chase & Status",
+    "popularity_score": 68,
+    "genres": [
+      "Ambient pop",
+      "progressive-house",
+      "funk"
+    ],
+    "spotify_follower_count": 931516,
+    "tiktok_follower_count": 0,
+    "total_views_count": 33000,
+    "total_likes_count": 18001,
+    "total_share_count": 4122,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240bef87",
+    "SpotifyId": "3jOstUTkEu2JkjvRdBA5Gu",
+    "Username": "Weezer",
+    "popularity_score": 73,
+    "genres": [
+      "holidays",
+      "edm",
+      "blues",
+      "ska",
+      "rock"
+    ],
+    "spotify_follower_count": 3609937,
+    "tiktok_follower_count": 0,
+    "total_views_count": 39764,
+    "total_likes_count": 12723,
+    "total_share_count": 3974,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef88",
+    "SpotifyId": "3kCWkdRcfBALTBuho6VZZ3",
+    "Username": "Mantu Chhuria",
+    "popularity_score": 46,
+    "genres": [
+      "edm",
+      "r-n-b"
+    ],
+    "spotify_follower_count": 75888,
+    "tiktok_follower_count": 0,
+    "total_views_count": 24764,
+    "total_likes_count": 9968,
+    "total_share_count": 1979,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240bef89",
+    "SpotifyId": "3p2tOUHPzDOVOW1hzSrgw8",
+    "Username": "Yacht Money",
+    "popularity_score": 56,
+    "genres": [
+      "funk",
+      "soul",
+      "samba",
+      "drum-and-bass",
+      "soul",
+      "disco",
+      "techno",
+      "new age piano",
+      "singer-songwriter",
+      "hard-rock",
+      "soundtracks",
+      "latin pop",
+      "edm"
+    ],
+    "spotify_follower_count": 14720,
+    "tiktok_follower_count": 0,
+    "total_views_count": 21099,
+    "total_likes_count": 5177,
+    "total_share_count": 2070,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef8a",
+    "SpotifyId": "3qfrrrSO7utFdJkM2tvMRb",
+    "Username": "CeCe Winans",
+    "popularity_score": 62,
+    "genres": [
+      "gospel"
+    ],
+    "spotify_follower_count": 953798,
+    "tiktok_follower_count": 0,
+    "total_views_count": 7011,
+    "total_likes_count": 1612,
+    "total_share_count": 876,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef8b",
+    "SpotifyId": "3qm84nBOXUEQ2vnTfUTTFC",
+    "Username": "Guns N' Roses",
+    "popularity_score": 79,
+    "genres": [
+      "reggae",
+      "latin pop",
+      "rock"
+    ],
+    "spotify_follower_count": 30973232,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17396,
+    "total_likes_count": 6638,
+    "total_share_count": 2177,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef8c",
+    "SpotifyId": "3qpyErDI4i90q5EGgSRmNK",
+    "Username": "Raghav Chaitanya",
+    "popularity_score": 66,
+    "genres": [
+      "dubstep",
+      "k-pop",
+      "deep-house"
+    ],
+    "spotify_follower_count": 112629,
+    "tiktok_follower_count": 0,
+    "total_views_count": 34578,
+    "total_likes_count": 11784,
+    "total_share_count": 3594,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef8d",
+    "SpotifyId": "3tSmEw5WMGAZ6sxt9Dt3Nt",
+    "Username": "Otnicka",
+    "popularity_score": 49,
+    "genres": [
+      "gospel"
+    ],
+    "spotify_follower_count": 110209,
+    "tiktok_follower_count": 0,
+    "total_views_count": 10375,
+    "total_likes_count": 2566,
+    "total_share_count": 1357,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef8e",
+    "SpotifyId": "3uT0Lvso8MvdZO5tJQCbcJ",
+    "Username": "Jung Kyung Ho",
+    "popularity_score": 19,
+    "genres": [
+      "dubstep"
+    ],
+    "spotify_follower_count": 2117,
+    "tiktok_follower_count": 0,
+    "total_views_count": 6718,
+    "total_likes_count": 1328,
+    "total_share_count": 251,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef8f",
+    "SpotifyId": "3uZFBSsMiooimnprFL9jD1",
+    "Username": "Snow",
+    "popularity_score": 62,
+    "genres": [
+      "hip-hop",
+      "samba"
+    ],
+    "spotify_follower_count": 67035,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22377,
+    "total_likes_count": 7656,
+    "total_share_count": 1801,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef90",
+    "SpotifyId": "3v6Ji4uoWtKRkhuDUaxi9n",
+    "Username": "Dynoro",
+    "popularity_score": 65,
+    "genres": [
+      "edm"
+    ],
+    "spotify_follower_count": 276360,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5871,
+    "total_likes_count": 926,
+    "total_share_count": 1386,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef91",
+    "SpotifyId": "3y24n3XhZ96wgwRXjvS17T",
+    "Username": "Coolio",
+    "popularity_score": 69,
+    "genres": [
+      "k-pop",
+      "gospel",
+      "dub",
+      "Afrobeats"
+    ],
+    "spotify_follower_count": 1128139,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20781,
+    "total_likes_count": 6491,
+    "total_share_count": 1793,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef92",
+    "SpotifyId": "3yY2gUcIsjMr8hjo51PoJ8",
+    "Username": "The Smiths",
+    "popularity_score": 76,
+    "genres": [
+      "Acoustic pop",
+      "blues",
+      "folk",
+      "rock",
+      "rock"
+    ],
+    "spotify_follower_count": 5878351,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16537,
+    "total_likes_count": 6898,
+    "total_share_count": 1963,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef93",
+    "SpotifyId": "3ycxRkcZ67ALN3GQJ57Vig",
+    "Username": "Masego",
+    "popularity_score": 70,
+    "genres": [
+      "folk",
+      "techno"
+    ],
+    "spotify_follower_count": 1396600,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22210,
+    "total_likes_count": 5744,
+    "total_share_count": 2149,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef94",
+    "SpotifyId": "3yu4VilcxpQ6h35vRcemBp",
+    "Username": "Tenno",
+    "popularity_score": 51,
+    "genres": [
+      "Soft rock",
+      "gospel"
+    ],
+    "spotify_follower_count": 27677,
+    "tiktok_follower_count": 0,
+    "total_views_count": 4822,
+    "total_likes_count": 711,
+    "total_share_count": 817,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef95",
+    "SpotifyId": "40Ojab0UtVQFjA76qXr8Ot",
+    "Username": "Apparat",
+    "popularity_score": 46,
+    "genres": [
+      "j-pop",
+      "drum-and-bass",
+      "progressive-house",
+      "funk",
+      "r-n-b"
+    ],
+    "spotify_follower_count": 398860,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3695,
+    "total_likes_count": 4750,
+    "total_share_count": 307,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef96",
+    "SpotifyId": "43BxCL6t4c73BQnIJtry5v",
+    "Username": "James Hype",
+    "popularity_score": 69,
+    "genres": [
+      "soul",
+      "house",
+      "groove",
+      "bluegrass"
+    ],
+    "spotify_follower_count": 367335,
+    "tiktok_follower_count": 0,
+    "total_views_count": 40943,
+    "total_likes_count": 11296,
+    "total_share_count": 4381,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bef97",
+    "SpotifyId": "45dkTj5sMRSjrmBSBeiHym",
+    "Username": "Tate McRae",
+    "popularity_score": 82,
+    "genres": [
+      "pop"
+    ],
+    "spotify_follower_count": 5506347,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18393,
+    "total_likes_count": 6003,
+    "total_share_count": 2128,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef98",
+    "SpotifyId": "45ruzGUmIr8WLjLOPJ9mGU",
+    "Username": "Miggy Dela Rosa",
+    "popularity_score": 63,
+    "genres": [
+      "study beats",
+      "rap"
+    ],
+    "spotify_follower_count": 11648,
+    "tiktok_follower_count": 0,
+    "total_views_count": 21401,
+    "total_likes_count": 5854,
+    "total_share_count": 2295,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef99",
+    "SpotifyId": "46pWGuE3dSwY3bMMXGBvVS",
+    "Username": "Rema",
+    "popularity_score": 75,
+    "genres": [
+      "latin pop",
+      "j-pop"
+    ],
+    "spotify_follower_count": 4661040,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16478,
+    "total_likes_count": 8000,
+    "total_share_count": 2045,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef9a",
+    "SpotifyId": "49CE2ffZ6Z3zeYSDauSKck",
+    "Username": "Tungevaag",
+    "popularity_score": 62,
+    "genres": [
+      "k-pop",
+      "latin pop"
+    ],
+    "spotify_follower_count": 159038,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18575,
+    "total_likes_count": 4602,
+    "total_share_count": 677,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef9b",
+    "SpotifyId": "4CxobvwTpmfpIEbkYh4pAb",
+    "Username": "Eric Johnson",
+    "popularity_score": 44,
+    "genres": [
+      "k-pop",
+      "deep-house",
+      "ska",
+      "k-pop"
+    ],
+    "spotify_follower_count": 247028,
+    "tiktok_follower_count": 0,
+    "total_views_count": 10215,
+    "total_likes_count": 4062,
+    "total_share_count": 809,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef9c",
+    "SpotifyId": "4F84IBURUo98rz4r61KF70",
+    "Username": "The White Stripes",
+    "popularity_score": 72,
+    "genres": [
+      "hip-hop",
+      "Afrobeats",
+      "new age piano",
+      "country",
+      "hard-rock",
+      "j-pop",
+      "Afrobeats",
+      "rock"
+    ],
+    "spotify_follower_count": 3138486,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19198,
+    "total_likes_count": 7050,
+    "total_share_count": 2481,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef9d",
+    "SpotifyId": "4G0khHYSAyq05njsT39Vp5",
+    "Username": "KIM GO EUN",
+    "popularity_score": 21,
+    "genres": [
+      "Acoustic pop"
+    ],
+    "spotify_follower_count": 3717,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3359,
+    "total_likes_count": 1726,
+    "total_share_count": 204,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef9e",
+    "SpotifyId": "4IJczjB0fJ04gs4uvP0Fli",
+    "Username": "Gym Class Heroes",
+    "popularity_score": 67,
+    "genres": [
+      "k-pop",
+      "opera"
+    ],
+    "spotify_follower_count": 1477638,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22555,
+    "total_likes_count": 6241,
+    "total_share_count": 2255,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bef9f",
+    "SpotifyId": "4IVAbR2w4JJNJDDRFP3E83",
+    "Username": "6LACK",
+    "popularity_score": 72,
+    "genres": [
+      "groove",
+      "rap",
+      "techno",
+      "rap",
+      "funk"
+    ],
+    "spotify_follower_count": 4703058,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18991,
+    "total_likes_count": 5733,
+    "total_share_count": 1503,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befa0",
+    "SpotifyId": "4LqFJ98PEA7gIrRtviMUmb",
+    "Username": "Trigga",
+    "popularity_score": 58,
+    "genres": [
+      "dance"
+    ],
+    "spotify_follower_count": 6074,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19541,
+    "total_likes_count": 5633,
+    "total_share_count": 2096,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befa1",
+    "SpotifyId": "4N8BwYTEC6XqykGvXXlmfv",
+    "Username": "George Benson",
+    "popularity_score": 63,
+    "genres": [
+      "pop",
+      "soundtracks",
+      "indie-pop",
+      "j-pop",
+      "rock"
+    ],
+    "spotify_follower_count": 800381,
+    "tiktok_follower_count": 0,
+    "total_views_count": 14296,
+    "total_likes_count": 6434,
+    "total_share_count": 1627,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befa2",
+    "SpotifyId": "4QQgXkCYTt3BlENzhyNETg",
+    "Username": "Earth, Wind & Fire",
+    "popularity_score": 74,
+    "genres": [
+      "disco",
+      "funk",
+      "trance",
+      "techno",
+      "soul"
+    ],
+    "spotify_follower_count": 4286564,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17891,
+    "total_likes_count": 6674,
+    "total_share_count": 2102,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befa3",
+    "SpotifyId": "4TH4BHy0LdBi3dpBW4P2UX",
+    "Username": "R. City",
+    "popularity_score": 63,
+    "genres": [
+      "rap",
+      "reggae"
+    ],
+    "spotify_follower_count": 159303,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17082,
+    "total_likes_count": 6880,
+    "total_share_count": 1769,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befa4",
+    "SpotifyId": "4TK1gDgb7QKoPFlzRrBRgR",
+    "Username": "Los Enanitos Verdes",
+    "popularity_score": 71,
+    "genres": [
+      "reggaeton",
+      "indie garage rock",
+      "latin pop",
+      "indie garage rock",
+      "study beats",
+      "power-pop",
+      "soul"
+    ],
+    "spotify_follower_count": 4164250,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17077,
+    "total_likes_count": 6324,
+    "total_share_count": 2361,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befa5",
+    "SpotifyId": "4UXqAaa6dQYAk18Lv7PEgX",
+    "Username": "Fall Out Boy",
+    "popularity_score": 78,
+    "genres": [
+      "indie-pop",
+      "power-pop",
+      "pop",
+      "Ambient pop",
+      "rock"
+    ],
+    "spotify_follower_count": 10674821,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20436,
+    "total_likes_count": 6677,
+    "total_share_count": 2016,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befa6",
+    "SpotifyId": "4V8Sr092TqfHkfAA5fXXqG",
+    "Username": "Luis Fonsi",
+    "popularity_score": 74,
+    "genres": [
+      "latin pop",
+      "rap"
+    ],
+    "spotify_follower_count": 10507568,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23533,
+    "total_likes_count": 6363,
+    "total_share_count": 1927,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befa7",
+    "SpotifyId": "4VMYDCV2IEDYJArk749S6m",
+    "Username": "Daddy Yankee",
+    "popularity_score": 85,
+    "genres": [
+      "dub",
+      "reggaeton",
+      "pop",
+      "heavy-metal"
+    ],
+    "spotify_follower_count": 34024087,
+    "tiktok_follower_count": 0,
+    "total_views_count": 64203,
+    "total_likes_count": 21492,
+    "total_share_count": 5507,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240befa8",
+    "SpotifyId": "4Vb2GK8D7meeGOTl10EyEs",
+    "Username": "Zorema Khiangte",
+    "popularity_score": 22,
+    "genres": [
+      "indie-pop"
+    ],
+    "spotify_follower_count": 3722,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5215,
+    "total_likes_count": 1005,
+    "total_share_count": 268,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befa9",
+    "SpotifyId": "4YRxDV8wJFPHPTeXepOstw",
+    "Username": "Arijit Singh",
+    "popularity_score": 89,
+    "genres": [
+      "dubstep",
+      "metalcore"
+    ],
+    "spotify_follower_count": 113949011,
+    "tiktok_follower_count": 0,
+    "total_views_count": 42647,
+    "total_likes_count": 13428,
+    "total_share_count": 4357,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befaa",
+    "SpotifyId": "4bYPcJP5jwMhSivRcqie2n",
+    "Username": "Adam Levine",
+    "popularity_score": 71,
+    "genres": [
+      "new age piano"
+    ],
+    "spotify_follower_count": 1004476,
+    "tiktok_follower_count": 0,
+    "total_views_count": 39637,
+    "total_likes_count": 13121,
+    "total_share_count": 4024,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befab",
+    "SpotifyId": "4cAERazLlAzVGA10ORWaUP",
+    "Username": "Manoj Muntashir",
+    "popularity_score": 69,
+    "genres": [
+      "gospel",
+      "gospel"
+    ],
+    "spotify_follower_count": 40461,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16949,
+    "total_likes_count": 5303,
+    "total_share_count": 1593,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befac",
+    "SpotifyId": "4cSYNpczcvTUpnPMFDLsIc",
+    "Username": "Raaban",
+    "popularity_score": 54,
+    "genres": [
+      "dub",
+      "latin pop"
+    ],
+    "spotify_follower_count": 407039,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18575,
+    "total_likes_count": 4602,
+    "total_share_count": 677,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befad",
+    "SpotifyId": "4cdyqaBREB68H77QKCrKP1",
+    "Username": "Dubdogz",
+    "popularity_score": 66,
+    "genres": [
+      "progressive-house",
+      "Ambient pop"
+    ],
+    "spotify_follower_count": 450679,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15586,
+    "total_likes_count": 1099,
+    "total_share_count": 469,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befae",
+    "SpotifyId": "4dpARuHxo51G3z768sgnrY",
+    "Username": "Adele",
+    "popularity_score": 83,
+    "genres": [
+      "study beats",
+      "pop",
+      "ska",
+      "deep-house"
+    ],
+    "spotify_follower_count": 56157872,
+    "tiktok_follower_count": 0,
+    "total_views_count": 65007,
+    "total_likes_count": 19177,
+    "total_share_count": 5822,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240befaf",
+    "SpotifyId": "4gJj9oQfNWsfgwKYeUdlCe",
+    "Username": "Vanilla Beach",
+    "popularity_score": 38,
+    "genres": [
+      "study beats"
+    ],
+    "spotify_follower_count": 708,
+    "tiktok_follower_count": 0,
+    "total_views_count": 11438,
+    "total_likes_count": 1342,
+    "total_share_count": 1105,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befb0",
+    "SpotifyId": "4gdMJYnopf2nEUcanAwstx",
+    "Username": "Anuv Jain",
+    "popularity_score": 68,
+    "genres": [
+      "brazil",
+      "latin pop",
+      "indie-pop",
+      "hip-hop"
+    ],
+    "spotify_follower_count": 2343991,
+    "tiktok_follower_count": 0,
+    "total_views_count": 42734,
+    "total_likes_count": 11098,
+    "total_share_count": 3397,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befb1",
+    "SpotifyId": "4gzrZDyL5gYiROkv27pYKx",
+    "Username": "Varun Jain",
+    "popularity_score": 64,
+    "genres": [
+      "study beats",
+      "Afrobeats"
+    ],
+    "spotify_follower_count": 44896,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17629,
+    "total_likes_count": 6481,
+    "total_share_count": 2001,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befb2",
+    "SpotifyId": "4kYSro6naA4h99UJvo89HB",
+    "Username": "Cardi B",
+    "popularity_score": 79,
+    "genres": [
+      "pop",
+      "rap"
+    ],
+    "spotify_follower_count": 24097382,
+    "tiktok_follower_count": 0,
+    "total_views_count": 14940,
+    "total_likes_count": 6164,
+    "total_share_count": 1806,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befb3",
+    "SpotifyId": "4lDBihdpMlOalxy1jkUbPl",
+    "Username": "Grey",
+    "popularity_score": 0.63,
+    "genres": [
+      "hip-hop"
+    ],
+    "spotify_follower_count": 78052,
+    "tiktok_follower_count": 0,
+    "total_views_count": 0,
+    "total_likes_count": 0,
+    "total_share_count": 0,
+    "total_video_count": null
+  },
+  {
+    "_id": "66879b84b5c5359c240befb4",
+    "SpotifyId": "4n81jTX3LJ7zxNr6Ss8PkQ",
+    "Username": "Takura",
+    "popularity_score": 59,
+    "genres": [
+      "deep-house",
+      "soundtracks",
+      "show-tunes",
+      "blues",
+      "dubstep",
+      "disney"
+    ],
+    "spotify_follower_count": 16928,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19541,
+    "total_likes_count": 5633,
+    "total_share_count": 2096,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befb5",
+    "SpotifyId": "4npEfmQ6YuiwW1GpUmaq3F",
+    "Username": "Ava Max",
+    "popularity_score": 79,
+    "genres": [
+      "pop"
+    ],
+    "spotify_follower_count": 6927643,
+    "tiktok_follower_count": 0,
+    "total_views_count": 21951,
+    "total_likes_count": 6067,
+    "total_share_count": 2020,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befb6",
+    "SpotifyId": "4oVMLzAqW6qhRpZWt8fNw4",
+    "Username": "Kailash Kher",
+    "popularity_score": 65,
+    "genres": [
+      "soundtracks",
+      "jazz",
+      "trip-hop",
+      "hip-hop"
+    ],
+    "spotify_follower_count": 7879799,
+    "tiktok_follower_count": 0,
+    "total_views_count": 9981,
+    "total_likes_count": 3729,
+    "total_share_count": 2275,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befb7",
+    "SpotifyId": "4obzFoKoKRHIphyHzJ35G3",
+    "Username": "Becky G",
+    "popularity_score": 78,
+    "genres": [
+      "latin pop",
+      "bossanova",
+      "folk",
+      "reggaeton",
+      "k-pop",
+      "Soft rock"
+    ],
+    "spotify_follower_count": 14729636,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20024,
+    "total_likes_count": 6759,
+    "total_share_count": 2168,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befb8",
+    "SpotifyId": "4phGZZrJZRo4ElhRtViYdl",
+    "Username": "Jason Mraz",
+    "popularity_score": 70,
+    "genres": [
+      "punk",
+      "drum-and-bass",
+      "gospel",
+      "pop"
+    ],
+    "spotify_follower_count": 7183409,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16274,
+    "total_likes_count": 5602,
+    "total_share_count": 1505,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befb9",
+    "SpotifyId": "4tpUmLEVLCGFr93o8hFFIB",
+    "Username": "Blondie",
+    "popularity_score": 69,
+    "genres": [
+      "gospel",
+      "punk",
+      "anime",
+      "folk",
+      "rock",
+      "hip-hop"
+    ],
+    "spotify_follower_count": 1489146,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17466,
+    "total_likes_count": 5081,
+    "total_share_count": 1985,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befba",
+    "SpotifyId": "4wwYGgSpeBtvk5WX6HBqzw",
+    "Username": "Aditya A",
+    "popularity_score": 60,
+    "genres": [
+      "Afrobeats",
+      "reggaeton"
+    ],
+    "spotify_follower_count": 128931,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16728,
+    "total_likes_count": 6434,
+    "total_share_count": 1705,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befbb",
+    "SpotifyId": "4xNgNFUMUuGCoy7IX74Y60",
+    "Username": "Mohammad Faiz",
+    "popularity_score": 65,
+    "genres": [
+      "funk"
+    ],
+    "spotify_follower_count": 200288,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23397,
+    "total_likes_count": 6777,
+    "total_share_count": 1629,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befbc",
+    "SpotifyId": "4yvcSjfu4PC0CYQyLy4wSq",
+    "Username": "Glass Animals",
+    "popularity_score": 76,
+    "genres": [
+      "deep-house",
+      "dubstep",
+      "indie-pop",
+      "gospel",
+      "j-pop"
+    ],
+    "spotify_follower_count": 4161425,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19871,
+    "total_likes_count": 8341,
+    "total_share_count": 2313,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befbd",
+    "SpotifyId": "50JJSqHUf2RQ9xsHs0KMHg",
+    "Username": "Jon Bellion",
+    "popularity_score": 63,
+    "genres": [
+      "folk"
+    ],
+    "spotify_follower_count": 1414690,
+    "tiktok_follower_count": 0,
+    "total_views_count": 8407,
+    "total_likes_count": 4441,
+    "total_share_count": 1627,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befbe",
+    "SpotifyId": "53XhwfbYqKCa1cC15pYq2q",
+    "Username": "Imagine Dragons",
+    "popularity_score": 87,
+    "genres": [
+      "study beats",
+      "pop",
+      "rock"
+    ],
+    "spotify_follower_count": 53015212,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22691,
+    "total_likes_count": 7007,
+    "total_share_count": 2097,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befbf",
+    "SpotifyId": "540vIaP2JwjQb9dm3aArA4",
+    "Username": "DJ Snake",
+    "popularity_score": 77,
+    "genres": [
+      "trip-hop",
+      "edm",
+      "heavy-metal",
+      "pop",
+      "trance"
+    ],
+    "spotify_follower_count": 8671268,
+    "tiktok_follower_count": 0,
+    "total_views_count": 34762,
+    "total_likes_count": 13527,
+    "total_share_count": 3692,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befc0",
+    "SpotifyId": "56fGlkhK3ntlCvQr8dSrSm",
+    "Username": "Bapu Goswami",
+    "popularity_score": 29,
+    "genres": [
+      "hard-rock",
+      "trance",
+      "bossanova",
+      "j-pop",
+      "blues",
+      "opera",
+      "rap",
+      "country",
+      "singer-songwriter",
+      "r-n-b",
+      "soundtracks",
+      "show-tunes"
+    ],
+    "spotify_follower_count": 189,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3752,
+    "total_likes_count": 2061,
+    "total_share_count": 783,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befc1",
+    "SpotifyId": "56yn1U5TaMjH6ENhDdlWfM",
+    "Username": "Camden Clown",
+    "popularity_score": 41,
+    "genres": [
+      "study beats"
+    ],
+    "spotify_follower_count": 352,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5641,
+    "total_likes_count": 2187,
+    "total_share_count": 436,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befc2",
+    "SpotifyId": "5AWgF8Ghqm94WZ4GxCt8K5",
+    "Username": "Dimash Qudaibergen",
+    "popularity_score": 49,
+    "genres": [
+      "hard-rock"
+    ],
+    "spotify_follower_count": 355362,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16286,
+    "total_likes_count": 3059,
+    "total_share_count": 1826,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befc3",
+    "SpotifyId": "5Bcrb5qQMVTEbJ43fdIS4A",
+    "Username": "Mipso",
+    "popularity_score": 48,
+    "genres": [
+      "r-n-b",
+      "reggae",
+      "dance",
+      "ska"
+    ],
+    "spotify_follower_count": 81911,
+    "tiktok_follower_count": 0,
+    "total_views_count": 14300,
+    "total_likes_count": 2775,
+    "total_share_count": 1161,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befc4",
+    "SpotifyId": "5CE2IfdYZEQGIDsfiRm8SI",
+    "Username": "DJ Shadow",
+    "popularity_score": 61,
+    "genres": [
+      "hard-rock",
+      "punk",
+      "indie-pop",
+      "reggae"
+    ],
+    "spotify_follower_count": 619215,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5985,
+    "total_likes_count": 1453,
+    "total_share_count": 1329,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befc5",
+    "SpotifyId": "5D3muNJhYYunbRkh3FKgX0",
+    "Username": "Chord Overstreet",
+    "popularity_score": 61,
+    "genres": [
+      "honky-tonk",
+      "r-n-b"
+    ],
+    "spotify_follower_count": 218915,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17449,
+    "total_likes_count": 7650,
+    "total_share_count": 1953,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befc6",
+    "SpotifyId": "5F1aoppMtU3OMiltO8ymJ2",
+    "Username": "Hugh Jackman",
+    "popularity_score": 66,
+    "genres": [
+      "bluegrass",
+      "bluegrass"
+    ],
+    "spotify_follower_count": 605804,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15899,
+    "total_likes_count": 5684,
+    "total_share_count": 1973,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befc7",
+    "SpotifyId": "5INjqkS1o8h1imAzPqGZBb",
+    "Username": "Tame Impala",
+    "popularity_score": 79,
+    "genres": [
+      "disney",
+      "punk",
+      "progressive-house",
+      "rock"
+    ],
+    "spotify_follower_count": 7876919,
+    "tiktok_follower_count": 0,
+    "total_views_count": 78124,
+    "total_likes_count": 28252,
+    "total_share_count": 8064,
+    "total_video_count": 4
+  },
+  {
+    "_id": "66879b84b5c5359c240befc8",
+    "SpotifyId": "5J6L7N6B4nI1M5cwa29mQG",
+    "Username": "Alison Krauss",
+    "popularity_score": 59,
+    "genres": [
+      "bluegrass",
+      "folk",
+      "bluegrass"
+    ],
+    "spotify_follower_count": 371585,
+    "tiktok_follower_count": 0,
+    "total_views_count": 7601,
+    "total_likes_count": 3313,
+    "total_share_count": 798,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befc9",
+    "SpotifyId": "5J81VungUjSVHxlPpTI9KG",
+    "Username": "Mild High Club",
+    "popularity_score": 58,
+    "genres": [
+      "indie garage rock",
+      "rap"
+    ],
+    "spotify_follower_count": 564458,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16907,
+    "total_likes_count": 5835,
+    "total_share_count": 1920,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befca",
+    "SpotifyId": "5LfGQac0EIXyAN8aUwmNAQ",
+    "Username": "The Offspring",
+    "popularity_score": 77,
+    "genres": [
+      "show-tunes",
+      "show-tunes",
+      "edm",
+      "punk",
+      "rock",
+      "country",
+      "Ambient pop"
+    ],
+    "spotify_follower_count": 5615820,
+    "tiktok_follower_count": 0,
+    "total_views_count": 54655,
+    "total_likes_count": 18277,
+    "total_share_count": 6210,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240befcb",
+    "SpotifyId": "5PkDpzWMZR7Id1vldhF8Qk",
+    "Username": "Laurindo Almeida",
+    "popularity_score": 49,
+    "genres": [
+      "show-tunes",
+      "electronic",
+      "anime",
+      "Ambient pop",
+      "Afrobeats"
+    ],
+    "spotify_follower_count": 43340,
+    "tiktok_follower_count": 0,
+    "total_views_count": 6222,
+    "total_likes_count": 3523,
+    "total_share_count": 540,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befcc",
+    "SpotifyId": "5PlfkPxwCpRRWQJBxCa0By",
+    "Username": "HUGEL",
+    "popularity_score": 70,
+    "genres": [
+      "gospel"
+    ],
+    "spotify_follower_count": 276790,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17417,
+    "total_likes_count": 6243,
+    "total_share_count": 1659,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befcd",
+    "SpotifyId": "5RCWMaArEntbkeWYVxCiFW",
+    "Username": "Everybody Loves an Outlaw",
+    "popularity_score": 56,
+    "genres": [
+      "holidays"
+    ],
+    "spotify_follower_count": 99247,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18957,
+    "total_likes_count": 5594,
+    "total_share_count": 1621,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befce",
+    "SpotifyId": "5Us2dsq4VHlfLbKOrskg7K",
+    "Username": "Mxrci",
+    "popularity_score": 70,
+    "genres": [
+      "folk"
+    ],
+    "spotify_follower_count": 59283,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20257,
+    "total_likes_count": 5495,
+    "total_share_count": 1572,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befcf",
+    "SpotifyId": "5WUlDfRSoLAfcVSX1WnrxN",
+    "Username": "Sia",
+    "popularity_score": 83,
+    "genres": [
+      "trip-hop",
+      "holidays",
+      "pop"
+    ],
+    "spotify_follower_count": 28125819,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17855,
+    "total_likes_count": 7082,
+    "total_share_count": 1967,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befd0",
+    "SpotifyId": "5Wg2b4Mp42gicxEeDNawf7",
+    "Username": "A7S",
+    "popularity_score": 67,
+    "genres": [
+      "show-tunes",
+      "k-pop"
+    ],
+    "spotify_follower_count": 62371,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19594,
+    "total_likes_count": 7173,
+    "total_share_count": 2159,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befd1",
+    "SpotifyId": "5YFS41yoX0YuFY39fq21oN",
+    "Username": "Bob Sinclar",
+    "popularity_score": 71,
+    "genres": [
+      "samba",
+      "gospel"
+    ],
+    "spotify_follower_count": 622819,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22649,
+    "total_likes_count": 7696,
+    "total_share_count": 2181,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befd2",
+    "SpotifyId": "5bv5RplEOwdCvhq0EILh9E",
+    "Username": "Lucenzo",
+    "popularity_score": 70,
+    "genres": [
+      "reggaeton"
+    ],
+    "spotify_follower_count": 136766,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20355,
+    "total_likes_count": 7117,
+    "total_share_count": 1753,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befd3",
+    "SpotifyId": "5deLgmgAEgy8UHOfJ9Dj8w",
+    "Username": "Ilkay Sencan",
+    "popularity_score": 57,
+    "genres": [
+      "hard-rock",
+      "drum-and-bass"
+    ],
+    "spotify_follower_count": 84281,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5871,
+    "total_likes_count": 926,
+    "total_share_count": 1386,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befd4",
+    "SpotifyId": "5fUXK5m3BNwoRgTyKq8tnz",
+    "Username": "AX'EL",
+    "popularity_score": 53,
+    "genres": [
+      "r-n-b",
+      "electronic",
+      "disney",
+      "edm",
+      "opera"
+    ],
+    "spotify_follower_count": 4022,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18549,
+    "total_likes_count": 6418,
+    "total_share_count": 1581,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befd5",
+    "SpotifyId": "5gZhfbckaWo89OzDSk3gdT",
+    "Username": "Jaani",
+    "popularity_score": 75,
+    "genres": [
+      "dubstep",
+      "k-pop"
+    ],
+    "spotify_follower_count": 368694,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23397,
+    "total_likes_count": 6777,
+    "total_share_count": 1629,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befd6",
+    "SpotifyId": "5kPOMQZvgkAEnRZqwn9SYQ",
+    "Username": "Jaideep Sahni",
+    "popularity_score": 66,
+    "genres": [
+      "blues"
+    ],
+    "spotify_follower_count": 74653,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19494,
+    "total_likes_count": 3733,
+    "total_share_count": 1162,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befd7",
+    "SpotifyId": "5mWQT8CLTa4mAQAJdFjHb1",
+    "Username": "Abdul Hannan",
+    "popularity_score": 59,
+    "genres": [
+      "groove",
+      "hip-hop",
+      "metalcore"
+    ],
+    "spotify_follower_count": 417058,
+    "tiktok_follower_count": 0,
+    "total_views_count": 4151,
+    "total_likes_count": 3980,
+    "total_share_count": 1061,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befd8",
+    "SpotifyId": "5p9HO3XC5P3BLxJs5Mtrhm",
+    "Username": "Djo",
+    "popularity_score": 77,
+    "genres": [
+      "heavy-metal",
+      "house"
+    ],
+    "spotify_follower_count": 1414760,
+    "tiktok_follower_count": 0,
+    "total_views_count": 26340,
+    "total_likes_count": 8385,
+    "total_share_count": 1961,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befd9",
+    "SpotifyId": "5pKCCKE2ajJHZ9KAiaK11H",
+    "Username": "Rihanna",
+    "popularity_score": 89,
+    "genres": [
+      "soul",
+      "pop",
+      "k-pop"
+    ],
+    "spotify_follower_count": 60746208,
+    "tiktok_follower_count": 0,
+    "total_views_count": 21348,
+    "total_likes_count": 8493,
+    "total_share_count": 2547,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befda",
+    "SpotifyId": "5r3wPya2PpeTTsXsGhQU8O",
+    "Username": "Shubh",
+    "popularity_score": 76,
+    "genres": [
+      "j-pop"
+    ],
+    "spotify_follower_count": 3991525,
+    "tiktok_follower_count": 0,
+    "total_views_count": 32953,
+    "total_likes_count": 13837,
+    "total_share_count": 3528,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befdb",
+    "SpotifyId": "5rRcnWrevHgbuWjl7Lhft7",
+    "Username": "Merk & Kremont",
+    "popularity_score": 57,
+    "genres": [
+      "jazz",
+      "electronic",
+      "rock",
+      "rap"
+    ],
+    "spotify_follower_count": 100867,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17417,
+    "total_likes_count": 6243,
+    "total_share_count": 1659,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befdc",
+    "SpotifyId": "5t5FqBwTcgKTaWmfEbwQY9",
+    "Username": "ENHYPEN",
+    "popularity_score": 77,
+    "genres": [
+      "anime",
+      "house"
+    ],
+    "spotify_follower_count": 9028148,
+    "tiktok_follower_count": 0,
+    "total_views_count": 94190,
+    "total_likes_count": 30231,
+    "total_share_count": 9678,
+    "total_video_count": 5
+  },
+  {
+    "_id": "66879b84b5c5359c240befdd",
+    "SpotifyId": "5tDjiBYUsTqzd0RkTZxK7u",
+    "Username": "Ben Böhmer",
+    "popularity_score": 64,
+    "genres": [
+      "indie-pop"
+    ],
+    "spotify_follower_count": 505668,
+    "tiktok_follower_count": 0,
+    "total_views_count": 6705,
+    "total_likes_count": 5899,
+    "total_share_count": 694,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befde",
+    "SpotifyId": "5wJ1H6ud777odtZl5gG507",
+    "Username": "Vishal Mishra",
+    "popularity_score": 75,
+    "genres": [
+      "punk",
+      "indie garage rock",
+      "progressive-house"
+    ],
+    "spotify_follower_count": 2940612,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23962,
+    "total_likes_count": 6309,
+    "total_share_count": 1689,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befdf",
+    "SpotifyId": "5xdizdgbQQvGAgAolGhpXr",
+    "Username": "Friction",
+    "popularity_score": 52,
+    "genres": [
+      "folk",
+      "r-n-b",
+      "pop"
+    ],
+    "spotify_follower_count": 102312,
+    "tiktok_follower_count": 0,
+    "total_views_count": 6736,
+    "total_likes_count": 1517,
+    "total_share_count": 1139,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befe0",
+    "SpotifyId": "5zCtihKT8IsDqVS5WBbqHD",
+    "Username": "Kai",
+    "popularity_score": 25,
+    "genres": [
+      "show-tunes"
+    ],
+    "spotify_follower_count": 1874,
+    "tiktok_follower_count": 0,
+    "total_views_count": 13818,
+    "total_likes_count": 4577,
+    "total_share_count": 866,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befe1",
+    "SpotifyId": "5zId1SmYy46E9v2KQsSTFR",
+    "Username": "Whales",
+    "popularity_score": 49,
+    "genres": [
+      "dubstep",
+      "punk"
+    ],
+    "spotify_follower_count": 43482,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3129,
+    "total_likes_count": 1101,
+    "total_share_count": 1466,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befe2",
+    "SpotifyId": "632M26jlmnCrL8CqD5i7Kd",
+    "Username": "Rata Blanca",
+    "popularity_score": 60,
+    "genres": [
+      "indie-pop",
+      "ska",
+      "Soft rock",
+      "soundtracks",
+      "anime",
+      "disco"
+    ],
+    "spotify_follower_count": 1286698,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20435,
+    "total_likes_count": 2573,
+    "total_share_count": 874,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befe3",
+    "SpotifyId": "64KEffDW9EtZ1y2vBYgq8T",
+    "Username": "Marshmello",
+    "popularity_score": 83,
+    "genres": [
+      "k-pop",
+      "edm",
+      "pop",
+      "progressive-house"
+    ],
+    "spotify_follower_count": 33678274,
+    "tiktok_follower_count": 0,
+    "total_views_count": 46667,
+    "total_likes_count": 15190,
+    "total_share_count": 4105,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befe4",
+    "SpotifyId": "675tsBPpaZtqyiBwEf3ZEP",
+    "Username": "Watchhouse",
+    "popularity_score": 61,
+    "genres": [
+      "honky-tonk",
+      "gospel",
+      "country",
+      "soundtracks"
+    ],
+    "spotify_follower_count": 324560,
+    "tiktok_follower_count": 0,
+    "total_views_count": 11673,
+    "total_likes_count": 5105,
+    "total_share_count": 693,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befe5",
+    "SpotifyId": "67IN4cLJ7798gUapyZlmac",
+    "Username": "Zack Tabudlo",
+    "popularity_score": 67,
+    "genres": [
+      "punk",
+      "soundtracks",
+      "reggae"
+    ],
+    "spotify_follower_count": 4203041,
+    "tiktok_follower_count": 0,
+    "total_views_count": 33102,
+    "total_likes_count": 8520,
+    "total_share_count": 2235,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befe6",
+    "SpotifyId": "699OTQXzgjhIYAHMy9RyPD",
+    "Username": "Playboi Carti",
+    "popularity_score": 86,
+    "genres": [
+      "dubstep",
+      "punk",
+      "Acoustic pop",
+      "bluegrass",
+      "rap"
+    ],
+    "spotify_follower_count": 11034485,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23982,
+    "total_likes_count": 6680,
+    "total_share_count": 1826,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befe7",
+    "SpotifyId": "6AiX12wXdXFoGJ2vk8zBjy",
+    "Username": "Yuvan Shankar Raja",
+    "popularity_score": 74,
+    "genres": [
+      "gospel",
+      "Soft rock"
+    ],
+    "spotify_follower_count": 13453208,
+    "tiktok_follower_count": 0,
+    "total_views_count": 13510,
+    "total_likes_count": 953,
+    "total_share_count": 870,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befe8",
+    "SpotifyId": "6DARBhWbfcS9E4yJzcliqQ",
+    "Username": "Karan Aujla",
+    "popularity_score": 78,
+    "genres": [
+      "holidays",
+      "rock"
+    ],
+    "spotify_follower_count": 10479400,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20257,
+    "total_likes_count": 5495,
+    "total_share_count": 1572,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befe9",
+    "SpotifyId": "6DPYiyq5kWVQS4RGwxzPC7",
+    "Username": "Dr. Dre",
+    "popularity_score": 79,
+    "genres": [
+      "drum-and-bass",
+      "soundtracks",
+      "latin pop",
+      "rap",
+      "Afrobeats"
+    ],
+    "spotify_follower_count": 11927483,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23689,
+    "total_likes_count": 6339,
+    "total_share_count": 1804,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befea",
+    "SpotifyId": "6EPlBSH2RSiettczlz7ihV",
+    "Username": "Sleepy Hallow",
+    "popularity_score": 75,
+    "genres": [
+      "pop",
+      "ska"
+    ],
+    "spotify_follower_count": 2016847,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20726,
+    "total_likes_count": 6246,
+    "total_share_count": 2017,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befeb",
+    "SpotifyId": "6EtLhQRslM09DO6EQLzodI",
+    "Username": "Madan Karky",
+    "popularity_score": 50,
+    "genres": [
+      "singer-songwriter",
+      "soundtracks",
+      "samba",
+      "pop",
+      "disco",
+      "dub",
+      "dub",
+      "anime",
+      "honky-tonk"
+    ],
+    "spotify_follower_count": 2643,
+    "tiktok_follower_count": 0,
+    "total_views_count": 13510,
+    "total_likes_count": 953,
+    "total_share_count": 870,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befec",
+    "SpotifyId": "6F3vLfyutkUhpM50G84eMt",
+    "Username": "Endor",
+    "popularity_score": 56,
+    "genres": [
+      "opera",
+      "j-pop"
+    ],
+    "spotify_follower_count": 58680,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15393,
+    "total_likes_count": 6886,
+    "total_share_count": 2023,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befed",
+    "SpotifyId": "6FXMGgJwohJLUSr5nVlf9X",
+    "Username": "Massive Attack",
+    "popularity_score": 63,
+    "genres": [
+      "show-tunes",
+      "trance",
+      "gospel"
+    ],
+    "spotify_follower_count": 2205810,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17964,
+    "total_likes_count": 6227,
+    "total_share_count": 693,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befee",
+    "SpotifyId": "6HaGTQPmzraVmaVxvz6EUc",
+    "Username": "Jung Kook",
+    "popularity_score": 86,
+    "genres": [
+      "k-pop"
+    ],
+    "spotify_follower_count": 15087584,
+    "tiktok_follower_count": 0,
+    "total_views_count": 43058,
+    "total_likes_count": 15634,
+    "total_share_count": 3958,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240befef",
+    "SpotifyId": "6M2wZ9GZgrQXHCFfjv46we",
+    "Username": "Dua Lipa",
+    "popularity_score": 88,
+    "genres": [
+      "brazil",
+      "pop",
+      "punk"
+    ],
+    "spotify_follower_count": 43828387,
+    "tiktok_follower_count": 0,
+    "total_views_count": 38460,
+    "total_likes_count": 13020,
+    "total_share_count": 4515,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240beff0",
+    "SpotifyId": "6MDME20pz9RveH9rEXvrOM",
+    "Username": "Clean Bandit",
+    "popularity_score": 73,
+    "genres": [
+      "pop",
+      "disney",
+      "psych-rock"
+    ],
+    "spotify_follower_count": 5464370,
+    "tiktok_follower_count": 0,
+    "total_views_count": 34197,
+    "total_likes_count": 11859,
+    "total_share_count": 3436,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240beff1",
+    "SpotifyId": "6PAt558ZEZl0DmdXlnjMgD",
+    "Username": "Eric Clapton",
+    "popularity_score": 70,
+    "genres": [
+      "progressive-house",
+      "hard-rock",
+      "Soft rock",
+      "Acoustic pop",
+      "study beats",
+      "rock",
+      "singer-songwriter",
+      "rap"
+    ],
+    "spotify_follower_count": 5859790,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20772,
+    "total_likes_count": 6432,
+    "total_share_count": 1841,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beff2",
+    "SpotifyId": "6R26kGib2ubbZJMh7kKVGV",
+    "Username": "Bibi Babydoll",
+    "popularity_score": 70,
+    "genres": [
+      "heavy-metal"
+    ],
+    "spotify_follower_count": 274858,
+    "tiktok_follower_count": 0,
+    "total_views_count": 14836,
+    "total_likes_count": 6939,
+    "total_share_count": 1951,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beff3",
+    "SpotifyId": "6WLP1sraOcF3Gaxp7xBa4p",
+    "Username": "Blastoyz",
+    "popularity_score": 45,
+    "genres": [
+      "rap"
+    ],
+    "spotify_follower_count": 113402,
+    "tiktok_follower_count": 0,
+    "total_views_count": 4233,
+    "total_likes_count": 4797,
+    "total_share_count": 547,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beff4",
+    "SpotifyId": "6WY7D3jk8zTrHtmkqqo5GI",
+    "Username": "Maren Morris",
+    "popularity_score": 0.68,
+    "genres": [
+      "groove",
+      "folk"
+    ],
+    "spotify_follower_count": 808546,
+    "tiktok_follower_count": 0,
+    "total_views_count": 0,
+    "total_likes_count": 0,
+    "total_share_count": 0,
+    "total_video_count": null
+  },
+  {
+    "_id": "66879b84b5c5359c240beff5",
+    "SpotifyId": "6XyY86QOPPrYVGvF9ch6wz",
+    "Username": "Linkin Park",
+    "popularity_score": 85,
+    "genres": [
+      "brazil",
+      "Soft rock",
+      "dub",
+      "latin pop",
+      "rock"
+    ],
+    "spotify_follower_count": 25656295,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20256,
+    "total_likes_count": 8240,
+    "total_share_count": 2024,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beff6",
+    "SpotifyId": "6bDWAcdtVR3WHz2xtiIPUi",
+    "Username": "Fujii Kaze",
+    "popularity_score": 71,
+    "genres": [
+      "samba"
+    ],
+    "spotify_follower_count": 3323325,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19924,
+    "total_likes_count": 7304,
+    "total_share_count": 1736,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beff7",
+    "SpotifyId": "6cXMpsP9x0SH4kFfMyVezF",
+    "Username": "Josh Groban",
+    "popularity_score": 57,
+    "genres": [
+      "blues"
+    ],
+    "spotify_follower_count": 945958,
+    "tiktok_follower_count": 0,
+    "total_views_count": 11882,
+    "total_likes_count": 2440,
+    "total_share_count": 687,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beff8",
+    "SpotifyId": "6d0ZjIp5L7Ygy2l02HskRX",
+    "Username": "Dylan Matthew",
+    "popularity_score": 61,
+    "genres": [
+      "singer-songwriter"
+    ],
+    "spotify_follower_count": 106487,
+    "tiktok_follower_count": 0,
+    "total_views_count": 8205,
+    "total_likes_count": 3466,
+    "total_share_count": 486,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beff9",
+    "SpotifyId": "6jGMq4yGs7aQzuGsMgVgZR",
+    "Username": "Lil Tjay",
+    "popularity_score": 76,
+    "genres": [
+      "bossanova",
+      "soul",
+      "country",
+      "rap"
+    ],
+    "spotify_follower_count": 8586741,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18991,
+    "total_likes_count": 5733,
+    "total_share_count": 1503,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beffa",
+    "SpotifyId": "6kT18gnkVrCz8xJQcrib7L",
+    "Username": "Bhaskar",
+    "popularity_score": 55,
+    "genres": [
+      "power-pop",
+      "reggaeton",
+      "folk"
+    ],
+    "spotify_follower_count": 250255,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15586,
+    "total_likes_count": 1099,
+    "total_share_count": 469,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beffb",
+    "SpotifyId": "6liAMWkVf5LH7YR9yfFy1Y",
+    "Username": "Portishead",
+    "popularity_score": 63,
+    "genres": [
+      "Acoustic pop",
+      "jazz",
+      "country",
+      "Afrobeats",
+      "indie-pop",
+      "psych-rock"
+    ],
+    "spotify_follower_count": 2030763,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20169,
+    "total_likes_count": 6396,
+    "total_share_count": 1675,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beffc",
+    "SpotifyId": "6ltzsmQQbmdoHHbLZ4ZN25",
+    "Username": "Lord Huron",
+    "popularity_score": 75,
+    "genres": [
+      "gospel",
+      "rock"
+    ],
+    "spotify_follower_count": 1613673,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20370,
+    "total_likes_count": 6682,
+    "total_share_count": 2241,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beffd",
+    "SpotifyId": "6ohaQzKaXrobAL8paLSaxq",
+    "Username": "Salim–Sulaiman",
+    "popularity_score": 67,
+    "genres": [
+      "dance",
+      "disney",
+      "bossanova"
+    ],
+    "spotify_follower_count": 2212010,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19494,
+    "total_likes_count": 3733,
+    "total_share_count": 1162,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240beffe",
+    "SpotifyId": "6q29t5RuXxlBuqIZsOMQss",
+    "Username": "Priya Saraiya",
+    "popularity_score": 60,
+    "genres": [
+      "dance",
+      "latin pop"
+    ],
+    "spotify_follower_count": 41224,
+    "tiktok_follower_count": 0,
+    "total_views_count": 5369,
+    "total_likes_count": 3649,
+    "total_share_count": 1005,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240befff",
+    "SpotifyId": "6uothxMWeLWIhsGeF7cyo4",
+    "Username": "Enya",
+    "popularity_score": 70,
+    "genres": [
+      "progressive-house",
+      "gospel",
+      "hard-rock"
+    ],
+    "spotify_follower_count": 2173724,
+    "tiktok_follower_count": 0,
+    "total_views_count": 14829,
+    "total_likes_count": 3042,
+    "total_share_count": 1490,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf000",
+    "SpotifyId": "6vGCQS2VmikoQOsXgFN3Ec",
+    "Username": "Matt Crocker",
+    "popularity_score": 57,
+    "genres": [
+      "disco"
+    ],
+    "spotify_follower_count": 4950,
+    "tiktok_follower_count": 0,
+    "total_views_count": 11071,
+    "total_likes_count": 1805,
+    "total_share_count": 1449,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf001",
+    "SpotifyId": "6wxfx1yhyqjCPYwwxJktR2",
+    "Username": "King Gnu",
+    "popularity_score": 69,
+    "genres": [
+      "j-pop"
+    ],
+    "spotify_follower_count": 3467268,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18497,
+    "total_likes_count": 7018,
+    "total_share_count": 1715,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf002",
+    "SpotifyId": "6xPx7ZAh3o3PMkpk8VDeGj",
+    "Username": "Yoo Yeon Seok",
+    "popularity_score": 26,
+    "genres": [
+      "j-pop"
+    ],
+    "spotify_follower_count": 3098,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3575,
+    "total_likes_count": 2614,
+    "total_share_count": 276,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf003",
+    "SpotifyId": "6zcWUFwRYYsWb5g34Hz2Y4",
+    "Username": "Jonathan Lianhna",
+    "popularity_score": 25,
+    "genres": [
+      "pop"
+    ],
+    "spotify_follower_count": 4516,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19086,
+    "total_likes_count": 3292,
+    "total_share_count": 1271,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240bf004",
+    "SpotifyId": "70TsVY28EcEUYSGG5Yw7mp",
+    "Username": "Sam Tinnesz",
+    "popularity_score": 63,
+    "genres": [
+      "r-n-b",
+      "bossanova",
+      "country"
+    ],
+    "spotify_follower_count": 229745,
+    "tiktok_follower_count": 0,
+    "total_views_count": 21099,
+    "total_likes_count": 5177,
+    "total_share_count": 2070,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf005",
+    "SpotifyId": "711MCceyCBcFnzjGY4Q7Un",
+    "Username": "AC/DC",
+    "popularity_score": 82,
+    "genres": [
+      "groove",
+      "country",
+      "rock"
+    ],
+    "spotify_follower_count": 28639517,
+    "tiktok_follower_count": 0,
+    "total_views_count": 37733,
+    "total_likes_count": 13242,
+    "total_share_count": 4268,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bf006",
+    "SpotifyId": "72beYOeW2sb2yfcS4JsRvb",
+    "Username": "Ritviz",
+    "popularity_score": 56,
+    "genres": [
+      "bossanova",
+      "rap",
+      "holidays",
+      "ska",
+      "Acoustic pop"
+    ],
+    "spotify_follower_count": 1317529,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16068,
+    "total_likes_count": 1553,
+    "total_share_count": 1080,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf007",
+    "SpotifyId": "72qxDp6R6v22pai96pZioz",
+    "Username": "Yanni",
+    "popularity_score": 57,
+    "genres": [
+      "gospel"
+    ],
+    "spotify_follower_count": 501085,
+    "tiktok_follower_count": 0,
+    "total_views_count": 4638,
+    "total_likes_count": 3470,
+    "total_share_count": 817,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf008",
+    "SpotifyId": "73Np75Wv2tju61Eo9Zw4IR",
+    "Username": "Idina Menzel",
+    "popularity_score": 68,
+    "genres": [
+      "opera",
+      "Acoustic pop",
+      "show-tunes"
+    ],
+    "spotify_follower_count": 475447,
+    "tiktok_follower_count": 0,
+    "total_views_count": 44234,
+    "total_likes_count": 16357,
+    "total_share_count": 4830,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240bf009",
+    "SpotifyId": "74KM79TiuVKeVCqs8QtB0B",
+    "Username": "Sabrina Carpenter",
+    "popularity_score": 90,
+    "genres": [
+      "pop"
+    ],
+    "spotify_follower_count": 9823409,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19255,
+    "total_likes_count": 6470,
+    "total_share_count": 1739,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf00a",
+    "SpotifyId": "74OaRjmyh0XyRZsQQQ5l7c",
+    "Username": "Jasleen Royal",
+    "popularity_score": 68,
+    "genres": [
+      "singer-songwriter",
+      "funk",
+      "gospel",
+      "heavy-metal"
+    ],
+    "spotify_follower_count": 1962280,
+    "tiktok_follower_count": 0,
+    "total_views_count": 42414,
+    "total_likes_count": 13338,
+    "total_share_count": 3988,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bf00b",
+    "SpotifyId": "74cb3MG0x0BOnYNW1uXYnM",
+    "Username": "Hillsong UNITED",
+    "popularity_score": 68,
+    "genres": [
+      "indie-pop",
+      "reggae",
+      "pop",
+      "country"
+    ],
+    "spotify_follower_count": 3960522,
+    "tiktok_follower_count": 0,
+    "total_views_count": 4647,
+    "total_likes_count": 1102,
+    "total_share_count": 438,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf00c",
+    "SpotifyId": "77SW9BnxLY8rJ0RciFqkHh",
+    "Username": "The Neighbourhood",
+    "popularity_score": 83,
+    "genres": [
+      "folk",
+      "deep-house",
+      "pop"
+    ],
+    "spotify_follower_count": 16751361,
+    "tiktok_follower_count": 0,
+    "total_views_count": 64630,
+    "total_likes_count": 19279,
+    "total_share_count": 6371,
+    "total_video_count": 3
+  },
+  {
+    "_id": "66879b84b5c5359c240bf00d",
+    "SpotifyId": "791Z3924aa619hZ3xsOJEx",
+    "Username": "Elizabeth Fraser",
+    "popularity_score": 54,
+    "genres": [
+      "metalcore",
+      "bluegrass"
+    ],
+    "spotify_follower_count": 34302,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17964,
+    "total_likes_count": 6227,
+    "total_share_count": 693,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf00e",
+    "SpotifyId": "79sho4jpEGoCCC51KHnNSJ",
+    "Username": "Naresh Kamath",
+    "popularity_score": 57,
+    "genres": [
+      "heavy-metal"
+    ],
+    "spotify_follower_count": 4858,
+    "tiktok_follower_count": 0,
+    "total_views_count": 9981,
+    "total_likes_count": 3729,
+    "total_share_count": 2275,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bf00f",
+    "SpotifyId": "7AYzW5YuJ3mvDlQEUXPPsZ",
+    "Username": "Bijay Anand Sahu",
+    "popularity_score": 46,
+    "genres": [
+      "anime"
+    ],
+    "spotify_follower_count": 23737,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15745,
+    "total_likes_count": 5896,
+    "total_share_count": 1390,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bf010",
+    "SpotifyId": "7CajNmpbOovFoOoasH2HaY",
+    "Username": "Calvin Harris",
+    "popularity_score": 86,
+    "genres": [
+      "funk",
+      "edm",
+      "jazz",
+      "house",
+      "pop",
+      "Acoustic pop",
+      "hard-rock",
+      "r-n-b"
+    ],
+    "spotify_follower_count": 22630195,
+    "tiktok_follower_count": 0,
+    "total_views_count": 41678,
+    "total_likes_count": 15202,
+    "total_share_count": 4895,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bf011",
+    "SpotifyId": "7CvTknweLr9feJtRGrpDBy",
+    "Username": "FloyyMenor",
+    "popularity_score": 81,
+    "genres": [
+      "Acoustic pop"
+    ],
+    "spotify_follower_count": 462333,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22511,
+    "total_likes_count": 7490,
+    "total_share_count": 2645,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf012",
+    "SpotifyId": "7EIEvxpeoLo0qpHFpSrxOr",
+    "Username": "RANDALL",
+    "popularity_score": 43,
+    "genres": [
+      "reggae"
+    ],
+    "spotify_follower_count": 51289,
+    "tiktok_follower_count": 0,
+    "total_views_count": 11614,
+    "total_likes_count": 4147,
+    "total_share_count": 836,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf013",
+    "SpotifyId": "7EK1bQADBoqbYXnT4Cqv9w",
+    "Username": "John Denver",
+    "popularity_score": 68,
+    "genres": [
+      "reggaeton",
+      "folk",
+      "j-pop",
+      "singer-songwriter",
+      "singer-songwriter",
+      "dub"
+    ],
+    "spotify_follower_count": 2186255,
+    "tiktok_follower_count": 0,
+    "total_views_count": 16608,
+    "total_likes_count": 5847,
+    "total_share_count": 2136,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf014",
+    "SpotifyId": "7EQ0qTo7fWT7DPxmxtSYEc",
+    "Username": "Bastille",
+    "popularity_score": 73,
+    "genres": [
+      "bluegrass",
+      "soul",
+      "pop"
+    ],
+    "spotify_follower_count": 5530479,
+    "tiktok_follower_count": 0,
+    "total_views_count": 24343,
+    "total_likes_count": 7970,
+    "total_share_count": 1962,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf015",
+    "SpotifyId": "7Ey4PD4MYsKc5I2dolUwbH",
+    "Username": "Aerosmith",
+    "popularity_score": 74,
+    "genres": [
+      "progressive-house",
+      "Afrobeats",
+      "trip-hop",
+      "rock"
+    ],
+    "spotify_follower_count": 14325170,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20791,
+    "total_likes_count": 7046,
+    "total_share_count": 1981,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf016",
+    "SpotifyId": "7G1kUsPtQCdolV6CPwHmh2",
+    "Username": "DOKYEOM",
+    "popularity_score": 44,
+    "genres": [
+      "indie garage rock"
+    ],
+    "spotify_follower_count": 365512,
+    "tiktok_follower_count": 0,
+    "total_views_count": 7762,
+    "total_likes_count": 1747,
+    "total_share_count": 333,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf017",
+    "SpotifyId": "7K3zpFXBvPcvzhj7zlGJdO",
+    "Username": "Crystal Castles",
+    "popularity_score": 70,
+    "genres": [
+      "show-tunes",
+      "reggaeton",
+      "Afrobeats",
+      "progressive-house",
+      "trance",
+      "Acoustic pop",
+      "electronic"
+    ],
+    "spotify_follower_count": 2489545,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22529,
+    "total_likes_count": 7490,
+    "total_share_count": 2569,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bf018",
+    "SpotifyId": "7Ln80lUS6He07XvHI8qqHH",
+    "Username": "Arctic Monkeys",
+    "popularity_score": 84,
+    "genres": [
+      "disco",
+      "new age piano",
+      "reggaeton",
+      "rock",
+      "reggaeton"
+    ],
+    "spotify_follower_count": 25161749,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19231,
+    "total_likes_count": 8459,
+    "total_share_count": 2220,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf019",
+    "SpotifyId": "7aBzpmFXB4WWpPl2F7RjBe",
+    "Username": "Wyclef Jean",
+    "popularity_score": 72,
+    "genres": [
+      "folk"
+    ],
+    "spotify_follower_count": 336590,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23282,
+    "total_likes_count": 6133,
+    "total_share_count": 1934,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf01a",
+    "SpotifyId": "7aKABlGTdOJkSML40kD64b",
+    "Username": "Jacob's Piano",
+    "popularity_score": 50,
+    "genres": [
+      "new age piano"
+    ],
+    "spotify_follower_count": 85548,
+    "tiktok_follower_count": 0,
+    "total_views_count": 12574,
+    "total_likes_count": 640,
+    "total_share_count": 421,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf01b",
+    "SpotifyId": "7b6Ui7JVaBDEfZB9k6nHL0",
+    "Username": "The Local Train",
+    "popularity_score": 61,
+    "genres": [
+      "Acoustic pop",
+      "country",
+      "latin pop",
+      "Soft rock"
+    ],
+    "spotify_follower_count": 1357756,
+    "tiktok_follower_count": 0,
+    "total_views_count": 24309,
+    "total_likes_count": 8477,
+    "total_share_count": 3009,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bf01c",
+    "SpotifyId": "7bXgB6jMjp9ATFy66eO08Z",
+    "Username": "Chris Brown",
+    "popularity_score": 86,
+    "genres": [
+      "rap",
+      "rap"
+    ],
+    "spotify_follower_count": 22156566,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23139,
+    "total_likes_count": 6323,
+    "total_share_count": 2303,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf01d",
+    "SpotifyId": "7dGJo4pcD2V6oG8kP0tJRR",
+    "Username": "Eminem",
+    "popularity_score": 91,
+    "genres": [
+      "electronic",
+      "indie-pop",
+      "rap"
+    ],
+    "spotify_follower_count": 86099399,
+    "tiktok_follower_count": 0,
+    "total_views_count": 22567,
+    "total_likes_count": 8008,
+    "total_share_count": 2187,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf01e",
+    "SpotifyId": "7hJcb9fa4alzcOq3EaNPoG",
+    "Username": "Snoop Dogg",
+    "popularity_score": 81,
+    "genres": [
+      "punk",
+      "Ambient pop",
+      "pop",
+      "singer-songwriter",
+      "rap",
+      "hip-hop"
+    ],
+    "spotify_follower_count": 12009829,
+    "tiktok_follower_count": 0,
+    "total_views_count": 23689,
+    "total_likes_count": 6339,
+    "total_share_count": 1804,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf01f",
+    "SpotifyId": "7iETGaxJ4crz3qaljDPCKC",
+    "Username": "Brooke Ligertwood",
+    "popularity_score": 65,
+    "genres": [
+      "deep-house",
+      "trip-hop",
+      "rock"
+    ],
+    "spotify_follower_count": 119887,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3469,
+    "total_likes_count": 801,
+    "total_share_count": 1188,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf020",
+    "SpotifyId": "7iTLGcddv1bOPirdYJjKVy",
+    "Username": "Dj Yo!",
+    "popularity_score": 61,
+    "genres": [
+      "anime",
+      "anime",
+      "power-pop",
+      "trip-hop",
+      "hard-rock",
+      "pop",
+      "study beats",
+      "techno",
+      "dubstep"
+    ],
+    "spotify_follower_count": 86416,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18549,
+    "total_likes_count": 6418,
+    "total_share_count": 1581,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf021",
+    "SpotifyId": "7jZM5w05mGhw6wTB1okhD9",
+    "Username": "ATB",
+    "popularity_score": 63,
+    "genres": [
+      "psych-rock",
+      "Acoustic pop",
+      "rap",
+      "trance"
+    ],
+    "spotify_follower_count": 391708,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19594,
+    "total_likes_count": 7173,
+    "total_share_count": 2159,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf022",
+    "SpotifyId": "7jdFEYD2LTYjfwxOdlVjmc",
+    "Username": "KALEO",
+    "popularity_score": 71,
+    "genres": [
+      "Ambient pop",
+      "metalcore",
+      "Acoustic pop"
+    ],
+    "spotify_follower_count": 1795329,
+    "tiktok_follower_count": 0,
+    "total_views_count": 19366,
+    "total_likes_count": 7580,
+    "total_share_count": 2373,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf023",
+    "SpotifyId": "7jmTilWYlKOuavFfmQAcu6",
+    "Username": "Barbra Streisand",
+    "popularity_score": 62,
+    "genres": [
+      "Acoustic pop",
+      "hard-rock",
+      "samba"
+    ],
+    "spotify_follower_count": 1523878,
+    "tiktok_follower_count": 0,
+    "total_views_count": 15879,
+    "total_likes_count": 5146,
+    "total_share_count": 1328,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf024",
+    "SpotifyId": "7kjSuFGKhLm8b5qXoMhRkJ",
+    "Username": "Libianca",
+    "popularity_score": 64,
+    "genres": [
+      "disney"
+    ],
+    "spotify_follower_count": 473905,
+    "tiktok_follower_count": 0,
+    "total_views_count": 20868,
+    "total_likes_count": 6997,
+    "total_share_count": 1889,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf025",
+    "SpotifyId": "7m0BsF0t3K9WQFgKoPejfk",
+    "Username": "ArrDee",
+    "popularity_score": 62,
+    "genres": [
+      "soul"
+    ],
+    "spotify_follower_count": 947014,
+    "tiktok_follower_count": 0,
+    "total_views_count": 6888,
+    "total_likes_count": 6252,
+    "total_share_count": 1285,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf026",
+    "SpotifyId": "7oPftvlwr6VrsViSDV7fJY",
+    "Username": "Green Day",
+    "popularity_score": 80,
+    "genres": [
+      "electronic",
+      "country",
+      "punk",
+      "rock"
+    ],
+    "spotify_follower_count": 15015753,
+    "tiktok_follower_count": 0,
+    "total_views_count": 18206,
+    "total_likes_count": 5349,
+    "total_share_count": 2168,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf027",
+    "SpotifyId": "7rEwKApsZMo8cXVxAndmvD",
+    "Username": "Raffey Anwar",
+    "popularity_score": 53,
+    "genres": [
+      "bluegrass",
+      "anime",
+      "bluegrass",
+      "dance",
+      "blues"
+    ],
+    "spotify_follower_count": 51024,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17390,
+    "total_likes_count": 5617,
+    "total_share_count": 618,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf028",
+    "SpotifyId": "7u160I5qtBYZTQMLEIJmyz",
+    "Username": "Borgore",
+    "popularity_score": 47,
+    "genres": [
+      "r-n-b",
+      "Afrobeats",
+      "dubstep",
+      "edm",
+      "soul"
+    ],
+    "spotify_follower_count": 561923,
+    "tiktok_follower_count": 0,
+    "total_views_count": 3073,
+    "total_likes_count": 1599,
+    "total_share_count": 988,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf029",
+    "SpotifyId": "7vk5e3vY1uw9plTHJAMwjN",
+    "Username": "Alan Walker",
+    "popularity_score": 80,
+    "genres": [
+      "indie garage rock"
+    ],
+    "spotify_follower_count": 38834594,
+    "tiktok_follower_count": 0,
+    "total_views_count": 37058,
+    "total_likes_count": 13362,
+    "total_share_count": 3344,
+    "total_video_count": 2
+  },
+  {
+    "_id": "66879b84b5c5359c240bf02a",
+    "SpotifyId": "7xcbCUOXrxDyWxbYxPq60B",
+    "Username": "Indraneel",
+    "popularity_score": 61,
+    "genres": [
+      "heavy-metal",
+      "indie garage rock",
+      "dubstep",
+      "opera"
+    ],
+    "spotify_follower_count": 347,
+    "tiktok_follower_count": 0,
+    "total_views_count": 17629,
+    "total_likes_count": 6481,
+    "total_share_count": 2001,
+    "total_video_count": 1
+  },
+  {
+    "_id": "66879b84b5c5359c240bf02b",
+    "SpotifyId": "7z5WFjZAIYejWy0NI5lv4T",
+    "Username": "Dan + Shay",
+    "popularity_score": 69,
+    "genres": [
+      "ska",
+      "country",
+      "gospel"
+    ],
+    "spotify_follower_count": 3165778,
+    "tiktok_follower_count": 0,
+    "total_views_count": 14481,
+    "total_likes_count": 6103,
+    "total_share_count": 1903,
+    "total_video_count": 1
+  }
+]

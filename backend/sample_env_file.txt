@@ -1,0 +1,4 @@
+# Sample .env file
+DATABASE_URL=<your-mongodb-database-url>
+DATABASE_NAME=<your-database-name>
+EXPRESS_PORT=<your-express-server-port>

@@ -1,0 +1,60 @@
+
+[
+    {
+        "username": "Tanvi",
+        "bio": "a 26-year-old music enthusiast with a passion for Coldplay's soulful melodies.",
+        "spotify_id": "7b04vuazql0yr1co3xty8v474",
+        "following_friends": [
+            {
+                "spotify_id": "31ebdfyjsh5x5b3rejfp3akxdz3a",
+                "username": "Siddarth"
+            },
+            {
+                "spotify_id": "31abuz3whtktugepv7f26ouajmne",
+                "username": "Rithika"   
+            }
+        ],
+        "following_artists":[],
+        "liked":[],
+        "preference":[]
+
+    },
+    {
+        "username": "Rithika",
+        "bio": "a 24-year-old music enthusiast with a passion for Linkin Park.",
+        "spotify_id": "31abuz3whtktugepv7f26ouajmne",
+        "following_friends": [
+            {
+                "spotify_id": "31ebdfyjsh5x5b3rejfp3akxdz3a",
+                "username": "Siddarth"
+            },
+            {
+                "spotify_id": "7b04vuazql0yr1co3xty8v474",
+                "username": "Tanvi"   
+            }
+        ],
+        "following_artists":[],
+        "liked":[],
+        "preference":[]
+
+    },
+    {
+        "username": "Siddarth",
+        "bio": "a 26-year-old music enthusiast with a passion for Metallica.",
+        "spotify_id": "31ebdfyjsh5x5b3rejfp3akxdz3a",
+        "following_friends": [
+            {
+                "spotify_id": "31abuz3whtktugepv7f26ouajmne",
+                "username": "Rithika"
+            },
+            {
+                "spotify_id": "7b04vuazql0yr1co3xty8v474",
+                "username": "Tanvi"   
+            }
+        ],
+        "following_artists":[],
+        "liked":[],
+        "preference":[]
+
+    }
+]

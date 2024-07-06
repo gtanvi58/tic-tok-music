@@ -1,0 +1,46 @@
+[
+    {
+        "Track_ID": "7k9GuJYLp2AzqokyEdwEw2",
+        "Track_Name": "Give Me Your Forever",
+        "Artist": "Zack Tabudlo",
+        "Scores": [
+            {
+                "Username": "Tanvi",
+                "SpotifyId": "7b04vuazql0yr1co3xty8v474",
+                "Score": 25 
+            },
+            {
+                "Username": "Siddarth",
+                "SpotifyId": "31ebdfyjsh5x5b3rejfp3akxdz3a",
+                "Score": 15
+            },
+            {
+                "Username": "Rithika",
+                "SpotifyId": "31abuz3whtktugepv7f26ouajmne",
+                "Score": 20
+            }
+        ]
+    },
+    {
+        "Track_ID": "2DHDuADAHoUW6n0z80RLQF",
+        "Track_Name": "Hold On",
+        "Artist": "Chord Overstreet",
+        "Scores": [
+            {
+                "Username": "Tanvi",
+                "SpotifyId": "7b04vuazql0yr1co3xty8v474",
+                "Score": 20
+            },
+            {
+                "Username": "Siddarth",
+                "SpotifyId": "31ebdfyjsh5x5b3rejfp3akxdz3a",
+                "Score": 15
+            },
+            {
+                "Username": "Rithika",
+                "SpotifyId": "31abuz3whtktugepv7f26ouajmne",
+                "Score": 25
+            }
+        ]
+    }
+]
