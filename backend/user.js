@@ -69,9 +69,11 @@ export async function updateFollowingArtists(id, artists) {
         };
         const result = await collection.updateOne(filter,update);
         console.log('Matched documents:', result.matchedCount);
-        console.log('Modified documents:', result.modifiedCount);        
+        console.log('Modified documents:', result.modifiedCount); 
+        return {"message" : "Successfully updated user's following artists"};       
     } catch (error) {
         console.error('Error in MongoDB operation:', error);
+        return {"message" : "Error while updating following artists. Please contact administrator."};
     }
 }
 
@@ -363,7 +365,6 @@ export async function readArtistsFollowedByFriendsButNotByUser(id){
         const artistsFollowedByUser = await getFollowingArtists(client, id);
         //get artists followed by friends
         const artistsFollowedByFriends = await getArtistsFollwedByFriends(userInfo, userCollection);
-
         let artistsFollowedByUser_id = artistsFollowedByUser.following_artists.map(obj => obj.spotify_id);
         const artistsFollowedByFriendButNotByUser = artistsFollowedByFriends.filter(obj => !artistsFollowedByUser_id.includes(obj.spotify_id));
 

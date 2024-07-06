@@ -1,7 +1,7 @@
 import { readFile } from 'fs/promises';
 import { updateUserPreference, insertUsers, updateFollowingArtists, readFollowingArtists, readFollowingFriends, readArtistsFollowedByFriendsButNotByUser, updateLikedTracks } from './user.js';
 import { insertArtists, readNewArtists, updateArtistsStats, updateAllArtistsStats, readArtist } from './artist.js';
-import { insertVideos, readArtistsStats, readVideoStats, readAllVideos } from './video.js';
+import { insertVideos, readArtistsStats, readVideoStats, readAllVideos, readArtistsVideos } from './video.js';
 import { insertScores, updateScore, getTopScoresForTrack } from './game.js';
 import express from "express";
 import rateLimit from 'express-rate-limit';
@@ -153,7 +153,7 @@ app.get("/artists/new", async (req, res) => {
 
 app.get("/artists/friends", async (req, res) => {
     const id = req.query.spotify_id;
-    const cacheKey = 'friendsArtists';
+    const cacheKey = `friendsArtists:${id}`;
     const cachedArtists = cache.get(cacheKey);
     if (cachedArtists) {
         res.json(cachedArtists);
@@ -162,6 +162,31 @@ app.get("/artists/friends", async (req, res) => {
         cache.set(cacheKey, friendsArtists);
         res.json(friendsArtists);
     }
+});
+
+app.get("/artists/videos", async (req, res) => {
+    const id = req.query.spotify_id;
+    const cacheKey = `artistsVideos:${id}`;
+    const cachedVideos = cache.get(cacheKey);
+    if (cachedVideos) {
+        res.json(cachedVideos);
+    } else {
+        const artistsvideos = await readArtistsVideos(id);
+        cache.set(cacheKey, artistsvideos);
+        res.json(artistsvideos);
+    }
+});
+
+//user api
+app.put("/users/followingArtists", async (req, res) => {
+    const user_id = req.body.user_id;
+    const artist = [{
+        "spotify_id": req.body.artist_id,
+        "username": req.body.username,
+        "genres": req.body.genres
+    }];
+    const result = await updateFollowingArtists(user_id, artist);
+    res.json(result);    
 });
 
 app.listen(port, () => {

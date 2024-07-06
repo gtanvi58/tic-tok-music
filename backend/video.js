@@ -20,6 +20,26 @@ export async function insertVideos(videos) {
 }
 
 // READS
+export async function readArtistsVideos(id){
+    try {
+        const client = await DbConnection.Get();
+        const database = client.db(process.env.DATABASE_NAME);
+        const collection = database.collection('videos');
+        const pipeline = [
+            {
+                $match: {
+                    "Creator_Artist_IDs": { $elemMatch: { $eq: id } }
+                  }
+            }
+        ];
+        const results = await collection.aggregate(pipeline).toArray();
+        return results;
+    } catch(error) {
+        console.error('Error in MongoDB operation:', error);
+        return({"Message": "Please contact administrator. Error occurred while reading artist videos"});
+    }
+
+}
 
 /**
  * return artist's statistics from his videos
