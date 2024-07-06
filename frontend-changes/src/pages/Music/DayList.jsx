@@ -51,7 +51,7 @@ function DayList() {
                                 url={url}
                                 light={true}
                                 width={'400px'}
-                                height={'650px'}
+                                height={'600px'}
                                 className={cx('player')}
                             />
                         </div>

@@ -11,6 +11,9 @@ const cx = classNames.bind(styles);
 function Games() {
     return (
         <div>
+             <div className={cx('banner')}>
+                <h1 className={cx('fancy-title')}>The Game of Magic Tiles</h1>
+            </div>
             <div className={cx('playlist-wrapper')}>
             <PlayList/>
             </div>

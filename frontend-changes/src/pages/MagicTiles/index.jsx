@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import classNames from 'classnames/bind';
 import styles from './MagicTiles.scss';
-import allOfMe from './bad-guy.mp3';
+import allOfMe from './audio_with_clicks_filtered.wav';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
@@ -21,6 +21,7 @@ const MagicTiles = () => {
     const canvasRef = useRef(null);
     const backgroundRef = useRef(null);
     const scoreBarRef = useRef(null);
+    const gameOverRef = useRef(null);
     const { id } = useParams();
     const audio_id = id;
 
@@ -38,26 +39,26 @@ const MagicTiles = () => {
         getNotes(audio_id);
     }, [audio_id]);
 
-    const getNotesInfo = () => {
-        if (notes.length > 0) {
-            let prev = notes[0];
-            for (let i = 1; i < notes.length; i++) {
-                let diff = notes[i] - prev;
-                scaledNotes[i - 1] = diff;
-                prev = notes[i];
-                console.log("printing scaled note ", scaledNotes[i - 1]);
-            }
-            let minValue = Math.min(...scaledNotes);
-            let maxValue = Math.max(...scaledNotes);
-            console.log("printing min ", minValue);
-            for (let i = 0; i < scaledNotes.length; i++) {
-                let normNote = (scaledNotes[i] - minValue) / (maxValue - minValue);
-                let scaledNote = Math.round(normNote * 8);
-                console.log("printing scaled ", scaledNote);
-                scaledNotes[i] = scaledNote;
-            }
-        }
-    };
+    // const getNotesInfo = () => {
+    //     if (notes.length > 0) {
+    //         let prev = notes[0];
+    //         for (let i = 1; i < notes.length; i++) {
+    //             let diff = notes[i] - prev;
+    //             scaledNotes[i - 1] = diff;
+    //             prev = notes[i];
+    //             console.log("printing scaled note ", scaledNotes[i - 1]);
+    //         }
+    //         let minValue = Math.min(...scaledNotes);
+    //         let maxValue = Math.max(...scaledNotes);
+    //         console.log("printing min ", minValue);
+    //         for (let i = 0; i < scaledNotes.length; i++) {
+    //             let normNote = (scaledNotes[i] - minValue) / (maxValue - minValue);
+    //             let scaledNote = Math.round(normNote * 8);
+    //             console.log("printing scaled ", scaledNote);
+    //             scaledNotes[i] = scaledNote;
+    //         }
+    //     }
+    // };
 
     // const paintScoreBar = (context_score) => {
     //     console.log("in paint score");
@@ -103,6 +104,33 @@ const MagicTiles = () => {
         context_score.fillText(newScore.toString(), centerX, centerY);
     };
 
+    const paintGameOver = (context_game_over) => {
+        console.log("in score bar");
+
+    // Clear the entire canvas
+    context_game_over.clearRect(0, 0, context_game_over.canvas.width, context_game_over.canvas.height);
+
+    // Create and apply gradient
+    let game_over_gradient = context_game_over.createLinearGradient(0, 0, 0, 80);
+    game_over_gradient.addColorStop(0, "rgba(74,171,254,0)");
+    game_over_gradient.addColorStop(0.5, "rgba(74,84,254,0)");
+    game_over_gradient.addColorStop(1, "rgba(116,74,254,0)");
+    context_game_over.fillStyle = game_over_gradient;
+    context_game_over.fillRect(0, 0, context_game_over.canvas.width, context_game_over.canvas.height);
+
+    // Draw "Game Over" text on the right-hand side
+    context_game_over.fillStyle = "red";
+    context_game_over.font = "50px Arial";
+    context_game_over.textAlign = 'right'; // Align text to the right
+    context_game_over.textBaseline = 'middle'; // Center vertically
+
+    // Calculate the position for "Game Over" text
+    const gameOverX = context_game_over.canvas.width - 10; // 10 pixels from the right edge
+    const gameOverY = context_game_over.canvas.height / 2;
+
+    context_game_over.fillText("Game Over", gameOverX, gameOverY);
+    }
+
     // const paintScoreBar = (context_score) => {
     //     context_score.clearRect(0, 0, context_score.canvas.width, context_score.canvas.height);
     //     let score_gradient = context_score.createLinearGradient(0, 0, 0, 80);
@@ -134,7 +162,7 @@ const MagicTiles = () => {
             myRand = Math.floor(Math.random() * numOfTiles);
 
         console.log("printing note and noteindex ", notes[noteIndex]);
-        const newBlock = new Block(myRand, scaledNotes[noteIndex], context);
+        const newBlock = new Block(myRand, context);
         setNoteIndex(noteIndex + 1);
         myTiles[myRand] = newBlock;
     };
@@ -173,18 +201,17 @@ const MagicTiles = () => {
     };
 
     class Block {
-        constructor(index, noteLength, context) {
+        constructor(index, context) {
             if (!eachState[index]) eachState[index] = true;
             this.index = index;
             this.appearPos = Math.floor(Math.random() * 4);
-
+    
             this.width = 70;
             this.height = 120;
             this.color = "black";
-            context = context;
+            this.context = context; // Fixed context reference
             console.log("printing this height ", this.height);
-            console.log("printing notes in block", noteLength);
-
+    
             switch (this.appearPos) {
                 case 0:
                     this.x = 0;
@@ -205,21 +232,21 @@ const MagicTiles = () => {
                 default:
                     break;
             }
-
-            context.fillStyle = this.color;
-            context.fillRect(this.x, this.y, this.width, this.height);
+    
+            this.context.fillStyle = this.color;
+            this.context.fillRect(this.x, this.y, this.width, this.height);
             this.live = true;
-            canvasRef.current.addEventListener('mousedown', this.handleMouseDown.bind(this));
-            canvasRef.current.addEventListener('mouseup', this.handleMouseUp.bind(this));
+            canvasRef.current.addEventListener('mousedown', (event) => this.handleMouseDown(event));
+            canvasRef.current.addEventListener('mouseup', (event) => this.handleMouseUp(event));
         }
-
-        handleMouseDown(event, context) {
+    
+        handleMouseDown(event) {
             console.log("mouse downn");
             const canvas = canvasRef.current;
             const rect = canvas.getBoundingClientRect();
             const x = event.clientX - rect.left;
             const y = event.clientY - rect.top;
-
+    
             if (this.isClicked(x, y)) {
                 console.log("drag start");
                 setMyScore(prevScore => {
@@ -227,20 +254,21 @@ const MagicTiles = () => {
                     paintScoreBar(scoreBarRef.current.getContext('2d'), newScore);
                     return newScore;
                 });
-                console.log("printing my score ", myScore)
-                // this.color = "white"
-            //     context.fillStyle = this.color;
-            // context.fillRect(this.x, this.y, this.width, this.height);
+                console.log("printing my score ", myScore);
+                this.color = "white"; // Change the color when clicked
+                this.context.fillStyle = this.color;
+                this.context.fillRect(this.x, this.y, this.width, this.height);
+            } else {
+                console.log("wrong click helloo");
+                paintGameOver(gameOverRef.current.getContext('2d'));
             }
         }
-
+    
         handleMouseUp(event) { 
-            console.log('mouse up')
-            // this.color = "black"
-            //     context.fillStyle = this.color;
-            // context.fillRect(this.x, this.y, this.width, this.height);
+            console.log('mouse up');
+            // Additional logic for mouse up if needed
         }
-
+    
         isClicked(x, y) {
             console.log("printing tile x and y bounds", this.x, this.x + this.width, this.y, this.y + this.height);
             return (
@@ -251,6 +279,7 @@ const MagicTiles = () => {
             );
         }
     }
+    
 
     const handleCanvasClick = (event) => {
         const canvas = canvasRef.current;
@@ -279,7 +308,7 @@ const MagicTiles = () => {
     const update = (context) => {
         for (let i = 0; i < numOfTiles; ++i) {
             if (eachState[i]) {
-                myTiles[i].y += 1;
+                myTiles[i].y += 1.5;
                 context.fillStyle = myTiles[i].color;
                 context.fillRect(myTiles[i].x, myTiles[i].y, 70, 120);
                 context.clearRect(myTiles[i].x, myTiles[i].y - 2, 70, 2);
@@ -308,6 +337,51 @@ const MagicTiles = () => {
         }
     };
 
+    // useEffect(() => {
+    //     const c = canvasRef.current;
+    //     const context = c.getContext("2d");
+    //     const b = backgroundRef.current;
+    //     const context_back = b.getContext("2d");
+    //     const a = scoreBarRef.current;
+    //     const context_score = a.getContext("2d");
+
+    //     paintWindow(context_back);
+    //     paintScoreBar(context_score)
+    //     getNotesInfo();
+
+    //     let intervalTmp;
+    //     let geneTmp;
+
+    //     const handleStartPause = () => {
+    //         let content = document.getElementById("start_btn");
+    //         if (content.innerHTML === "START" || content.innerHTML === "GG") {
+    //             if (notes.length > 0) {
+    //                 intervalTmp = setInterval(() => update(context), 5);
+    //                 // geneTmp = setInterval(() => geneBlock(context), 600);
+    //                 for(var i=0;i<notes.length;i++){
+    //                     setTimeout(geneBlock(context), notes[i]); 
+    //                 }
+    //             }
+    //             playAudio();
+    //             content.innerHTML = "PAUSE";
+    //         } else {
+    //             clearInterval(intervalTmp);
+    //             clearInterval(geneTmp);
+    //             pauseAudio();
+    //             content.innerHTML = "START";
+    //         }
+    //     };
+
+    //     document.getElementById('btn').addEventListener('click', handleStartPause);
+    //     // c.addEventListener("click", handleCanvasClick);
+
+    //     return () => {
+    //         // c.removeEventListener("click", handleCanvasClick);
+    //         document.getElementById('btn').removeEventListener('click', handleStartPause);
+    //         clearInterval(intervalTmp);
+    //         clearInterval(geneTmp);
+    //     };
+    // }, [notes, isPlaying]);
     useEffect(() => {
         const c = canvasRef.current;
         const context = c.getContext("2d");
@@ -315,45 +389,62 @@ const MagicTiles = () => {
         const context_back = b.getContext("2d");
         const a = scoreBarRef.current;
         const context_score = a.getContext("2d");
-
+        const g = gameOverRef.current;
+        const context_game_over = g.getContext("2d");
+    
         paintWindow(context_back);
-        paintScoreBar(context_score)
-        getNotesInfo();
-
+        paintScoreBar(context_score);
+        // getNotesInfo();
+    
         let intervalTmp;
-        let geneTmp;
-
+        let geneTimeouts = [];
+    
         const handleStartPause = () => {
             let content = document.getElementById("start_btn");
             if (content.innerHTML === "START" || content.innerHTML === "GG") {
                 if (notes.length > 0) {
                     intervalTmp = setInterval(() => update(context), 5);
-                    geneTmp = setInterval(() => geneBlock(context), 600);
+        
+                    // Clear any previous timeouts before starting new ones
+                    geneTimeouts.forEach(clearTimeout);
+                    geneTimeouts = [];
+        
+                    // Schedule geneblock calls based on the cumulative timing of notes
+                    for (let i = 1; i < notes.length; i++) {
+                        let interval = notes[i] - notes[i - 1];
+                        geneTimeouts.push(setTimeout(() => {
+                            geneBlock(context);
+                        }, notes[i] * 1000)); // Convert to milliseconds
+                    }
                 }
                 playAudio();
                 content.innerHTML = "PAUSE";
             } else {
                 clearInterval(intervalTmp);
-                clearInterval(geneTmp);
+                geneTimeouts.forEach(clearTimeout); // Clear all scheduled timeouts
+                geneTimeouts = [];
                 pauseAudio();
                 content.innerHTML = "START";
             }
         };
-
+        
+        
+    
         document.getElementById('btn').addEventListener('click', handleStartPause);
-        // c.addEventListener("click", handleCanvasClick);
-
+    
         return () => {
-            // c.removeEventListener("click", handleCanvasClick);
             document.getElementById('btn').removeEventListener('click', handleStartPause);
             clearInterval(intervalTmp);
-            clearInterval(geneTmp);
+            geneTimeouts.forEach(clearTimeout);
         };
     }, [notes, isPlaying]);
+    
 
     return (
         <div className={cx('magic-wrapper')}>
 <canvas className={cx('score_bar')} ref={scoreBarRef} id="score_bar" width="300" height="100"></canvas>
+<canvas className={cx('game_over_bar')} ref={gameOverRef} id="game_over_bar" width="300" height="100"></canvas>
+
 <canvas className={cx('background')} ref={backgroundRef} id="background" width="300" height="600"></canvas>
             <canvas className={cx('piano')} ref={canvasRef} id="piano" width="300" height="600"></canvas>
             <audio ref={audioRef} src={allOfMe} />

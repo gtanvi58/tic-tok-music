@@ -3,17 +3,18 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    left:0px;
+    left: 200px;
     bottom:0px;
     position:fixed;
-    margin-bottom:300px
+    margin-bottom:30px;
+    width:350px;
 }
 .following-artists-container {
 max-width: 800px;
 margin: 0 auto;
 background-color: #ffffff;
 border: 1px solid #e0e0e0;
-// border-radius: 8px;
+border-radius: 8px;
 overflow: hidden;
 }
 .header-container{
@@ -22,7 +23,7 @@ padding: 10px 20px;
 }
 .following-artists-header {
 background-color: black;
-padding: 5px 20px;
+padding: 10px 20px;
 color: #ffffff;
 font-size: 15px;
 text-align: center;
@@ -83,4 +84,22 @@ margin-left: 20px;
 .chart-arrow {
 margin-left: 10px;
 color: #1c3e97;
+}
+
+.following-artists-actions {
+    display: flex;
+    align-items: center;
+}
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.follow-button {
+    color: #e0245e;
+}
+.view-music-button {
+    color: #1c3e97;
 }

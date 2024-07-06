@@ -27,9 +27,9 @@ const playlistData = [
 
 function PlayList() {
     return (
-        <div>
-            <div className={cx('playlist-header')}>SELECT A SONG TO PLAY!</div>
-            <div id="playlistContainer">
+        <div className={cx('playlist')}>
+            <div id="playlistContainer" className={cx('playlist-container')}>
+                <div className={cx('playlist-header')}>SELECT A SONG TO BEGIN!</div>
                 {playlistData.map(item => (
                     <NavLink
                         to={config.routes.magicTiles(item.id)}

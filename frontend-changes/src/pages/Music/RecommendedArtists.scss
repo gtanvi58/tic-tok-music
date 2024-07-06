@@ -1,12 +1,13 @@
 .rec-artists {
- 
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-        left:200px;
-        position:fixed;
-        margin-top:35px
-    }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    left: 200px;
+    position: fixed;
+    margin-top: 35px;
+    left: 200px;
+    width:350px
+}
 .rec-artists-container {
     max-width: 800px;
     margin: 0 auto;
@@ -15,7 +16,7 @@
     border-radius: 8px;
     overflow: hidden;
 }
-.header-container{
+.header-container {
     background-color: #fe2c55;
     padding: 10px 20px;
 }
@@ -36,23 +37,10 @@
     align-items: center;
     padding: 10px 20px;
     border-bottom: 1px solid #e0e0e0;
+    cursor: pointer;
 }
-.chart-row:last-child {
-    border-bottom: none;
-}
-.new-artists-position {
-    flex: 0 0 40px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-}
-.chart-image {
-    flex: 0 0 60px;
-    height: 60px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 4px;
-    margin-right: 20px;
+.rec-artists-row:hover {
+    background-color: #f0f0f0;
 }
 .rec-artists-details {
     flex: 1;
@@ -64,22 +52,20 @@
     font-weight: bold;
     margin: 0;
 }
-.chart-artist {
-    font-size: 14px;
-    color: #555555;
-    margin: 2px 0 0;
-}
-.chart-stats {
+.rec-artists-actions {
     display: flex;
     align-items: center;
-    margin-left: auto;
 }
-.chart-stat {
-    font-size: 14px;
-    color: #555555;
-    margin-left: 20px;
-}
-.chart-arrow {
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
     margin-left: 10px;
+}
+.follow-button {
+    color: #e0245e;
+}
+.view-music-button {
     color: #1c3e97;
 }
