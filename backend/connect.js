@@ -2,6 +2,7 @@ import { MongoClient } from 'mongodb';
 import 'dotenv/config';
 
 const uri = process.env.DATABASE_URL;
+console.log("printing uri ", uri)
 const DbConnection = function () {
 
     var db = null;
@@ -28,6 +29,7 @@ const DbConnection = function () {
                 console.log(`getting new db connection..`);
                 db = await DbConnect();
                 console.log('connected to mongoDB!')
+                console.log("printing db object ", db)
                 return db; 
             }
         } catch (e) {

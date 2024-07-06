@@ -4,50 +4,50 @@ import classNames from 'classnames/bind';
 import styles from './NewArtistsLeaderBoard.scss';
 import { FaHeart, FaMusic } from 'react-icons/fa';
 import config from '~/config';
+import axios from 'axios';
+import { useState } from 'react';
 
 const cx = classNames.bind(styles);
 
-const leaderboardArtists = [
-    { artist: 'Siddarth', position: 1 },
-    { artist: 'Rithika', position: 2 },
-    { artist: 'Tanvi', position: 3 },
-    { artist: 'Baar Baar Dine Yeh Aaye', position: 4 },
-    { artist: 'Baar Baar Din Yeh Jaaye', position: 5 }
-];
-
-function NewArtistsLeaderBoard(){
+const NewArtistsLeaderBoard = (props) => {
     console.log("inside new artists")
+
+    const [newArtistsLeaderBoard, setNewArtistsLeaderBoard] = useState([]);
+
+    const getNewArtistsLeaderBoard = async () => {
+        const response = await axios.get('http://localhost:8080/artists/new');
+        console.log("printing response data ", response)
+        setNewArtistsLeaderBoard(response.data)
+    }
+      useEffect(() => {
+        getNewArtistsLeaderBoard();
+    }, []);
 
     const handleFollowClick = (artist) => {
         console.log(`Follow clicked for: ${artist}`);
         // Perform follow action here
     };
 
-    const handleViewMusicClick = (artist) => {
-        console.log(`View music clicked for: ${artist}`);
-        // Perform view music action here
-    };
-
     return(
             <div className={cx('new-artists-leaderboard')}>
             <div className={cx('new-artists-leaderboard-container')}>
                     <div className={cx('new-artists-header')}>NEW ARTISTS LEADERBOARD</div>
-                {leaderboardArtists.map((item, index) => (
+                {newArtistsLeaderBoard.map((item, index) => (
                     <div key={index} className={cx('new-artists-row')}>
-                        <div className={cx('new-artists-position')}>{item.position}</div>
+                        <div className={cx('new-artists-position')}>{item.popularity}</div>
                         <div className={cx('new-artists-details')}>
-                            <p className={cx('new-artists-title')}>{item.artist}</p>
+                            <p className={cx('new-artists-title')}>{item.username}</p>
                         </div>
                         <div className={cx('rec-artists-actions')}>
                             <button 
                                 className={cx('action-button', 'follow-button')} 
-                                onClick={() => handleFollowClick(item.artist)}
+                                onClick={() => handleFollowClick(item.username)}
                             >
                                 <FaHeart />
                             </button>
                             <button 
                                 className={cx('action-button', 'view-music-button')} 
-                                onClick={() => handleViewMusicClick(item.artist)}
+                                onClick={() => props.handleViewMusicClick(item)}
                             >
                                 <FaMusic />
                             </button>

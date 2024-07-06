@@ -1,19 +1,35 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import classNames from 'classnames/bind';
 import styles from './RecommendedArtists.scss';
-import { FaHeart, FaMusic } from 'react-icons/fa';
+import { FaHeart, FaRegHeart, FaMusic } from 'react-icons/fa';
+import axios from 'axios';
+import { useState } from 'react';
 
 const cx = classNames.bind(styles);
 
-const recommendedArtists = [
-    'Siddarth',
-    'Rithika',
-    'Tanvi',
-    'Baar Baar Dine Yeh Aaye',
-    'Baar Baar Din Yeh Jaaye'
-];
+// const recommendedArtists = [
+//     'Siddarth',
+//     'Rithika',
+//     'Tanvi',
+//     'Baar Baar Dine Yeh Aaye',
+//     'Baar Baar Din Yeh Jaaye'
+// ];
 
 function RecommendedArtists() {
+
+    const [recommendedArtists, setRecommendedArtists] = useState([]);
+
+    // const getRecommendedArtists = async () => {
+    //     const response = await axios.get('https://efa7-104-196-62-10.ngrok-free.app/get_new_artist/', {
+    //         params: { username: "Tanvi" }, // Pass spotifyId as a query parameter
+    //     });
+    //     console.log("printing response data ", response)
+    //     setRecommendedArtists(response.data)
+    // }
+    //   useEffect(() => {
+    //     getRecommendedArtists();
+    // }, []);
+
     const handleFollowClick = (artist) => {
         console.log(`Follow clicked for: ${artist}`);
         // Perform follow action here
@@ -31,7 +47,7 @@ function RecommendedArtists() {
                 {recommendedArtists.map((artist, index) => (
                     <div key={index} className={cx('rec-artists-row')}>
                         <div className={cx('rec-artists-details')}>
-                            <p className={cx('rec-artists-title')}>{artist}</p>
+                            <p className={cx('rec-artists-title')}>{artist.Username}</p>
                         </div>
                         <div className={cx('rec-artists-actions')}>
                             <button 
