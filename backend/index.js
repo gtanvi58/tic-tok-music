@@ -117,27 +117,12 @@ app.get("/videos/all", async (req, res) => {
 });
 
 //games api
-
-/**
- * query parameter id is track id
-*/
 app.get("/games/scores", async (req, res) => {
     const track_id = req.query.track_id;
     const scores = await getTopScoresForTrack(track_id);
     res.json(scores);
 });
 
-
-// const track0 = {
-//     "Track_ID" : "7k9GuJYLp2AzqokyEdwEw2",
-//     "Track_Name": "Give Me Your Forever",
-//     "Artist": "Zack Tabudlo"
-// }
-
-// const user = {
-//     "SpotifyId": "7b04vuazql0yr1co3xty8v484",
-//     "Username": "Jackie Chan"
-// };
 app.put("/games/scores",async (req, res) => {
     const track = {
         "Track_ID": req.body.Track_ID,
@@ -151,6 +136,32 @@ app.put("/games/scores",async (req, res) => {
     const score = req.body.Score;
     const result = await updateScore(track, user, score);
     res.json(result);
+});
+
+//artists api
+app.get("/artists/new", async (req, res) => {
+    const cacheKey = 'newArtists';
+    const cachedArtists = cache.get(cacheKey);
+    if (cachedArtists) {
+        res.json(cachedArtists);
+    } else {
+        const newArtists = await readNewArtists();
+        cache.set(cacheKey, newArtists);
+        res.json(newArtists);
+    }
+});
+
+app.get("/artists/friends", async (req, res) => {
+    const id = req.query.spotify_id;
+    const cacheKey = 'friendsArtists';
+    const cachedArtists = cache.get(cacheKey);
+    if (cachedArtists) {
+        res.json(cachedArtists);
+    } else {
+        const friendsArtists = await readArtistsFollowedByFriendsButNotByUser(id);
+        cache.set(cacheKey, friendsArtists);
+        res.json(friendsArtists);
+    }
 });
 
 app.listen(port, () => {

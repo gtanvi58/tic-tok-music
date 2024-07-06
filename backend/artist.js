@@ -44,7 +44,7 @@ export async function readArtist(id){
  * get new artists with popularity score in a range, sorted by popularity dsc, top 5
  * @returns list of 10 new artists sorted by popularity
  */
-export async function readNewArtists(n=7, lower=15, higher=30){
+export async function readNewArtists(n=5, lower=15, higher=30){
     try {
         const client = await DbConnection.Get();
         const database = client.db(process.env.DATABASE_NAME);
@@ -87,6 +87,7 @@ export async function readNewArtists(n=7, lower=15, higher=30){
         return result_asc.slice(-n);    
     } catch (error) {
         console.error('Error in MongoDB operation:', error);
+        return {"message": "Error while retrieving new artists.. Please contact administrator."};
     }
 }
 

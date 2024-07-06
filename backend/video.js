@@ -162,6 +162,7 @@ export async function readAllVideos(){
                 
     } catch (error) {
         console.error('Error in MongoDB operation:', error);
+        return {"message": `Error while reading videos.. Please contact administrator`};
     }
 }
 

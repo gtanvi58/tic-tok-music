@@ -339,6 +339,8 @@ async function getArtistsFollwedByFriends(usersFriends, userCollection){
         } else {
             console.log("User has no friends..");
         }
+        result = new Set(result);
+        result = Array.from(result);
         return result;
     }
 
@@ -369,6 +371,7 @@ export async function readArtistsFollowedByFriendsButNotByUser(id){
 
     } catch (error) {
         console.error('Error in MongoDB operation:', error);
+        return {"message":"Error while retrieving artists.. please contact administrator"};
     }
 }
 

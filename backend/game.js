@@ -33,6 +33,7 @@ export async function getTopScoresForTrack(trackId){
         }
     } catch (error) {
         console.error('Error in MongoDB operation:', error);
+        return {"message": "Error while retrieving top scores.. Please contact administrator."};
     }
 }
 
