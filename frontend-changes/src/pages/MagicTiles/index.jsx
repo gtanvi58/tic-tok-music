@@ -377,7 +377,7 @@ const MagicTiles = () => {
                 myTiles[i].y += 1.5;
                 context.fillStyle = myTiles[i].color;
                 context.fillRect(myTiles[i].x, myTiles[i].y, 70, 120);
-                context.clearRect(myTiles[i].x, myTiles[i].y - 2, 70, 2);
+                context.clearRect(myTiles[i].x, myTiles[i].y - 1.5, 70, 2);
             }
         }
         for (let i = 0; i < numOfTiles; ++i) {

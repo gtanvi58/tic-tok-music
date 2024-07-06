@@ -3,29 +3,24 @@ import { NavLink } from "react-router-dom";
 import classNames from 'classnames/bind';
 import styles from './PlayList.scss';
 import config from '~/config';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 
 const cx = classNames.bind(styles);
 
-const playlistData = [
-    {
-        title: "All of Me",
-        subtitle: "ladies lunching<br>35K videos",
-        id: 'all-of-me'
-    },
-    {
-        title: "7 years",
-        subtitle: "ladies lunching<br>40K videos",
-        id:'7-years'
-    },
-    {
-        title: "Bad Guy",
-        subtitle: "ladies lunching<br>50K videos",
-        id: 'bad-guy'
-    }
-    // Add more items as needed
-];
-
 function PlayList() {
+
+    const [playlistData, setPlaylistData] = useState([]);
+
+    // const getPlaylistData = async () => {
+    //     const response = await axios.get('http://localhost:8080/artists/friends');
+    //     console.log("printing response data ", response)
+    //     setPlaylistData(response.data)
+    // }
+    //   useEffect(() => {
+    //     setPlaylistData();
+    // }, []);
+
     return (
         <div className={cx('playlist')}>
             <div id="playlistContainer" className={cx('playlist-container')}>

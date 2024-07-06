@@ -2,29 +2,36 @@ import React, { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import classNames from 'classnames/bind';
 import styles from './FollowingArtists.scss';
-import { FaHeart, FaMusic } from 'react-icons/fa';
+import { FaHeart, FaRegHeart, FaMusic } from 'react-icons/fa';
+import axios from 'axios';
+import { useState } from 'react';
+import DayList from './DayList';
+
 
 const cx = classNames.bind(styles);
 
-const followingArtists = [
-    'Siddarth',
-    'Rithika',
-    'Tanvi',
-    'Baar Baar Dine Yeh Aaye',
-    'Baar Baar Din Yeh Jaaye'
-];
+const spotifyId = '31abuz3whtktugepv7f26ouajmne'
 
-function FollowingArtists(){
+const FollowingArtists = (props) => {
+
+    const [followingArtists, setFollowingArtists] = useState([]);
+
+    const getFollowingArtists = async () => {
+        const response = await axios.get('http://localhost:8080/artists/friends', {
+            params: { spotify_id: spotifyId }, // Pass spotifyId as a query parameter
+        });
+        console.log("printing response data in following ", response)
+        setFollowingArtists(response.data)
+    }
+      useEffect(() => {
+        getFollowingArtists();
+    }, []);
 
     const handleFollowClick = (artist) => {
-        console.log(`Follow clicked for: ${artist}`);
+        console.log(`Follow clicked for: ${artist.username}`);
         // Perform follow action here
     };
 
-    const handleViewMusicClick = (artist) => {
-        console.log(`View music clicked for: ${artist}`);
-        // Perform view music action here
-    };
     return(
         <div className={cx('following-artists')}>
         <div className={cx('following-artists-container')}>
@@ -32,18 +39,18 @@ function FollowingArtists(){
                 {followingArtists.map((artist, index) => (
                     <div key={index} className={cx('following-artists-row')}>
                         <div className={cx('following-artists-details')}>
-                            <p className={cx('following-artists-title')}>{artist}</p>
+                            <p className={cx('following-artists-title')}>{artist.username}</p>
                         </div>
                         <div className={cx('following-artists-actions')}>
                             <button 
                                 className={cx('action-button', 'follow-button')} 
                                 onClick={() => handleFollowClick(artist)}
                             >
-                                <FaHeart />
+                                <FaRegHeart />
                             </button>
                             <button 
                                 className={cx('action-button', 'view-music-button')} 
-                                onClick={() => handleViewMusicClick(artist)}
+                                onClick={() => props.handleViewMusicClick(artist)}
                             >
                                 <FaMusic />
                             </button>

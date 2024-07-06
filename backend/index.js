@@ -7,6 +7,7 @@ import express from "express";
 import rateLimit from 'express-rate-limit';
 import NodeCache from 'node-cache';
 import helmet from "helmet";
+import cors from 'cors'
 
 // Handle process termination and gracefully close the Redis client
 // process.on('SIGINT', () => {
@@ -89,9 +90,9 @@ updateUserPreference("31ebdfyjsh5x5b3rejfp3akxdz3a");
 */
 
 const app = express();
-const port = parseInt(process.env.EXPRESS_PORT);
+const port = parseInt(process.env.EXPRESS_PORT) || 8080;
 const cache = new NodeCache({ stdTTL: 900 });
-
+console.log("printing port ", port)
 // Global rate limiter
 const apiLimiter = rateLimit({
     windowMs: 15 * 60 * 1000,
@@ -102,6 +103,7 @@ const apiLimiter = rateLimit({
 app.use(apiLimiter);
 app.use(helmet());
 app.use(express.json());
+app.use(cors())
 
 //videos api
 app.get("/videos/all", async (req, res) => {
@@ -152,7 +154,9 @@ app.get("/artists/new", async (req, res) => {
 });
 
 app.get("/artists/friends", async (req, res) => {
+    console.log("received request helloooo ", req)
     const id = req.query.spotify_id;
+    console.log("printing id ", id)
     const cacheKey = `friendsArtists:${id}`;
     const cachedArtists = cache.get(cacheKey);
     if (cachedArtists) {
