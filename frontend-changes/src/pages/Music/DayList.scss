@@ -14,13 +14,12 @@
     font-size: 3rem; /* Adjust size as needed */
     color: white;
     text-shadow: 3px 3px 0px #fe2c55; /* Pink shadow */
-                //  6px 6px 0px #fe2c55; /* Additional shadow for depth */
     font-weight: bold;
     letter-spacing: 2px; /* Adjust spacing as needed */
     margin: 10px 0; /* Adjust margins as needed */
     text-align: center; /* Center the text */
     z-index: 2;
-    margin-left:140px
+    margin-left: 140px; /* Adjust margin left as needed */
 }
 
 .container {
@@ -36,14 +35,46 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 6px; /* Space between videos */
+    gap: 20px; /* Space between videos */
     padding: 20px;
-    right:220px;
-    margin-top:70px
+    margin-top: 75px; /* Adjust margin top as needed */
 }
 
 .daylist-item {
     border-radius: 8px; /* Rounded corners for the player */
     padding: 20px;
     position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow effect */
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px); /* Example hover effect */
+    }
+}
+
+.play-game-button {
+    margin-top: 10px;
+    background-color: black; /* Example button background color */
+    color: white;
+    border: none;
+    padding: 10px 10px; /* Adjust padding as needed */
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between text and icon */
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #0056b3; /* Darker shade for hover effect */
+    }
+
+    .button-text {
+        font-size: 1.5rem; /* Adjust font size as needed */
+        font-weight: bold;
+    }
+
+    .button-icon {
+        font-size: 1.2rem; /* Adjust icon size as needed */
+    }
 }
