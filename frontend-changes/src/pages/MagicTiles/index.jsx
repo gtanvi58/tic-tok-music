@@ -11,12 +11,17 @@ const numOfTiles = 5;
 var eachState = [false, false, false, false, false];
 var myTiles = [];
 let scaledNotes = []
-
+let checkObj = {found: false, xcoord:0, ycoord:0};
+let intervalTmp;
+let geneTimeouts = [];
+let isGameOver = false;
+let executed = false;
 const MagicTiles = () => {
     const [notes, setNotes] = useState([]);
     const [myScore, setMyScore] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
     const [noteIndex, setNoteIndex] = useState(0);
+    // const [isGameOver, setIsGameOver] = useState(false);
     const audioRef = useRef(null);
     const canvasRef = useRef(null);
     const backgroundRef = useRef(null);
@@ -24,6 +29,14 @@ const MagicTiles = () => {
     const gameOverRef = useRef(null);
     const { id } = useParams();
     const audio_id = id;
+
+    const pauseGame = (content) => {
+        clearInterval(intervalTmp);
+        geneTimeouts.forEach(clearTimeout); // Clear all scheduled timeouts
+        geneTimeouts = [];
+        pauseAudio();
+        content.innerHTML = "GAME OVER";
+    }
 
     const getNotes = async (audio_id) => {
         try {
@@ -78,7 +91,6 @@ const MagicTiles = () => {
     // };
 
     const paintScoreBar = (context_score, newScore = 0) => {
-        console.log("in score bar");
     
         // Clear the entire canvas
         context_score.clearRect(0, 0, context_score.canvas.width, context_score.canvas.height);
@@ -100,12 +112,10 @@ const MagicTiles = () => {
         const centerX = context_score.canvas.width / 2;
         const centerY = context_score.canvas.height / 2;
     
-        console.log("printing my score in score bar ", newScore);
         context_score.fillText(newScore.toString(), centerX, centerY);
     };
 
     const paintGameOver = (context_game_over) => {
-        console.log("in score bar");
 
     // Clear the entire canvas
     context_game_over.clearRect(0, 0, context_game_over.canvas.width, context_game_over.canvas.height);
@@ -115,7 +125,8 @@ const MagicTiles = () => {
     game_over_gradient.addColorStop(0, "rgba(74,171,254,0)");
     game_over_gradient.addColorStop(0.5, "rgba(74,84,254,0)");
     game_over_gradient.addColorStop(1, "rgba(116,74,254,0)");
-    context_game_over.fillStyle = game_over_gradient;
+    // context_game_over.fillStyle = game_over_gradient;
+    context_game_over.fillStyle = "black";
     context_game_over.fillRect(0, 0, context_game_over.canvas.width, context_game_over.canvas.height);
 
     // Draw "Game Over" text on the right-hand side
@@ -200,6 +211,61 @@ const MagicTiles = () => {
         // context_back.fillText(myScore.toString(),100,50);
     };
 
+    const checkIfBlock = (x,y) =>{
+        console.log("inside check block")
+        let flag = false;
+        for(let i=0;i<numOfTiles;i++){
+            if(myTiles[i] && myTiles[i].isClicked(x,y)){
+                myTiles[i].blockClicked();
+                flag=true;
+                return;
+            }
+        }
+        if(!flag){
+            noBlockClicked();
+        }
+    }
+
+    const noBlockClicked = () => {
+        console.log("wrong click check")
+                console.log("printing check stuff ", checkObj)
+                pauseGame(document.getElementById("start_btn"))
+                paintGameOver(gameOverRef.current.getContext('2d'))
+                isGameOver = true;
+    }
+    const handleMouseDown = (event) => {
+        console.log("mouse downn");
+        const canvas = canvasRef.current;
+        const rect = canvas.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        checkIfBlock(x,y)
+
+        // let checkClicked = this.isClicked(x,y);
+        // console.log("printing checkClicked ", checkClicked)
+        // if(!checkClicked){
+        //     console.log("wrong  hi")
+        // }
+        
+        // if(checkObj.found == true && checkObj.xcoord != event.clientX || checkObj.ycoord != event.clientY){
+        //     checkObj.found = false;
+        //     checkObj.xcoord = 0;
+        //     checkObj.ycoord = 0;
+        // }
+    //     checkIfBlock(x,y);
+    //     // let checkVal = this.isClicked(x, y);
+    //     // if (checkVal) {
+            
+    //     // } else{
+    //     //     if(executed == true && checkObj.found == false ){
+    //     //         console.log("wrong click check")
+    //     //         console.log("printing check stuff ", checkObj)
+    //     //         pauseGame(document.getElementById("start_btn"))
+    //     //         paintGameOver(gameOverRef.current.getContext('2d'))
+    //     //         isGameOver = true;
+    //     //     }
+    //     // }
+    }
     class Block {
         constructor(index, context) {
             if (!eachState[index]) eachState[index] = true;
@@ -236,48 +302,48 @@ const MagicTiles = () => {
             this.context.fillStyle = this.color;
             this.context.fillRect(this.x, this.y, this.width, this.height);
             this.live = true;
-            canvasRef.current.addEventListener('mousedown', (event) => this.handleMouseDown(event));
-            canvasRef.current.addEventListener('mouseup', (event) => this.handleMouseUp(event));
+            // this.setupEventListeners();
         }
+
+        // setupEventListeners() {
+        //     canvasRef.current.addEventListener('click', this.handleMouseDown);
+        //     // canvasRef.current.addEventListener('mouseup', this.handleMouseUp);
+        // }
+
+        // removeEventListeners() {
+        //     canvasRef.current.removeEventListener('click', this.handleMouseDown);
+        //     // canvasRef.current.removeEventListener('mouseup', this.handleMouseUp);
+        // }
     
-        handleMouseDown(event) {
-            console.log("mouse downn");
-            const canvas = canvasRef.current;
-            const rect = canvas.getBoundingClientRect();
-            const x = event.clientX - rect.left;
-            const y = event.clientY - rect.top;
-    
-            if (this.isClicked(x, y)) {
-                console.log("drag start");
-                setMyScore(prevScore => {
-                    const newScore = prevScore + 1;
-                    paintScoreBar(scoreBarRef.current.getContext('2d'), newScore);
-                    return newScore;
-                });
-                console.log("printing my score ", myScore);
-                this.color = "white"; // Change the color when clicked
-                this.context.fillStyle = this.color;
-                this.context.fillRect(this.x, this.y, this.width, this.height);
-            } else {
-                console.log("wrong click helloo");
-                paintGameOver(gameOverRef.current.getContext('2d'));
-            }
-        }
-    
-        handleMouseUp(event) { 
-            console.log('mouse up');
+        handleMouseUp = (event) => { 
+            // console.log('mouse up');
             // Additional logic for mouse up if needed
         }
     
         isClicked(x, y) {
-            console.log("printing tile x and y bounds", this.x, this.x + this.width, this.y, this.y + this.height);
-            return (
-                x >= this.x &&
-                x <= this.x + this.width &&
-                y >= this.y &&
-                y <= this.y + this.height
-            );
+            let returnval =  x >= this.x &&
+            x <= this.x + this.width &&
+            y >= this.y &&
+            y <= this.y + this.height;
+            executed = true;
+            console.log("executed")
+            return returnval;
         }
+        blockClicked(){
+            console.log("drag start");
+                setMyScore(prevScore => {
+                    console.log("printing prev score ", prevScore)
+                    const newScore = prevScore + 1;
+                    paintScoreBar(scoreBarRef.current.getContext('2d'), newScore);
+                    return newScore;
+                });
+                this.color = "white"; // Change the color when clicked
+                this.context.fillStyle = this.color;
+                this.context.fillRect(this.x, this.y, this.width, this.height);
+                
+                console.log("inside true")
+        }
+        
     }
     
 
@@ -320,6 +386,7 @@ const MagicTiles = () => {
                     context.clearRect(myTiles[i].x, myTiles[i].y, 70, 120);
                     myTiles[i].live = false;
                     eachState[i] = false;
+                    // myTiles[i].removeEventListeners();
                 }
             }
         }
@@ -382,6 +449,7 @@ const MagicTiles = () => {
     //         clearInterval(geneTmp);
     //     };
     // }, [notes, isPlaying]);
+
     useEffect(() => {
         const c = canvasRef.current;
         const context = c.getContext("2d");
@@ -394,10 +462,9 @@ const MagicTiles = () => {
     
         paintWindow(context_back);
         paintScoreBar(context_score);
+        // paintGameOver(context_game_over);
         // getNotesInfo();
     
-        let intervalTmp;
-        let geneTimeouts = [];
     
         const handleStartPause = () => {
             let content = document.getElementById("start_btn");
@@ -420,19 +487,17 @@ const MagicTiles = () => {
                 playAudio();
                 content.innerHTML = "PAUSE";
             } else {
-                clearInterval(intervalTmp);
-                geneTimeouts.forEach(clearTimeout); // Clear all scheduled timeouts
-                geneTimeouts = [];
-                pauseAudio();
-                content.innerHTML = "START";
+                pauseGame(content);
             }
         };
         
         
     
         document.getElementById('btn').addEventListener('click', handleStartPause);
+        canvasRef.current.addEventListener('click', handleMouseDown);
     
         return () => {
+            canvasRef.current.removeEventListener('click', handleMouseDown);
             document.getElementById('btn').removeEventListener('click', handleStartPause);
             clearInterval(intervalTmp);
             geneTimeouts.forEach(clearTimeout);
