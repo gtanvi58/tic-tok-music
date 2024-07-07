@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import classNames from 'classnames/bind';
 import styles from './NewArtistsLeaderBoard.scss';
-import { FaHeart, FaMusic } from 'react-icons/fa';
-import config from '../../config';
+import { FaHeart, FaRegHeart, FaMusic } from 'react-icons/fa';
+import config from '~/config';
 import axios from 'axios';
 import { useState } from 'react';
 
@@ -16,16 +16,28 @@ const NewArtistsLeaderBoard = (props) => {
 
     const getNewArtistsLeaderBoard = async () => {
         const response = await axios.get('http://localhost:8080/artists/new');
-        console.log("printing response data ", response)
-        setNewArtistsLeaderBoard(response.data)
+        let updatedResp = response.data.map(artist => ({
+            ...artist,
+            isFollowed: false
+        }));
+        console.log("printing response data ", updatedResp)
+        setNewArtistsLeaderBoard(updatedResp)
     }
+
       useEffect(() => {
         getNewArtistsLeaderBoard();
     }, []);
 
-    const handleFollowClick = (artist) => {
-        console.log(`Follow clicked for: ${artist}`);
-        // Perform follow action here
+    const updateNewArtistsLeaderBoard = (artist) => {
+        console.log("Inside update new for artist:", artist);
+        setNewArtistsLeaderBoard(prevFollowingArtists => {
+            let updatedArtists = prevFollowingArtists.map(data =>
+                artist.spotify_id === data.spotify_id ? { ...data, isFollowed: !data.isFollowed } : data
+            );
+            console.log("Updated new artists:", updatedArtists);
+            return updatedArtists;
+        });
+        props.handleFollowClick(artist);
     };
 
     return(
@@ -41,9 +53,9 @@ const NewArtistsLeaderBoard = (props) => {
                         <div className={cx('rec-artists-actions')}>
                             <button 
                                 className={cx('action-button', 'follow-button')} 
-                                onClick={() => handleFollowClick(item.username)}
+                                onClick={() => updateNewArtistsLeaderBoard(item)}
                             >
-                                <FaHeart />
+                               {item.isFollowed ? <FaHeart /> : <FaRegHeart />}
                             </button>
                             <button 
                                 className={cx('action-button', 'view-music-button')} 

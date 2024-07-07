@@ -20,6 +20,7 @@ const Music = () => {
     ]);
 
     const handleViewMusicClick = async (spotifyId) => {
+        
         const artistResponse = await axios.get('http://localhost:8080/artists/videos', {
             params: { spotify_id: spotifyId }, // Pass spotifyId as a query parameter
         });
