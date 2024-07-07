@@ -20,35 +20,8 @@ const RecommendedArtists = (props) => {
     const [recommendedArtists, setRecommendedArtists] = useState([]);
 
     const getRecommendedArtists = async () => {
-        // const response = await axios.post('http://localhost:8001/artists/recommended', {username: "Tanvi" });
-        let recArtists = [
-            {
-                "Track_ID": "4um6ZMnib1I7VuG3c6jGm5",
-                "Track_Name": "Open The Eyes Of My Heart - Live",
-                "Artist_Names": [
-                    "Michael W. Smith"
-                ],
-                "Creator_Artist_IDs": [
-                    "5aBxFPaaGk9204ssHUvXWN"
-                ],
-                "Creation_Time": "2001",
-                "CDN_URL": "https://open.spotify.com/track/4um6ZMnib1I7VuG3c6jGm5",
-                "youtube_link": "https://www.youtube.com/watch?v=yxq_6prPABs"
-            },
-            {
-                "Track_ID": "1F3d4lh6ukhP4GWb1cX49U",
-                "Track_Name": "Love",
-                "Artist_Names": [
-                    "Gods Property"
-                ],
-                "Creator_Artist_IDs": [
-                    "3xtft29VZ2knyu7dEC9N7X"
-                ],
-                "Creation_Time": "1997",
-                "CDN_URL": "https://open.spotify.com/track/1F3d4lh6ukhP4GWb1cX49U",
-                "youtube_link": "https://www.youtube.com/watch?v=wazZoA4CnqA"
-            }]
-        let updatedResp = recArtists.map(artist => ({
+        const response = await axios.post('http://localhost:8001/artists/recommended', {username: "Tanvi" });
+        let updatedResp = response.data.map(artist => ({
             ...artist,
             isFollowed: false
         }));
