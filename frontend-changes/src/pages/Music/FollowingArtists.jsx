@@ -1,40 +1,49 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink } from "react-router-dom";
 import classNames from 'classnames/bind';
 import styles from './FollowingArtists.scss';
 import { FaHeart, FaRegHeart, FaMusic } from 'react-icons/fa';
 import axios from 'axios';
-import { useState } from 'react';
 import DayList from './DayList';
-
 
 const cx = classNames.bind(styles);
 
-const spotifyId = '31abuz3whtktugepv7f26ouajmne'
+const spotifyId = '31abuz3whtktugepv7f26ouajmne';
 
 const FollowingArtists = (props) => {
-
     const [followingArtists, setFollowingArtists] = useState([]);
 
     const getFollowingArtists = async () => {
         const response = await axios.get('http://localhost:8080/artists/friends', {
-            params: { spotify_id: spotifyId }, // Pass spotifyId as a query parameter
+            params: { spotify_id: spotifyId },
         });
-        console.log("printing response data in following ", response)
-        setFollowingArtists(response.data)
-    }
-      useEffect(() => {
+        let updatedResp = response.data.map(artist => ({
+            ...artist,
+            isFollowed: false
+        }));
+        setFollowingArtists(updatedResp);
+    };
+
+    const updateFollowArtist = (artist) => {
+        console.log("Inside update follow for artist:", artist);
+        setFollowingArtists(prevFollowingArtists => {
+            let updatedArtists = prevFollowingArtists.map(data =>
+                artist.spotify_id === data.spotify_id ? { ...data, isFollowed: !data.isFollowed } : data
+            );
+            console.log("Updated artists:", updatedArtists);
+            return updatedArtists;
+        });
+        props.handleFollowClick(artist);
+    };
+    
+
+    useEffect(() => {
         getFollowingArtists();
     }, []);
 
-    const handleFollowClick = (artist) => {
-        console.log(`Follow clicked for: ${artist.username}`);
-        // Perform follow action here
-    };
-
-    return(
+    return (
         <div className={cx('following-artists')}>
-        <div className={cx('following-artists-container')}>
+            <div className={cx('following-artists-container')}>
                 <div className={cx('following-artists-header')}>YOUR FRIENDS ALSO FOLLOW</div>
                 {followingArtists.map((artist, index) => (
                     <div key={index} className={cx('following-artists-row')}>
@@ -44,9 +53,9 @@ const FollowingArtists = (props) => {
                         <div className={cx('following-artists-actions')}>
                             <button 
                                 className={cx('action-button', 'follow-button')} 
-                                onClick={() => handleFollowClick(artist)}
+                                onClick={() => updateFollowArtist(artist)}
                             >
-                                <FaRegHeart />
+                                {artist.isFollowed ? <FaHeart /> : <FaRegHeart />}
                             </button>
                             <button 
                                 className={cx('action-button', 'view-music-button')} 
@@ -57,9 +66,9 @@ const FollowingArtists = (props) => {
                         </div>
                     </div>
                 ))}
+            </div>
         </div>
-    </div>
-    )
-}
+    );
+};
 
 export default FollowingArtists;
