@@ -169,9 +169,14 @@ function PlayList(props) {
                                 <button className={cx('action-button')} onClick={() => getTrackScores(item.trackId, item.trackName)}>
                                     <FaTrophy /> View Leaderboard
                                 </button>
-                                <button className={cx('action-button')}>
-                                    <FaGamepad /> Play Game
-                                </button>
+                                {/* <button className={cx('action-button')} onClick={() => <NavLink
+                                to={config.routes.magicTiles(videoId)}
+                                key={videoId}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ></NavLink>}> */}
+                                    {/* <FaGamepad /> Play Game
+                                </button> */}
                             </div>
                         </div>
                     );
