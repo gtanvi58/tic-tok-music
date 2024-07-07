@@ -1,0 +1,11 @@
+SPOTIFY_CLIENT_ID=<your spotify client id>
+SPOTIFY_CLIENT_SECRET=<your spotify client secret>
+SPOTIFY_REDIRECT_URI=<the redirect uri mentioned in spotify>
+SPOTIFY_SCOPE=<your spotify scope>
+
+YOUTUBE_DEVELOPER_API_KEY=<your google developer console api key for youtube data api> 
+
+MONGODB_USERNAME=<your mongo db username>
+MONGODB_PASSWORD=<your mongo db password>
+MONGODB_CLUSTER_URI=<your mongo db cluster uri>
+MONGODB_DATABASE=<your mongo db database/app name>

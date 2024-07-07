@@ -1,28 +1,3 @@
-
-
-from fastapi import FastAPI
-
-
-
-app = FastAPI(title="thic-tok Api", description="with FastAPI and ColabCode", version="1.0")
-
-import spotipy
-from spotipy.oauth2 import SpotifyOAuth
-
-# Replace these with your actual Spotify API credentials
-CLIENT_ID = '84ff4811631e47f7b326bbc00367e34a'
-CLIENT_SECRET = 'f3446efc0e78413f88f61f566a918be9'
-REDIRECT_URI = 'http://localhost:8888/callback' # Ensure this matches the redirect URI set in your Spotify app
-
-# Define the scope of the permissions your app needs
-SCOPE = 'user-library-read user-top-read'
-
-# Create the SpotifyOAuth object
-sp_oauth = SpotifyOAuth(client_id=CLIENT_ID,
-                        client_secret=CLIENT_SECRET,
-                        redirect_uri=REDIRECT_URI,
-                        scope=SCOPE)
-
 # # Get the authorization URL
 # auth_url = sp_oauth.get_authorize_url()
 # print("Please navigate here to authorize:", auth_url)
@@ -42,7 +17,9 @@ sp_oauth = SpotifyOAuth(client_id=CLIENT_ID,
 # sp = spotipy.Spotify(auth=access_token)
 
 # print('ACCESS TOKEN!!!!!!:  ',access_token)
-
+from fastapi import FastAPI
+import spotipy
+from spotipy.oauth2 import SpotifyOAuth
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import spotipy
@@ -57,6 +34,13 @@ from pymongo.server_api import ServerApi
 import urllib.parse
 from typing import List, Optional
 from fastapi.middleware.cors import CORSMiddleware
+from cachetools import TTLCache
+from dotenv import load_dotenv
+import os
+from googleapiclient.discovery import build
+
+# Load environment variables from .env file into the script's environment
+load_dotenv()
 
 # Define the FastAPI app
 app = FastAPI()
@@ -81,15 +65,23 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+cache = TTLCache(maxsize=100, ttl=900)
+
 # Spotify API credentials
-CLIENT_ID = '84ff4811631e47f7b326bbc00367e34a'
-CLIENT_SECRET = 'f3446efc0e78413f88f61f566a918be9'
-REDIRECT_URI = 'http://localhost:8888/callback'
-SCOPE = 'user-library-read user-top-read'
+CLIENT_ID = os.getenv('SPOTIFY_CLIENT_ID')
+CLIENT_SECRET = os.getenv('SPOTIFY_CLIENT_SECRET')
+REDIRECT_URI = os.getenv('SPOTIFY_REDIRECT_URI')
+SCOPE = os.getenv('SPOTIFY_SCOPE')
+
+# Create the SpotifyOAuth object
+sp_oauth = SpotifyOAuth(client_id=CLIENT_ID,
+                        client_secret=CLIENT_SECRET,
+                        redirect_uri=REDIRECT_URI,
+                        scope=SCOPE)
 
 # YouTube API key
-api_key = 'AIzaSyDW3RrQP-17OMNqE3W2c-OeBanvmkTVeGE'
-from googleapiclient.discovery import build
+api_key = os.getenv('YOUTUBE_DEVELOPER_API_KEY')
+
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Define genres map
@@ -117,9 +109,9 @@ genres_map = [
 ]
 
 # MongoDB connection URI
-username = urllib.parse.quote_plus('tanvigupta')
-password = urllib.parse.quote_plus('YolandaBeCool@1234')
-cluster_uri = "thic-tok.w1sg5aq.mongodb.net/?retryWrites=true&w=majority&appName=thic-tok"
+username = urllib.parse.quote_plus(os.getenv('MONGODB_USERNAME'))
+password = urllib.parse.quote_plus(os.getenv('MONGODB_PASSWORD'))
+cluster_uri = os.getenv('MONGODB_CLUSTER_URI')
 
 uri = f"mongodb+srv://{username}:{password}@{cluster_uri}"
 
@@ -127,7 +119,7 @@ uri = f"mongodb+srv://{username}:{password}@{cluster_uri}"
 client = MongoClient(uri, server_api=ServerApi('1'))
 
 # Database and collections
-db = client['thic-tok']
+db = client[os.getenv('MONGODB_DATABASE')]
 artist_db = db['artists']
 users_db = db['users']
 tracks_db = db['videos']
@@ -252,6 +244,10 @@ class RecommendationRequest(BaseModel):
 async def get_daylist(request: RecommendationRequest):
     username = request.username
     token = request.token
+    cacheKey = str(username)+"_data"
+    if cacheKey in cache:
+        print("data retrieved from cache")
+        return cache[cacheKey]
 
     # Authenticate with Spotify
     sp = spotipy.Spotify(auth=token)
@@ -375,6 +371,8 @@ async def get_daylist(request: RecommendationRequest):
     daylist_json = df.to_dict(orient='records')
 
     # Return the daylist as JSON object
+    cache[cacheKey] = daylist_json
+    print("Data fetched from source and cached")
     return daylist_json
 
 # Define request body model
