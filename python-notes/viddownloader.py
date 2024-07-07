@@ -42,7 +42,7 @@ def download_youtube_to_mp3(url, output_path1, output_path2):
         logger.error(f"Error downloading or converting YouTube video: {e}")
         raise
 
-@app.post("/download/mp3")
+# @app.post("/download/mp3")
 async def download_mp3(request: Url):
     timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
     output_filename = f'output.mp3'

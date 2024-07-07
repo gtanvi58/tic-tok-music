@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import classNames from 'classnames/bind';
 import styles from './MagicTiles.scss';
-import allOfMe from './audio_with_clicks_filtered.wav';
+import audioFile from '../../../src/play-music/output.mp3';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
@@ -50,7 +50,7 @@ const MagicTiles = () => {
 
     useEffect(() => {
         getNotes(audio_id);
-    }, [audio_id]);
+    }, []);
 
     // const getNotesInfo = () => {
     //     if (notes.length > 0) {
@@ -487,7 +487,12 @@ const MagicTiles = () => {
                 playAudio();
                 content.innerHTML = "PAUSE";
             } else {
-                pauseGame(content);
+
+                clearInterval(intervalTmp);
+                geneTimeouts.forEach(clearTimeout); // Clear all scheduled timeouts
+                geneTimeouts = [];
+                pauseAudio();
+                content.innerHTML = "START";
             }
         };
         
@@ -512,7 +517,7 @@ const MagicTiles = () => {
 
 <canvas className={cx('background')} ref={backgroundRef} id="background" width="300" height="600"></canvas>
             <canvas className={cx('piano')} ref={canvasRef} id="piano" width="300" height="600"></canvas>
-            <audio ref={audioRef} src={allOfMe} />
+            <audio ref={audioRef} src={audioFile} />
 
             <div className={cx('btn')} id="btn">
                 <span className={cx('start_btn')} id="start_btn">START</span>

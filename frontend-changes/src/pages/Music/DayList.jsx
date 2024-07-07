@@ -24,6 +24,13 @@ const handlePlayGame = (audio_id) => {
 
 const DayList = (props) => {
 
+    const getVideoId = (url) => {
+        // Example URL: https://www.youtube.com/watch?v=yxq_6prPABs
+        const params = new URLSearchParams(new URL(url).search);
+        console.log("printing param ", params.get('v'))
+        return params.get('v'); // Extracts 'yxq_6prPABs'
+    };
+
     // const {youTubeLinks} = props;
     console.log("printing youtube links ", props.youTubeLinks)
     return (
@@ -33,8 +40,12 @@ const DayList = (props) => {
             </div>
             <div className={cx('container')}>
                 <div className={cx('daylist')}>
-                    {props.youTubeLinks.map((url, index) => (
-                        <div key={index} className={cx('daylist-item')}>
+                    {props.youTubeLinks.length > 0 && props.youTubeLinks.map((url, index) => {
+                        console.log("printing url ", url)
+                        const videoId = getVideoId(url);
+                        console.log("printing video id ", videoId)
+                        return (
+                            <div key={index} className={cx('daylist-item')}>
                             <ReactPlayer
                                 url={url}
                                 light={true}
@@ -43,12 +54,12 @@ const DayList = (props) => {
                                 className={cx('player')}
                             />
                             <NavLink
-                                to={config.routes.magicTiles('bad-guy')}
-                                key={'bad-guy'}
+                                to={config.routes.magicTiles(videoId)}
+                                key={videoId}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <button className={cx('play-game-button')} onClick={() => handlePlayGame('bad-guy')}>
+                                <button className={cx('play-game-button')} onClick={() => handlePlayGame(videoId)}>
                                     <FcMusic className={cx('button-icon')} />
                                     <span className={cx('button-text')}>
                                         Play Magic Tiles
@@ -56,7 +67,9 @@ const DayList = (props) => {
                                 </button>
                             </NavLink>
                         </div>
-                    ))}
+                        )
+                    }
+                    )}
                 </div>
             </div>
         </div>
