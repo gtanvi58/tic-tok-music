@@ -21,17 +21,27 @@ const RecommendedArtists = (props) => {
 
     const getRecommendedArtists = async () => {
         const response = await axios.post('http://localhost:8001/artists/recommended', {username: "Tanvi" });
-        console.log("printing response data ", response)
-        setRecommendedArtists(response.data)
+        let updatedResp = response.data.map(artist => ({
+            ...artist,
+            isFollowed: false
+        }));
+        setRecommendedArtists(updatedResp);
+    }
+
+    const updateRecommendedArtist = (artist) => {
+        console.log("Inside update recommended for artist:", artist);
+        setRecommendedArtists(prevFollowingArtists => {
+            let updatedArtists = prevFollowingArtists.map(data =>
+                artist.SpotifyId === data.SpotifyId ? { ...data, isFollowed: !data.isFollowed } : data
+            );
+            console.log("Updated artists:", updatedArtists);
+            return updatedArtists;
+        });
+        props.handleFollowClick(artist);
     }
       useEffect(() => {
         getRecommendedArtists();
     }, []);
-
-    const handleFollowClick = (artist) => {
-        console.log(`Follow clicked for: ${artist}`);
-        // Perform follow action here
-    };
 
     return (
         <div className={cx('rec-artists')}>
@@ -45,9 +55,9 @@ const RecommendedArtists = (props) => {
                         <div className={cx('rec-artists-actions')}>
                             <button 
                                 className={cx('action-button', 'follow-button')} 
-                                onClick={() => handleFollowClick(artist)}
+                                onClick={() => updateRecommendedArtist(artist)}
                             >
-                                <FaHeart />
+                                {artist.isFollowed ? <FaHeart /> : <FaRegHeart />}
                             </button>
                             <button 
                                 className={cx('action-button', 'view-music-button')} 
