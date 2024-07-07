@@ -28,7 +28,7 @@ const DayList = (props) => {
     console.log("printing youtube links ", props.youTubeLinks)
     return (
         <div>
-            <div className={cx('banner')}>
+            <div className={cx('banner')} onClick={() => props.toggleDaylist()}>
                 <h1 className={cx('fancy-title')}>Your Daily Recommendations</h1>
             </div>
             <div className={cx('container')}>

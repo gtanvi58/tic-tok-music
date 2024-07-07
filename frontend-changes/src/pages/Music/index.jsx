@@ -10,14 +10,31 @@ import DayList from './DayList'
 import axios from 'axios';
 
 const cx = classNames.bind(styles);
+const access_token = 'BQBd8jG_9XTRhR8eZyRThlvz_e5ZEcKiYA_jATTkbGhZzI1V6uEzjZHKCPtLl3FtLIDYc_WlG65JYFfa88FDccgXCIm2jUnzbGD238iAN3BlyPTOHoa6lVGkVjFUJ3rqch2ouZpNG4VxkSCW0QHKKDaepomGrVBbBy9V21wQ0xVy0rfRSVAoJP0-aToUETR4z7ebc_tyI89wX0DjyU51wQau1O7i';
 
 const Music = () => {
     console.log("inside music")
-    const [youTubeLinks, setYouTubeLinks] = useState([
-        'https://www.youtube.com/watch?v=LXb3EKWsInQ',
-        'https://www.youtube.com/watch?v=ysz5S6PUM-U',
-        'https://www.youtube.com/watch?v=ScMzIvxBSi4'
+    
+    const [daylist, setDaylist] = useState([
     ]);
+    const [isDaylistClicked, setIsDaylistClicked] = useState(true);
+    const [youTubeLinks, setYouTubeLinks] = useState([
+    ]);
+
+    const getDailyList = async () => {
+        const songs = await axios.post('http://localhost:8001/playlists/daylist', { "username": "Tanvi", "token": access_token });
+        console.log("printing response data ", songs);
+        var urls = [];
+        for(let song of songs.data){
+            urls.push(song.youtube_link);
+        }
+        setDaylist(urls);
+        //setYouTubeLinks(urls);
+    }
+
+    useEffect(() => {
+        getDailyList();
+    }, []);
 
     const handleViewMusicClick = async (spotifyId) => {
         
@@ -28,7 +45,13 @@ const Music = () => {
         let ytLinks = artistResponse.data.map(data => data.youtube_link);
         console.log("printing youtube links in following ", ytLinks);
         setYouTubeLinks(ytLinks);
+        setIsDaylistClicked(false);
     };
+
+    const toggleDaylist =  () => {
+        setIsDaylistClicked(true);
+    };
+    
 
     const handleFollowClick = async (artist) => {
         console.log("inside follow click")
@@ -50,7 +73,7 @@ const Music = () => {
             <NewArtistsLeaderBoard handleViewMusicClick={handleViewMusicClick} handleFollowClick={handleFollowClick}/>
             </div>
             <div className={cx('daylist')}>
-            <DayList youTubeLinks={youTubeLinks} handleFollowClick={handleFollowClick}/>
+            <DayList youTubeLinks={isDaylistClicked? daylist:youTubeLinks } handleFollowClick={handleFollowClick} toggleDaylist={toggleDaylist}/>
             </div>
         </div>
         

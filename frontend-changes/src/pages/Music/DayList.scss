@@ -1,5 +1,6 @@
 .banner {
     position: fixed;
+    
     top: 60px;
     left: 0;
     width: 100vw; /* 100% of the viewport width */
@@ -7,6 +8,11 @@
     padding: 0.1px; /* Adjust padding as needed */
     text-align: center; /* Center the text within the banner */
     z-index: 1000; /* Ensures the banner is above other elements */
+}
+
+.banner:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .fancy-title {
