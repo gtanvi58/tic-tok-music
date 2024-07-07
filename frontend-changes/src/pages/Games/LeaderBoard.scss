@@ -5,6 +5,24 @@
     padding: 20px;
     margin-top:20px
 }
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing as needed */
+}
+
+.chart-header, .score-header, .song-header {
+    color: #ffffff;
+    font-size: 18px;
+    flex: 1; /* Distribute space evenly among headers */
+    text-align: center; /* Adjust alignment as needed */
+}
+// .song-header {
+//     color: #ffffff;
+//     font-size: 18px;
+//     text-align: center;
+// }
+
 .chart-container {
     max-width: 800px;
     margin: 0 auto;
@@ -17,16 +35,16 @@
     background-color: #fe2c55;
     padding: 10px 20px;
 }
-.chart-header {
-    color: #ffffff;
-    font-size: 18px;
-    text-align: left;
-}
-.score-header {
-    color: #ffffff;
-    font-size: 18px;
-    text-align: right;
-}
+// .chart-header {
+//     color: #ffffff;
+//     font-size: 18px;
+//     text-align: left;
+// }
+// .score-header {
+//     color: #ffffff;
+//     font-size: 18px;
+//     text-align: right;
+// }
 .chart-row {
     display: flex;
     align-items: center;

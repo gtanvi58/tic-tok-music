@@ -125,6 +125,7 @@ const Music = () => {
         
         setDaylist(urls);
         console.log("printing urls ", urls)
+        setDaylist(urls);
         //setYouTubeLinks(urls);
     }
 
