@@ -66,7 +66,7 @@ export async function readNewArtists(n=5, lower=15, higher=30){
         var artistInfo = [];
 
         cursorArray.map((artist)=>{
-             const popularity = (((1.5*artist.total_likes_count) + artist.total_views_count + (1.8*artist.total_share_count))/artist.total_video_count) + artist.popularity_score + artist.tiktok_follower_count + artist.spotify_follower_count;
+             const popularity = 10000 * (((1.5*artist.total_likes_count) + 2*artist.total_views_count + (1.8*artist.total_share_count))/(3 * (artist.tiktok_follower_count + artist.spotify_follower_count) + 3 * artist.popularity_score));
              const artistInfoObject = {
                 "username": artist.Username,
                 "spotify_id": artist.SpotifyId,
