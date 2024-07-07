@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 import styles from './DayList.scss';
 import classNames from 'classnames/bind';
 import { FcMusic } from "react-icons/fc";
-import config from '~/config';
+import config from '../../config';
 import { NavLink } from "react-router-dom";
 
 const cx = classNames.bind(styles);
@@ -39,7 +39,7 @@ const DayList = (props) => {
                                 url={url}
                                 light={true}
                                 width={'400px'}
-                                height={'550px'}
+                                height={'400px'}
                                 className={cx('player')}
                             />
                             <NavLink

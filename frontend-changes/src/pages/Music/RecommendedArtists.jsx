@@ -15,29 +15,22 @@ const cx = classNames.bind(styles);
 //     'Baar Baar Din Yeh Jaaye'
 // ];
 
-function RecommendedArtists() {
+const RecommendedArtists = (props) => {
 
     const [recommendedArtists, setRecommendedArtists] = useState([]);
 
-    // const getRecommendedArtists = async () => {
-    //     const response = await axios.get('https://efa7-104-196-62-10.ngrok-free.app/get_new_artist/', {
-    //         params: { username: "Tanvi" }, // Pass spotifyId as a query parameter
-    //     });
-    //     console.log("printing response data ", response)
-    //     setRecommendedArtists(response.data)
-    // }
-    //   useEffect(() => {
-    //     getRecommendedArtists();
-    // }, []);
+    const getRecommendedArtists = async () => {
+        const response = await axios.post('http://localhost:8001/artists/recommended', {username: "Tanvi" });
+        console.log("printing response data ", response)
+        setRecommendedArtists(response.data)
+    }
+      useEffect(() => {
+        getRecommendedArtists();
+    }, []);
 
     const handleFollowClick = (artist) => {
         console.log(`Follow clicked for: ${artist}`);
         // Perform follow action here
-    };
-
-    const handleViewMusicClick = (artist) => {
-        console.log(`View music clicked for: ${artist}`);
-        // Perform view music action here
     };
 
     return (
@@ -58,7 +51,7 @@ function RecommendedArtists() {
                             </button>
                             <button 
                                 className={cx('action-button', 'view-music-button')} 
-                                onClick={() => handleViewMusicClick(artist)}
+                                onClick={() => props.handleViewMusicClick(artist.SpotifyId)}
                             >
                                 <FaMusic />
                             </button>

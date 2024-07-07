@@ -50,7 +50,7 @@ const FollowingArtists = (props) => {
                             </button>
                             <button 
                                 className={cx('action-button', 'view-music-button')} 
-                                onClick={() => props.handleViewMusicClick(artist)}
+                                onClick={() => props.handleViewMusicClick(artist.spotify_id)}
                             >
                                 <FaMusic />
                             </button>

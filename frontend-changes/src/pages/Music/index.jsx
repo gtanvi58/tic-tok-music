@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { NavLink } from "react-router-dom";
 import classNames from 'classnames/bind';
 import styles from './Music.scss';
-import config from '~/config';
+import config from '../../config';
 import RecommendedArtists from './RecommendedArtists';
 import FollowingArtists from './FollowingArtists';
 import NewArtistsLeaderBoard from './NewArtistsLeaderBoard';
@@ -19,11 +19,9 @@ const Music = () => {
         'https://www.youtube.com/watch?v=ScMzIvxBSi4'
     ]);
 
-    const handleViewMusicClick = async (artist) => {
-        console.log(`View music clicked for: ${artist.username}`);
-        const { spotify_id } = artist
+    const handleViewMusicClick = async (spotifyId) => {
         const artistResponse = await axios.get('http://localhost:8080/artists/videos', {
-            params: { spotify_id: spotify_id }, // Pass spotifyId as a query parameter
+            params: { spotify_id: spotifyId }, // Pass spotifyId as a query parameter
         });
 
         let ytLinks = artistResponse.data.map(data => data.youtube_link);

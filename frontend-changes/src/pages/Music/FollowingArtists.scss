@@ -1,15 +1,16 @@
 .following-artists {
- 
     font-family: Arial, sans-serif;
-    margin: 0;
     padding: 10px;
     left: 200px;
     bottom:0px;
     position:fixed;
     margin-bottom:30px;
-    width:350px;
-    top:460px
-    // margin-top:70px
+    width: 400px;
+    height: 200px;
+    max-width: 100%;
+    top:460px;
+    margin-top:10px;
+    overflow-y: auto;
 }
 .following-artists-container {
 max-width: 800px;
@@ -17,7 +18,6 @@ margin: 0 auto;
 background-color: #ffffff;
 border: 1px solid #e0e0e0;
 border-radius: 8px;
-overflow: hidden;
 }
 .header-container{
 background-color: #fe2c55;

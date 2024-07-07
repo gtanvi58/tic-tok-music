@@ -4,9 +4,12 @@
     padding: 20px;
     left: 200px;
     position: fixed;
-    margin-top: 35px;
+    margin-top: 10px;
+    height: 200px;
     left: 200px;
-    width:350px
+    width: 400px;
+    max-width: 100%;
+    overflow-y: auto;
 }
 .rec-artists-container {
     max-width: 800px;
