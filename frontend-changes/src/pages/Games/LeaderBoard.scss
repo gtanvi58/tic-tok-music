@@ -11,11 +11,32 @@
     justify-content: space-between; /* Adjust spacing as needed */
 }
 
-.chart-header, .score-header, .song-header {
+.chart-header{
     color: #ffffff;
     font-size: 18px;
     flex: 1; /* Distribute space evenly among headers */
     text-align: center; /* Adjust alignment as needed */
+}
+
+.player-header{
+    color: #ffffff;
+    font-size: 18px;
+    flex: 1; /* Distribute space evenly among headers */
+    text-align: center; /* Adjust alignment as needed */
+}
+
+.song-header {
+    color: #ffffff;
+    font-size: 18px;
+    flex: 1; /* Distribute space evenly among headers */
+    text-align: left; /* Adjust alignment as needed */
+}
+
+.score-header{
+    color: #ffffff;
+    font-size: 18px;
+    flex: 1; /* Distribute space evenly among headers */
+    text-align: right; /* Adjust alignment as needed */
 }
 // .song-header {
 //     color: #ffffff;
