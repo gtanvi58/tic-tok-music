@@ -29,23 +29,27 @@ const Music = () => {
         setYouTubeLinks(ytLinks);
     };
 
-    const updateFollowArtist = async (artist) => {
-        
+    const handleFollowClick = async (artist) => {
+        console.log("inside follow click")
+        const resp = await axios.put('http://localhost:8080/users/followingArtists', {
+            body: { spotify_id: artist.spotify_id, username:artist.username, genres:artist.genres}, // Pass spotifyId as a query parameter
+        });
+        console.log("sent req ", resp.status)
     }
 
     return(
         <div>
             <div className={cx('recommended-wrapper')}>
-            <RecommendedArtists handleViewMusicClick={handleViewMusicClick}/>
+            <RecommendedArtists handleViewMusicClick={handleViewMusicClick} handleFollowClick={handleFollowClick}/>
             </div>
             <div className={cx('following-wrapper')}>
-            <FollowingArtists handleViewMusicClick={handleViewMusicClick}/>
+            <FollowingArtists handleViewMusicClick={handleViewMusicClick} handleFollowClick={handleFollowClick}/>
             </div>
             <div className={cx('new-artist-wrapper')}>
-            <NewArtistsLeaderBoard handleViewMusicClick={handleViewMusicClick}/>
+            <NewArtistsLeaderBoard handleViewMusicClick={handleViewMusicClick} handleFollowClick={handleFollowClick}/>
             </div>
             <div className={cx('daylist')}>
-            <DayList youTubeLinks={youTubeLinks}/>
+            <DayList youTubeLinks={youTubeLinks} handleFollowClick={handleFollowClick}/>
             </div>
         </div>
         

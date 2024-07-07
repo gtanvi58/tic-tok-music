@@ -253,264 +253,129 @@ async def get_daylist(request: RecommendationRequest):
     username = request.username
     token = request.token
 
-    return [
-    {
-        "Track_ID": "4um6ZMnib1I7VuG3c6jGm5",
-        "Track_Name": "Open The Eyes Of My Heart - Live",
-        "Artist_Names": [
-            "Michael W. Smith"
-        ],
-        "Creator_Artist_IDs": [
-            "5aBxFPaaGk9204ssHUvXWN"
-        ],
-        "Creation_Time": "2001",
-        "CDN_URL": "https://open.spotify.com/track/4um6ZMnib1I7VuG3c6jGm5",
-        "youtube_link": "https://www.youtube.com/watch?v=yxq_6prPABs"
-    },
-    {
-        "Track_ID": "1F3d4lh6ukhP4GWb1cX49U",
-        "Track_Name": "Love",
-        "Artist_Names": [
-            "Gods Property"
-        ],
-        "Creator_Artist_IDs": [
-            "3xtft29VZ2knyu7dEC9N7X"
-        ],
-        "Creation_Time": "1997",
-        "CDN_URL": "https://open.spotify.com/track/1F3d4lh6ukhP4GWb1cX49U",
-        "youtube_link": "https://www.youtube.com/watch?v=wazZoA4CnqA"
-    },
-    {
-        "Track_ID": "1jwTbXQa3GJWgBCNxxuL0g",
-        "Track_Name": "Holy Spirit, Come Fill This Place",
-        "Artist_Names": [
-            "CeCe Winans"
-        ],
-        "Creator_Artist_IDs": [
-            "3qfrrrSO7utFdJkM2tvMRb"
-        ],
-        "Creation_Time": "2001-01-01",
-        "CDN_URL": "https://open.spotify.com/track/1jwTbXQa3GJWgBCNxxuL0g",
-        "youtube_link": "https://www.youtube.com/watch?v=LFhUUQQ7PC0"
-    },
-    {
-        "Track_ID": "3kam2V1ZLT7dkn0R3PSm4F",
-        "Track_Name": "Bizet: Carmen: Prélude",
-        "Artist_Names": [
-            "Georges Bizet",
-            "Georges Prêtre"
-        ],
-        "Creator_Artist_IDs": [
-            "2D7RkvtKKb6E5UmbjQM1Jd",
-            "5lfbI21DXOiKTCT3Gb802r"
-        ],
-        "Creation_Time": "1964",
-        "CDN_URL": "https://open.spotify.com/track/3kam2V1ZLT7dkn0R3PSm4F",
-        "youtube_link": "https://www.youtube.com/watch?v=jL-Csf1pNCI"
-    },
-    {
-        "Track_ID": "49BWLtQKtyz1kYhe148mWj",
-        "Track_Name": "Silver and Gold - Live",
-        "Artist_Names": [
-            "Kirk Franklin"
-        ],
-        "Creator_Artist_IDs": [
-            "4akybxRTGHJZ1DXjLhJ1qu"
-        ],
-        "Creation_Time": "1993",
-        "CDN_URL": "https://open.spotify.com/track/49BWLtQKtyz1kYhe148mWj",
-        "youtube_link": "https://www.youtube.com/watch?v=O6iCEqwOdl8"
-    },
-    {
-        "Track_ID": "1F3d4lh6ukhP4GWb1cX49U",
-        "Track_Name": "Love",
-        "Artist_Names": [
-            "Gods Property"
-        ],
-        "Creator_Artist_IDs": [
-            "3xtft29VZ2knyu7dEC9N7X"
-        ],
-        "Creation_Time": "1997",
-        "CDN_URL": "https://open.spotify.com/track/1F3d4lh6ukhP4GWb1cX49U",
-        "youtube_link": "https://www.youtube.com/watch?v=wazZoA4CnqA"
-    },
-    {
-        "Track_ID": "1B5NWdLAt8GC4WKTPUCrLM",
-        "Track_Name": "The Best In Me",
-        "Artist_Names": [
-            "Marvin Sapp"
-        ],
-        "Creator_Artist_IDs": [
-            "5r0KYGxdIZEHZ6z6XbkVbo"
-        ],
-        "Creation_Time": "2010-03-16",
-        "CDN_URL": "https://open.spotify.com/track/1B5NWdLAt8GC4WKTPUCrLM",
-        "youtube_link": "https://www.youtube.com/watch?v=mV6LsR2jCjs"
-    },
-    {
-        "Track_ID": "6qZjm61s6u8Ead9sWxCDro",
-        "Track_Name": "Elephant",
-        "Artist_Names": [
-            "Tame Impala"
-        ],
-        "Creator_Artist_IDs": [
-            "5INjqkS1o8h1imAzPqGZBb"
-        ],
-        "Creation_Time": "2012-01-01",
-        "CDN_URL": "https://open.spotify.com/track/6qZjm61s6u8Ead9sWxCDro",
-        "youtube_link": "https://www.youtube.com/watch?v=LnKUD_OztRE"
-    },
-    {
-        "Track_ID": "3FCto7hnn1shUyZL42YgfO",
-        "Track_Name": "Piano Man",
-        "Artist_Names": [
-            "Billy Joel"
-        ],
-        "Creator_Artist_IDs": [
-            "6zFYqv1mOsgBRQbae3JJ9e"
-        ],
-        "Creation_Time": "2001-10-02",
-        "CDN_URL": "https://open.spotify.com/track/3FCto7hnn1shUyZL42YgfO",
-        "youtube_link": "https://www.youtube.com/watch?v=gxEPV4kolz0"
-    },
-    {
-        "Track_ID": "5uvosCdMlFdTXhoazkTI5R",
-        "Track_Name": "Light My Fire",
-        "Artist_Names": [
-            "The Doors"
-        ],
-        "Creator_Artist_IDs": [
-            "22WZ7M8sxp5THdruNY3gXt"
-        ],
-        "Creation_Time": "1967-01-04",
-        "CDN_URL": "https://open.spotify.com/track/5uvosCdMlFdTXhoazkTI5R",
-        "youtube_link": "https://www.youtube.com/watch?v=qoX6AKuYWL8"
-    }
-]
+    # Authenticate with Spotify
+    sp = spotipy.Spotify(auth=token)
 
-    # # Authenticate with Spotify
-    # sp = spotipy.Spotify(auth=token)
+    # Get user embeddings
+    user_data = users[users['username'] == username]
+    if user_data.empty:
+        raise HTTPException(status_code=404, detail="User not found")
 
-    # # Get user embeddings
-    # user_data = users[users['username'] == username]
-    # if user_data.empty:
-    #     raise HTTPException(status_code=404, detail="User not found")
-
-    # # Get user preferences
-    # pref = calculate_user_preferences(user_data, tracks)
+    # Get user preferences
+    pref = calculate_user_preferences(user_data, tracks)
 
 
 
 
-    # # Calculate target values
-    # target_acousticness = math.ceil(pref[0][0] * 10) / 10
-    # target_danceability = math.ceil(pref[0][1] * 10) / 10
-    # target_energy = math.ceil(pref[0][2] * 10) / 10
-    # target_instrumentalness = math.ceil(pref[0][3] * 10) / 10
-    # target_popularity = int(pref[0][4]) / 100  # Convert popularity to 0-1 scale
+    # Calculate target values
+    target_acousticness = math.ceil(pref[0][0] * 10) / 10
+    target_danceability = math.ceil(pref[0][1] * 10) / 10
+    target_energy = math.ceil(pref[0][2] * 10) / 10
+    target_instrumentalness = math.ceil(pref[0][3] * 10) / 10
+    target_popularity = int(pref[0][4]) / 100  # Convert popularity to 0-1 scale
 
-    # # Calculate the distance metric for each track
-    # tracks['distance'] = np.sqrt(
-    #     (tracks['Acousticness'] - target_acousticness) ** 2 +
-    #     (tracks['Danceability'] - target_danceability) ** 2 +
-    #     (tracks['Energy'] - target_energy) ** 2 +
-    #     (tracks['Instrumentalness'] - target_instrumentalness) ** 2 +
-    #     (tracks['Popularity'] - target_popularity) ** 2
-    # )
+    # Calculate the distance metric for each track
+    tracks['distance'] = np.sqrt(
+        (tracks['Acousticness'] - target_acousticness) ** 2 +
+        (tracks['Danceability'] - target_danceability) ** 2 +
+        (tracks['Energy'] - target_energy) ** 2 +
+        (tracks['Instrumentalness'] - target_instrumentalness) ** 2 +
+        (tracks['Popularity'] - target_popularity) ** 2
+    )
 
-    # # Sort tracks by distance and select top 5 closest tracks
-    # closest_tracks = tracks.nsmallest(5, 'distance')
+    # Sort tracks by distance and select top 5 closest tracks
+    closest_tracks = tracks.nsmallest(5, 'distance')
 
-    # # Extract the track genres
-    # closest_genres = list(set(closest_tracks['Genres'].tolist()))
+    # Extract the track genres
+    closest_genres = list(set(closest_tracks['Genres'].tolist()))
 
 
-    # similar_genres = get_similar_genres(closest_genres, genres_map)
+    similar_genres = get_similar_genres(closest_genres, genres_map)
 
-    # # Combine all genres from the genres map
-    # all_genres = set(genre for group in genres_map for genre in group)
+    # Combine all genres from the genres map
+    all_genres = set(genre for group in genres_map for genre in group)
 
-    # # Combine closest_genres and similar_genres into one set
-    # excluded_genres = set(closest_genres) | set(similar_genres)
+    # Combine closest_genres and similar_genres into one set
+    excluded_genres = set(closest_genres) | set(similar_genres)
 
-    # # Filter out excluded genres from the all_genres set
-    # other_genres = list(all_genres - excluded_genres)
+    # Filter out excluded genres from the all_genres set
+    other_genres = list(all_genres - excluded_genres)
 
-    # # Randomly pick 5 genres from the remaining genres
-    # if len(other_genres) >= 5:
-    #     random_genres = random.sample(other_genres, 5)
-    # else:
-    #     random_genres = other_genres
+    # Randomly pick 5 genres from the remaining genres
+    if len(other_genres) >= 5:
+        random_genres = random.sample(other_genres, 5)
+    else:
+        random_genres = other_genres
 
-    # # Select 5 similar genres
-    # similar_genres = random.sample(similar_genres, min(5, len(similar_genres)))
+    # Select 5 similar genres
+    similar_genres = random.sample(similar_genres, min(5, len(similar_genres)))
 
-    # # Get Spotify recommendations
-    # recommendations1 = sp.recommendations(
-    #     seed_genres=closest_genres,
-    #     limit=3,
-    #     target_acousticness=target_acousticness,
-    #     target_danceability=target_danceability,
-    #     target_energy=target_energy,
-    #     target_instrumentalness=target_instrumentalness,
-    #     target_popularity=70
-    # )
+    # Get Spotify recommendations
+    recommendations1 = sp.recommendations(
+        seed_genres=closest_genres,
+        limit=3,
+        target_acousticness=target_acousticness,
+        target_danceability=target_danceability,
+        target_energy=target_energy,
+        target_instrumentalness=target_instrumentalness,
+        target_popularity=70
+    )
 
-    # recommendations2 = sp.recommendations(
-    #     seed_genres=similar_genres,
-    #     limit=4,
-    #     target_acousticness=target_acousticness,
-    #     target_danceability=target_danceability,
-    #     target_energy=target_energy,
-    #     target_instrumentalness=target_instrumentalness,
-    #     target_popularity=70
-    # )
+    recommendations2 = sp.recommendations(
+        seed_genres=similar_genres,
+        limit=4,
+        target_acousticness=target_acousticness,
+        target_danceability=target_danceability,
+        target_energy=target_energy,
+        target_instrumentalness=target_instrumentalness,
+        target_popularity=70
+    )
 
-    # recommendations3 = sp.recommendations(
-    #     seed_genres=random_genres,
-    #     limit=3,
-    #     target_acousticness=target_acousticness,
-    #     target_danceability=target_danceability,
-    #     target_energy=target_energy,
-    #     target_instrumentalness=target_instrumentalness,
-    #     target_popularity=70
-    # )
+    recommendations3 = sp.recommendations(
+        seed_genres=random_genres,
+        limit=3,
+        target_acousticness=target_acousticness,
+        target_danceability=target_danceability,
+        target_energy=target_energy,
+        target_instrumentalness=target_instrumentalness,
+        target_popularity=70
+    )
 
-    # all_recommendations = recommendations1['tracks'] + recommendations2['tracks'] + recommendations3['tracks']
+    all_recommendations = recommendations1['tracks'] + recommendations2['tracks'] + recommendations3['tracks']
 
-    # # Extract track details
-    # track_details = []
-    # for track in all_recommendations:
-    #     track_info = {
-    #         'Track_ID': track['id'],
-    #         'Track_Name': track['name'],
-    #         'Artist_Names': [artist['name'] for artist in track['artists']],
-    #         'Creator_Artist_IDs': [artist['id'] for artist in track['artists']],
-    #         'Creation_Time': track['album']['release_date'],
-    #         'CDN_URL': track['external_urls']['spotify'],
-    #         'youtube_link': None,  # No direct equivalent in Spotify API
-    #     }
-    #     track_details.append(track_info)
+    # Extract track details
+    track_details = []
+    for track in all_recommendations:
+        track_info = {
+            'Track_ID': track['id'],
+            'Track_Name': track['name'],
+            'Artist_Names': [artist['name'] for artist in track['artists']],
+            'Creator_Artist_IDs': [artist['id'] for artist in track['artists']],
+            'Creation_Time': track['album']['release_date'],
+            'CDN_URL': track['external_urls']['spotify'],
+            'youtube_link': None,  # No direct equivalent in Spotify API
+        }
+        track_details.append(track_info)
 
-    # df=pd.DataFrame(track_details)
-    # # Add YouTube links to DataFrame
+    df=pd.DataFrame(track_details)
+    # Add YouTube links to DataFrame
 
-    # links= []
-    # for index, row in df.iterrows():
-    #     track_name = row['Track_Name']
-    #     artist_name = row['Artist_Names'][0]  # Assuming the first artist is the main artist
+    links= []
+    for index, row in df.iterrows():
+        track_name = row['Track_Name']
+        artist_name = row['Artist_Names'][0]  # Assuming the first artist is the main artist
 
-    #     youtube_link = search_youtube_song(api_key, track_name, artist_name)
-    #     links.append(youtube_link)
+        youtube_link = search_youtube_song(api_key, track_name, artist_name)
+        links.append(youtube_link)
 
-    # # Add YouTube links to DataFrame
+    # Add YouTube links to DataFrame
 
-    # df['youtube_link']=links
+    df['youtube_link']=links
 
-    # daylist_json = df.to_dict(orient='records')
+    daylist_json = df.to_dict(orient='records')
 
-    # # Return the daylist as JSON object
-    # return daylist_json
+    # Return the daylist as JSON object
+    return daylist_json
 
 # Define request body model
 class ArtistRequest(BaseModel):
