@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import classNames from 'classnames/bind';
 import styles from './MagicTiles.scss';
-import audioFile from '../../../src/play-music/output.mp3';
+// import audioFile from '../../../src/play-music/output.mp3';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
@@ -30,6 +30,7 @@ const MagicTiles = () => {
     const { id } = useParams();
     const audio_id = id;
 
+    console.log("printing id", audio_id)
     const pauseGame = (content) => {
         clearInterval(intervalTmp);
         geneTimeouts.forEach(clearTimeout); // Clear all scheduled timeouts
@@ -42,7 +43,13 @@ const MagicTiles = () => {
         try {
             const response = await axios.get(`http://localhost:8000/notes/${audio_id}`);
             console.log("printing notes ", response.data);
+
+            console.log("printing response ", response.data)
             setNotes(response.data);
+            if (audioRef.current) {
+                audioRef.current.src = require('../../../src/play-music/output.mp3');
+                // setIsPlaying(true);
+            }
         } catch (error) {
             console.log("printing error ", error);
         }
@@ -50,7 +57,7 @@ const MagicTiles = () => {
 
     useEffect(() => {
         getNotes(audio_id);
-    }, []);
+    }, [audio_id]);
 
     // const getNotesInfo = () => {
     //     if (notes.length > 0) {
@@ -517,7 +524,9 @@ const MagicTiles = () => {
 
 <canvas className={cx('background')} ref={backgroundRef} id="background" width="300" height="600"></canvas>
             <canvas className={cx('piano')} ref={canvasRef} id="piano" width="300" height="600"></canvas>
-            <audio ref={audioRef} src={audioFile} />
+            {/* <audio ref={audioRef} src={'../../../src/play-music/output.mp3'} /> */}
+            <audio ref={audioRef} src={require('../../../src/play-music/None_file2.mp3').default} />
+
 
             <div className={cx('btn')} id="btn">
                 <span className={cx('start_btn')} id="start_btn">START</span>
