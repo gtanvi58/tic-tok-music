@@ -1,16 +1,16 @@
 # THIC-TOK MUSIC DISCOVERY - Discover.. Play... Connect....
-An enhanced music recommendation system for new artists on TikTok. <br/>
+An enhanced music discovery system for new artists on TikTok. <br/>
 
 ## Setup
 ### Initial Setup
 
 Database: <br/>
-Register at https://www.mongodb.com/cloud/atlas/register and create a cluster in mongoDB Atlas. This service is a free nosql database hosted on the cloud.<br/>
+Register at [MongoDB](https://www.mongodb.com/cloud/atlas/register) and create a cluster in mongoDB Atlas. This service is a free nosql database hosted on the cloud.<br/>
 
 
 ### API access
-Youtube API: Access to youtube API in order to run the project. Follow instructions laid out at https://developers.google.com/youtube/v3/getting-started<br/>
-Spotify API: Create a developer account at Spotify. Follow instructions laid out at https://developer.spotify.com/documentation/web-api/tutorials/getting-started<br/>
+Youtube API: Access to youtube API in order to run the project. Follow instructions laid out at [Youtube API](https://developers.google.com/youtube/v3/getting-started)<br/>
+Spotify API: Create a developer account at Spotify. Follow instructions laid out at [Spotify API](https://developer.spotify.com/documentation/web-api/tutorials/getting-started)<br/>
 
 In order to run our app, you will need to generate access token for spotify. Run the python notebook at https://github.com/gtanvi58/thic-tok-music/blob/master/Algorithms/tiktokalgosApi.ipynb in Google Colab. Make sure to paste the redirect url in the input field of the 2nd cell. Copy the access token for future use.<br/>
 
@@ -28,7 +28,7 @@ Create a .env file in the project root folder of /python-notes folder. Populate 
 
 
 ### Installing the dependencies
-Once the environment files have been created, we will need to install the required libraries. Make sure NodeJs and Python is installed in your system. (https://nodejs.org/en/download/package-manager/current, https://www.python.org/downloads/)<br/>
+Once the environment files have been created, we will need to install the required libraries. Make sure NodeJs and Python is installed in your system. ([NodeJS](https://nodejs.org/en/download/package-manager/current), [Python](https://www.python.org/downloads/))<br/>
 
 1. Navigate to backend folder (cd backend from project root folder) and run npm install command.<br/>
 2. Navigate to frontend-changes folder (cd frontend-changes from project root folder) and run npm install command.<br/>
@@ -37,16 +37,16 @@ Ensure that the following libraries are installed in your python environment. Al
 
 1. FastAPI (Refer to [Fast API](https://fastapi.tiangolo.com/#installation))<br/>
 2. spotipy (Refer to [Spotipy](https://spotipy.readthedocs.io/en/2.24.0/#installation))<br/>
-3. pydantic (Refer to https://docs.pydantic.dev/latest/)<br/>
-4. pandas (Refer to https://pandas.pydata.org/)<br/>
-5. numpy (Refer to https://numpy.org/)<br/>
-6. googleapiclient.discovery (Refer to https://github.com/googleapis/google-api-python-client)<br/>
-7. from pymongo (Refer to https://pymongo.readthedocs.io/en/stable/)<br/>
-8. cachetools (Refer to https://pypi.org/project/cachetools/)<br/>
-9. dotenv (Refer to https://pypi.org/project/python-dotenv/)<br/>
-10. librosa (Refer to https://librosa.org/doc/latest/install.html)<br/>
-11. pytube (Refer to https://pytube.io/en/latest/)<br/>
-12. pydub (Refer to https://pypi.org/project/pydub/)<br/>
+3. pydantic (Refer to [Pydantic](https://docs.pydantic.dev/latest/))<br/>
+4. pandas (Refer to [Pandas](https://pandas.pydata.org/))<br/>
+5. numpy (Refer to [Numpy](https://numpy.org/))<br/>
+6. googleapiclient.discovery (Refer to[GoogleDeveloperClient] (https://github.com/googleapis/google-api-python-client))<br/>
+7. pymongo (Refer to [PyMongo](https://pymongo.readthedocs.io/en/stable/))<br/>
+8. cachetools (Refer to [cachetools](https://pypi.org/project/cachetools/))<br/>
+9. dotenv (Refer to [Dotenv](https://pypi.org/project/python-dotenv/))<br/>
+10. librosa (Refer to [Librosa](https://librosa.org/doc/latest/install.html))<br/>
+11. pytube (Refer to [PyTube](https://pytube.io/en/latest/))<br/>
+12. pydub (Refer to [PyDub](https://pypi.org/project/pydub/))<br/>
 
 ### Database Initialization
 
@@ -72,13 +72,13 @@ Voila! You have your own music discovery application running!!
 
 ## Discover!! Play!! Connect!!!
 
-### Inspiration:
+### Inspiration
 We drew inspiration from the engaging and addictive nature of music in interactive games like Piano Tiles and Guitar Hero, where players are immersed in dynamic musical experiences that naturally introduce them to new songs and genres through various levels and challenges. Additionally, we were inspired by Spotify's Daily Mixes, which curate personalized playlists based on users' listening habits and preferences, leveraging data-driven algorithms to offer a highly customized music discovery experience. By combining these elements, we aim to make music discovery on TikTok  both interactive and personalized, enhancing user engagement and fostering a deeper connection to diverse musical content. <br/>
-### Goals and Objectives:
+### Goals and Objectives
 Our solution aligns with the goals of building a simple music discovery feature and enhancing the artist/fan community by utilizing the Music and Artist Discovery feature and the Daylist. These tools create an intuitive way for users to discover new and diverse music, supporting increased exposure, content diversity, and the viral spread of music. Additionally, the Artist Discovery feature highlights new artists and showcases those followed by friends, while the Music Tiles game engages users interactively. This fosters a sense of community by connecting users with new artists and their friends' musical interests. <br/>
 To ensure data consistency across platforms, we utilize the Spotify Web API and Atlas MongoDB for accurate and consistent data collection and retrieval. This ensures seamless integration and reliable performance across TikTok, Spotify, and other music platforms. Leveraging Atlas MongoDB's cluster creation, replication, and sharding capabilities ensures high availability and scalability, supporting the platform's growth and the increasing demand for music discovery features. <br/>
 
-### Our Solution:
+### Our Solution
 
 1. Database: <br/>
 We utilized Atlas MongoDB as our database solution, taking advantage of its cluster creation, replication, and sharding capabilities to ensure high availability and scalability. The database structure is inspired by Spotify’s WebApi. <br/>
@@ -186,11 +186,11 @@ For each of our functionalities, we have implemented REST APIs, enabling us to l
 3. FrontEnd:<br/>
 To fully leverage microfrontend architecture, we have ensured that no global variables are used across our UI screens. Each UI screen is designed to be self-contained, with its own isolated state and logic. This approach enhances modularity, making it easier to develop, test, and maintain individual components independently. By keeping UI screens self-contained, we also improve the scalability and flexibility of our frontend, allowing different teams to work on separate parts of the application without causing conflicts or dependencies on shared state.<br/>
 
-### Outcomes:<br/>
+### Outcomes<br/>
 Our solution enhances exposure for emerging artists through the Music and Artist Discovery feature, which recommends new artists based on user preferences and friend networks. This increases the visibility of independent musicians and helps artists with good content widen their audience through the new artists leaderboard. As a result, emerging artists gain more exposure, leading to greater recognition and potential career opportunities. Additionally, the Daylist feature curates a diverse list of songs from various genres, both related and unrelated to user preferences, ensuring that users are introduced to a broader range of music. This promotes a more diverse and personalized content consumption experience, allowing users to explore different genres and styles they might not typically encounter.<br/>
 To boost viral potential and engagement, the Piano Tiles game offers a dynamic and engaging way to discover music. By playing the game and sharing their scores, users contribute to the viral spread of songs and artists. The interactive nature and competitive element of the game encourage users to share and promote new music, increasing the chances of songs going viral. Furthermore, the social aspects of the Artist Discovery feature, such as seeing what friends are following, foster active engagement and interaction with the content. This deepens users' connection to the music and artists, building a stronger community around shared musical interests and enhancing their overall connection to the platform.<br/><br/><br/><br/>
 
-### Tools: <br/> 
+### Tools <br/> 
 React.js, MongoDB, Express, NodeJS, Python, Spotify WebAPI, Youtube API, JavaScript <br/>
 
 
