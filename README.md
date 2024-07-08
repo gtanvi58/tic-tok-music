@@ -1,10 +1,10 @@
-# THIC-TOK MUSIC DISCOVERY<br/> Discover.. Play... Connect....
+# THIC-TOK MUSIC DISCOVERY<br/> Discover!! Play!!! Connect!!!!
 An enhanced music discovery system for new artists on TikTok. <br/>
 
 ## Setup
 ### Initial Setup
 
-### Database: <br/>
+### Database <br/>
 Register at [MongoDB](https://www.mongodb.com/cloud/atlas/register) and create a cluster in mongoDB Atlas. This service is a free nosql database hosted on the cloud. Or you can install mongoDB in your PC!<br/>
 
 
@@ -99,7 +99,7 @@ Each table and its attributes serve specific purposes, facilitating the storage 
 New artist popularity score:This custom metric nicknamed (STanRi’s measure of popularity) enhances the visibility of emerging artists based on their content quality relative to their follower count. It assigns higher scores to artists with fewer followers but exceptional content, moderate scores to established artists with average content, and lower scores to artists with subpar content. <br/>
 
 - Formula:  <br/>
-(1.5*total_likes_count + 2*total_views_count + 1.8* total_share_count) / (3 * (spotify_follower_count + tiktok_follower_count) + 3*Popularity_Score)
+(1.5* total_likes_count + 2* total_views_count + 1.8* total_share_count) / (3 * (spotify_follower_count + tiktok_follower_count) + 3* Popularity_Score)
 
 - Rationale for Weight Assignments: <br/>
     - Total Likes Count (Weight: 1.5): Likes are given less weight because not everyone who enjoys content actually clicks the like button. It's a measure of appreciation but not an absolute indicator of quality or enjoyment. <br/>
@@ -117,7 +117,7 @@ We have developed two key components to enhance music discovery on TikTok, speci
 It showcases recommended new artists and a leaderboard for emerging talents, determined by New artist popularity score. Additionally, it highlights artists followed by friends but not yet followed by the user. <br/>
 - Daylist Feature: The Daylist feature aids users in discovering diverse content on the platform.  <br/>
     - Daylist Algorithm: <br/>
-        - Objective: Curate a diverse list of 10 songs: 3 from the user's preferred genre, 4 from genres similar to their preferences, and 3 from unrelated genres. <br/>
+        - Objective:<br/> Curate a diverse list of 10 songs: 3 from the user's preferred genre, 4 from genres similar to their preferences, and 3 from unrelated genres. <br/>
         - Procedure: <br/>
 Calculate an embedding where each element represents target acousticness, danceability, energy, and instrumentalness. <br/>
 Factors contributing to target acousticness: Instrumentalness, Liveness, Speechiness <br/>
