@@ -1,8 +1,14 @@
 import { MongoClient } from 'mongodb';
 import 'dotenv/config';
+import { parse } from 'url';
 
-const uri = process.env.DATABASE_URL;
-console.log("printing uri ", uri)
+var uri = process.env.DATABASE_URL;
+const parsedUrl = parse(uri);
+const [username, password] = parsedUrl.auth.split(':');
+const encodedUsername = encodeURIComponent(username);
+const encodedPassword = encodeURIComponent(password);
+const encodedMongoUrl = `mongodb+srv://${encodedUsername}:${encodedPassword}@${parsedUrl.hostname}${parsedUrl.path}`;
+
 const DbConnection = function () {
 
     var db = null;
@@ -10,7 +16,7 @@ const DbConnection = function () {
 
     async function DbConnect() {
         try {
-            let _db = await MongoClient.connect(uri);
+            let _db = await MongoClient.connect(encodedMongoUrl);
             return _db
         } catch (e) {
             return e;
