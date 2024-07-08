@@ -1,10 +1,10 @@
-# THIC-TOK MUSIC DISCOVERY - Discover.. Play... Connect....
+# THIC-TOK MUSIC DISCOVERY<br/> Discover.. Play... Connect....
 An enhanced music discovery system for new artists on TikTok. <br/>
 
 ## Setup
 ### Initial Setup
 
-Database: <br/>
+### Database: <br/>
 Register at [MongoDB](https://www.mongodb.com/cloud/atlas/register) and create a cluster in mongoDB Atlas. This service is a free nosql database hosted on the cloud.<br/>
 
 
@@ -40,7 +40,7 @@ Ensure that the following libraries are installed in your python environment. Al
 3. pydantic (Refer to [Pydantic](https://docs.pydantic.dev/latest/))<br/>
 4. pandas (Refer to [Pandas](https://pandas.pydata.org/))<br/>
 5. numpy (Refer to [Numpy](https://numpy.org/))<br/>
-6. googleapiclient.discovery (Refer to[GoogleDeveloperClient] (https://github.com/googleapis/google-api-python-client))<br/>
+6. googleapiclient.discovery (Refer to [GoogleDeveloperClient](https://github.com/googleapis/google-api-python-client))<br/>
 7. pymongo (Refer to [PyMongo](https://pymongo.readthedocs.io/en/stable/))<br/>
 8. cachetools (Refer to [cachetools](https://pypi.org/project/cachetools/))<br/>
 9. dotenv (Refer to [Dotenv](https://pypi.org/project/python-dotenv/))<br/>
