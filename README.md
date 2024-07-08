@@ -99,6 +99,7 @@ Each table and its attributes serve specific purposes, facilitating the storage 
 New artist popularity score:This custom metric nicknamed (STanRi’s measure of popularity) enhances the visibility of emerging artists based on their content quality relative to their follower count. It assigns higher scores to artists with fewer followers but exceptional content, moderate scores to established artists with average content, and lower scores to artists with subpar content. <br/>
 
 - Formula:  <br/>
+(1.5*total_likes_count + 2*total_views_count + 1.8* total_share_count) / (3 * (spotify_follower_count + tiktok_follower_count) + 3*Popularity_Score)
 
 - Rationale for Weight Assignments: <br/>
     - Total Likes Count (Weight: 1.5): Likes are given less weight because not everyone who enjoys content actually clicks the like button. It's a measure of appreciation but not an absolute indicator of quality or enjoyment. <br/>
@@ -125,7 +126,8 @@ Factors contributing to target energy: Loudness, Tempo, Valence, Liveness, Speec
 Factors contributing to target instrumentalness: Speechiness, Liveness<br/>
 Compute a weighted sum of factors of these characteristics using bootstrap resampling.<br/>
 - Formula:<br/>
- 
+Summation of weight * factor
+    
 We use this method to assign weights because the influence of each factor on a user's characteristic features evolves over time. Therefore, it is impractical to predetermine the values.<br/>
 Determine the Euclidean distance between these target features and the features of a track. The track with the smallest distance is considered most similar to the target characteristics.<br/>
 Extract the genre of these tracks, use a genre map to identify similar and dissimilar genres, and curate the playlist using the Spotify recommendation API by passing the genres and target characteristics of the songs.<br/>
