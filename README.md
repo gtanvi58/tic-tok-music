@@ -84,79 +84,80 @@ To ensure data consistency across platforms, we utilize the Spotify Web API and 
 We utilized Atlas MongoDB as our database solution, taking advantage of its cluster creation, replication, and sharding capabilities to ensure high availability and scalability. The database structure is inspired by Spotify’s WebApi. <br/>
 
 2. Tables and attributes: <br/>
-Artist Table: <br/>
+- Artist Table: <br/>
 _id, SpotifyId, Username, popularity_score, genres, spotify_follower_count, tiktok_follower_count, total_views_count, total_likes_count, total_share_count, total_video_count <br/>
-Games Table: <br/>
+- Games Table: <br/>
 _id, Track_ID, Track_Name, Artist, Scores <br/>
-User Table: <br/>
+- User Table: <br/>
 _id, username, bio, spotify_id, following_friends, following_artists, liked, preference <br/>
-Videos Table: <br/>
-_id, Track_ID, Track_Name, Acousticness, Danceability, Energy, Instrumentalness, Liveness, Loudness, Speechiness, Tempo, Valence, Duration_ms, Creator_Artist_IDs, Popularity, Creation_Time, Description, Like_Count, Share_Count, View_Count, CDN_URL, Genres, youtube_link <br/>
+- Videos Table: <br/>
+_id, Track_ID, Track_Name, Acousticness, Danceability, Energy, Instrumentalness, Liveness, Loudness, Speechiness, Tempo, Valence, Duration_ms, Creator_Artist_IDs, Popularity, Creation_Time, Description, Like_Count, Share_Count, View_Count, CDN_URL, Genres, youtube_link <br/><br/>
 Each table and its attributes serve specific purposes, facilitating the storage and retrieval of data related to artists, games, users, and videos within your MongoDB database setup using Atlas MongoDB. <br/>
 
 3. Some important terminologies: <br/>
-Genre map:  A 2D array organizing similar genres into cohesive groups for streamlined categorization and analysis. <br/>
+- Genre map: <br/> A 2D array organizing similar genres into cohesive groups for streamlined categorization and analysis. <br/>
 New artist popularity score:This custom metric nicknamed (STanRi’s measure of popularity) enhances the visibility of emerging artists based on their content quality relative to their follower count. It assigns higher scores to artists with fewer followers but exceptional content, moderate scores to established artists with average content, and lower scores to artists with subpar content. <br/>
 
-Formula:  <br/>
+- Formula:  <br/>
 
-Rationale for Weight Assignments: <br/>
-Total Likes Count (Weight: 1.5): Likes are given less weight because not everyone who enjoys content actually clicks the like button. It's a measure of appreciation but not an absolute indicator of quality or enjoyment. <br/>
-Total View Count (Weight: 2): Views are weighted higher because they directly reflect the popularity and reach of the content. Higher views generally suggest higher quality and more widespread appeal. <br/>
-Total Shares (Weight: 1.8): Shares carry more weight than likes but less than views. Sharing indicates a higher level of appreciation as users are willing to endorse the content with their networks, although not all viewers share content they enjoy. <br/>
-Total Followers Count (Spotify and TikTok) (Weight: 3): Followers on both platforms are heavily weighted because they signify the artist's existing fan base and potential reach. Artists with more followers are likely more established and hence we will need a higher value to bring down the total score <br/>
-Popularity Score (Spotify) (Weight: 3): The Spotify popularity score is weighted similarly to total followers count. A high score indicates broader popularity among listeners, and hence we will need a higher value to bring down the total score <br/>
+- Rationale for Weight Assignments: <br/>
+    - Total Likes Count (Weight: 1.5): Likes are given less weight because not everyone who enjoys content actually clicks the like button. It's a measure of appreciation but not an absolute indicator of quality or enjoyment. <br/>
+    - Total View Count (Weight: 2): Views are weighted higher because they directly reflect the popularity and reach of the content. Higher views generally suggest higher quality and more widespread appeal. <br/>
+    - Total Shares (Weight: 1.8): Shares carry more weight than likes but less than views. Sharing indicates a higher level of appreciation as users are willing to endorse the content with their networks, although not all viewers share content they enjoy. <br/>
+    - Total Followers Count (Spotify and TikTok) (Weight: 3): Followers on both platforms are heavily weighted because they signify the artist's existing fan base and potential reach. Artists with more followers are likely more established and hence we will need a higher value to bring down the total score <br/>
+    - Popularity Score (Spotify) (Weight: 3): The Spotify popularity score is weighted similarly to total followers count. A high score indicates broader popularity among listeners, and hence we will need a higher value to bring down the total score <br/>
 
-Bootstrap resampling:  Bootstrap resampling is a statistical method used to estimate the distribution of a statistic by iteratively sampling with replacement from the original dataset. This approach enables the empirical determination of uncertainty or variability in a statistic, without relying on assumptions about the data's underlying distribution. <br/>
+- Bootstrap resampling:  Bootstrap resampling is a statistical method used to estimate the distribution of a statistic by iteratively sampling with replacement from the original dataset. This approach enables the empirical determination of uncertainty or variability in a statistic, without relying on assumptions about the data's underlying distribution. <br/>
 
 
 
 We have developed two key components to enhance music discovery on TikTok, specifically for emerging artists: <br/>
 1. Music and Artist Discovery through Upcoming Artist Recommendations and the Daylist Feature: <br/>
 It showcases recommended new artists and a leaderboard for emerging talents, determined by New artist popularity score. Additionally, it highlights artists followed by friends but not yet followed by the user. <br/>
-Daylist Feature: The Daylist feature aids users in discovering diverse content on the platform.  <br/>
-Daylist Algorithm: <br/>
-Objective: Curate a diverse list of 10 songs: 3 from the user's preferred genre, 4 from genres similar to their preferences, and 3 from unrelated genres. <br/>
-Procedure: <br/>
+- Daylist Feature: The Daylist feature aids users in discovering diverse content on the platform.  <br/>
+    - Daylist Algorithm: <br/>
+        - Objective: Curate a diverse list of 10 songs: 3 from the user's preferred genre, 4 from genres similar to their preferences, and 3 from unrelated genres. <br/>
+        - Procedure: <br/>
 Calculate an embedding where each element represents target acousticness, danceability, energy, and instrumentalness. <br/>
 Factors contributing to target acousticness: Instrumentalness, Liveness, Speechiness <br/>
 Factors contributing to target danceability: Tempo, Energy, Valence, Loudness<br/>
 Factors contributing to target energy: Loudness, Tempo, Valence, Liveness, Speechiness<br/>
 Factors contributing to target instrumentalness: Speechiness, Liveness<br/>
 Compute a weighted sum of factors of these characteristics using bootstrap resampling.<br/>
-Formula:<br/>
+- Formula:<br/>
  
 We use this method to assign weights because the influence of each factor on a user's characteristic features evolves over time. Therefore, it is impractical to predetermine the values.<br/>
 Determine the Euclidean distance between these target features and the features of a track. The track with the smallest distance is considered most similar to the target characteristics.<br/>
 Extract the genre of these tracks, use a genre map to identify similar and dissimilar genres, and curate the playlist using the Spotify recommendation API by passing the genres and target characteristics of the songs.<br/>
-Algorithm for Recommending New Artists:<br/>
-Objective: Recommend new and upcoming artists based on the user's genre preferences.<br/>
-Procedure:<br/>
-Calculate the closest genres using the same approach as for the Daylist feature.<br/>
-Based on the user's genre preferences and the new artist popularity score, recommend the top 10 emerging artists.<br/>
+
+- Algorithm for Recommending New Artists:<br/>
+    - Objective: Recommend new and upcoming artists based on the user's genre preferences.<br/>
+    - Procedure:<br/>
+        Calculate the closest genres using the same approach as for the Daylist feature.<br/>
+        Based on the user's genre preferences and the new artist popularity score, recommend the top 10 emerging artists.<br/>
 2. Piano Tiles<br/>
 The Piano Tiles feature offers users an engaging and interactive way to enjoy songs from their Daylist, new artists, and their favorite artists through a dynamic game format. As users play, the speed of the tiles increases progressively, enhancing the challenge and excitement. A leaderboard ranks players based on their high scores for each song, fostering a competitive and enjoyable experience.<br/>
-Game Rules:<br/>
-Starting the Game:<br/>
-Users select a song from their Daylist, a new artist, or their favorite artist to begin playing.<br/>
-The game starts at a moderate speed, which gradually increases as the game progresses.<br/>
-Scoring:<br/>
+- Game Rules:<br/>
+    - Starting the Game:<br/>
+        Users select a song from their Daylist, a new artist, or their favorite artist to begin playing.<br/>
+        The game starts at a moderate speed, which gradually increases as the game progresses.<br/>
+    - Scoring:<br/>
 Users must click on the moving tiles in sync with the music to score points.<br/>
 Each successful tile click increases the user's score.<br/>
-Tile Interaction:<br/>
+- Tile Interaction:<br/>
 Clicking directly on a tile earns points. The more accurately users click on the tiles, the higher their score will be.<br/>
 If users click outside of a tile, they lose the game immediately.<br/>
-Speed Progression:<br/>
+- Speed Progression:<br/>
 The speed of the tiles increases incrementally based on the duration of play. The longer the user plays, the faster the tiles move, requiring quicker reflexes and sharper focus.<br/>
-Leaderboard:<br/>
+- Leaderboard:<br/>
 A leaderboard displays user rankings for each song based on their high scores.<br/>
 Users can view their position relative to other players, motivating them to improve their scores and climb the ranks.<br/>
-Game Over Conditions:<br/>
+- Game Over Conditions:<br/>
 The game ends if a user misses a tile or clicks outside of a tile.<br/>
-High Score and Progress Tracking:<br/>
+- High Score and Progress Tracking:<br/>
 The game tracks high scores for each song, allowing users to see their best performances.<br/>
 Progress is saved so users can aim to beat their previous high scores in subsequent gameplay sessions.<br/>
-Game Development Logic: <br/>
+- Game Development Logic: <br/>
 1. Loading Audio<br/>
 First, we start by loading the audio file. This means converting the MP3 file into a format that the computer can understand and work with.<br/>
 2. Onset Strength<br/>
