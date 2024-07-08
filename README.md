@@ -48,7 +48,7 @@ Ensure that the following libraries are installed in your python environment. Al
 11. pytube (Refer to [PyTube](https://pytube.io/en/latest/))<br/>
 12. pydub (Refer to [PyDub](https://pypi.org/project/pydub/))<br/>
 
-### Database Initialization
+### Database Initialization (You can skip this if your database is already setup and populated with data)
 
 Once all the libraries have been installed, it is time to initialize the database collections. Make sure the environment files have been created and the required details has been set in it. To run the data initialization script, navigate to /backend (cd backend) and run node init.js This will create 4 Collections <br/>
 1. artists<br/>
