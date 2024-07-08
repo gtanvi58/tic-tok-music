@@ -5,7 +5,7 @@ An enhanced music discovery system for new artists on TikTok. <br/>
 ### Initial Setup
 
 ### Database: <br/>
-Register at [MongoDB](https://www.mongodb.com/cloud/atlas/register) and create a cluster in mongoDB Atlas. This service is a free nosql database hosted on the cloud.<br/>
+Register at [MongoDB](https://www.mongodb.com/cloud/atlas/register) and create a cluster in mongoDB Atlas. This service is a free nosql database hosted on the cloud. Or you can install mongoDB in your PC!<br/>
 
 
 ### API access
