@@ -8,15 +8,19 @@ import DayList from './DayList';
 
 const cx = classNames.bind(styles);
 
-const spotifyId = '31abuz3whtktugepv7f26ouajmne';
+const spotifyId = process.env.REACT_APP_SPOTIFY_USER_ID;
 
 const FollowingArtists = (props) => {
     const [followingArtists, setFollowingArtists] = useState([]);
+
+    console.log("spotify id in following friends: ", spotifyId);
+    console.log("here");
 
     const getFollowingArtists = async () => {
         const response = await axios.get('http://localhost:8080/artists/friends', {
             params: { spotify_id: spotifyId },
         });
+        console.log(response);
         let updatedResp = response.data.map(artist => ({
             ...artist,
             isFollowed: false

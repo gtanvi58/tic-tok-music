@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { NavLink } from "react-router-dom";
 import classNames from 'classnames/bind';
 import styles from './PlayList.scss';
-import config from '~/config';
+import config from '../../config';
 import { FaTrophy, FaGamepad } from 'react-icons/fa';
 import axios from 'axios';
 
@@ -17,17 +17,17 @@ const scoreData = [
         "Scores": [
             {
                 "Username": "Tanvi",
-                "SpotifyId": "7b04vuazql0yr1co3xty8v474",
+                "SpotifyId": "7b04vuazql0yr1co3xta12313",
                 "Score": 25 
             },
             {
                 "Username": "Siddarth",
-                "SpotifyId": "31ebdfyjsh5x5b3rejfp3akxdz3a",
+                "SpotifyId": "31ebdfyjsh5x5jkahdb123sad3akxdz3a",
                 "Score": 15
             },
             {
                 "Username": "Rithika",
-                "SpotifyId": "31abuz3whtktugepv7f26ouajmne",
+                "SpotifyId": "31abuz3whthijklyqetyepv7f26ouajmne",
                 "Score": 20
             }
         ]
@@ -40,17 +40,17 @@ const scoreData = [
         "Scores": [
             {
                 "Username": "Tanvi",
-                "SpotifyId": "7b04vuazql0yr1co3xty8v474",
+                "SpotifyId": "7b04vuazql0yr1co3xta12313",
                 "Score": 20
             },
             {
                 "Username": "Siddarth",
-                "SpotifyId": "31ebdfyjsh5x5b3rejfp3akxdz3a",
+                "SpotifyId": "31ebdfyjsh5x5jkahdb123sad3akxdz3a",
                 "Score": 15
             },
             {
                 "Username": "Rithika",
-                "SpotifyId": "31abuz3whtktugepv7f26ouajmne",
+                "SpotifyId": "31abuz3whthijklyqetyepv7f26ouajmne",
                 "Score": 25
             }
         ]

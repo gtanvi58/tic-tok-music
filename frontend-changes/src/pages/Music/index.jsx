@@ -10,7 +10,8 @@ import DayList from './DayList'
 import axios from 'axios';
 
 const cx = classNames.bind(styles);
-const access_token = 'BQABIAMIiHwkGLkyH2j2AwhuVprHdDtPweMtkofhYFso3Rgic0bbSLu2qCn8_D6lEEeUAFodvi32lqXyGW5TiVMGoJAswrdP61JoI9uoA1FmjptQZBqA8GyhRJi4TZKP8j0Cdix-t1WzgN7U0NvHjpa6HkAtJ_IdRUfY6T-bH7gwTu3yoOf41ZUcvVtldUFTG5f_nPsxhCxB2YbMMekMa6s_8ija';
+const access_token = process.env.REACT_APP_SPOTIFY_ACCESS_TOKEN;
+const spotify_user = process.env.REACT_APP_SPOTIFY_USERNAME;
 
 const Music = () => {
     console.log("inside music")
@@ -22,109 +23,8 @@ const Music = () => {
     ]);
 
     const getDailyList = async () => {
-        // const songs = await axios.post('http://localhost:8001/playlists/daylist', { "username": "Tanvi", "token": access_token });
-        // console.log("printing response data in daylist", songs);
-        // const respstatus = songs.status
-
-        const yturls = [
-            {
-                "Track_ID": "4um6ZMnib1I7VuG3c6jGm5",
-                "Track_Name": "Open The Eyes Of My Heart - Live",
-                "Artist_Names": [
-                    "Michael W. Smith"
-                ],
-                "Creator_Artist_IDs": [
-                    "5aBxFPaaGk9204ssHUvXWN"
-                ],
-                "Creation_Time": "2001",
-                "CDN_URL": "https://open.spotify.com/track/4um6ZMnib1I7VuG3c6jGm5",
-                "youtube_link": "https://www.youtube.com/watch?v=yxq_6prPABs"
-            },
-            {
-                "Track_ID": "1F3d4lh6ukhP4GWb1cX49U",
-                "Track_Name": "Love",
-                "Artist_Names": [
-                    "Gods Property"
-                ],
-                "Creator_Artist_IDs": [
-                    "3xtft29VZ2knyu7dEC9N7X"
-                ],
-                "Creation_Time": "1997",
-                "CDN_URL": "https://open.spotify.com/track/1F3d4lh6ukhP4GWb1cX49U",
-                "youtube_link": "https://www.youtube.com/watch?v=wazZoA4CnqA"
-            },
-            {
-                "Track_ID": "1jwTbXQa3GJWgBCNxxuL0g",
-                "Track_Name": "Holy Spirit, Come Fill This Place",
-                "Artist_Names": [
-                    "CeCe Winans"
-                ],
-                "Creator_Artist_IDs": [
-                    "3qfrrrSO7utFdJkM2tvMRb"
-                ],
-                "Creation_Time": "2001-01-01",
-                "CDN_URL": "https://open.spotify.com/track/1jwTbXQa3GJWgBCNxxuL0g",
-                "youtube_link": "https://www.youtube.com/watch?v=LFhUUQQ7PC0"
-            },
-            {
-                "Track_ID": "3kam2V1ZLT7dkn0R3PSm4F",
-                "Track_Name": "Bizet: Carmen: Prélude",
-                "Artist_Names": [
-                    "Georges Bizet",
-                    "Georges Prêtre"
-                ],
-                "Creator_Artist_IDs": [
-                    "2D7RkvtKKb6E5UmbjQM1Jd",
-                    "5lfbI21DXOiKTCT3Gb802r"
-                ],
-                "Creation_Time": "1964",
-                "CDN_URL": "https://open.spotify.com/track/3kam2V1ZLT7dkn0R3PSm4F",
-                "youtube_link": "https://www.youtube.com/watch?v=1d4-nDVCN6U"
-            },
-            {
-                "Track_ID": "7BFYBSroOTNTkFFDuJ6BmV",
-                "Track_Name": "Canto Della Terra",
-                "Artist_Names": [
-                    "Andrea Bocelli"
-                ],
-                "Creator_Artist_IDs": [
-                    "3EA9hVIzKfFiQI0Kikz2wo"
-                ],
-                "Creation_Time": "2007-01-01",
-                "CDN_URL": "https://open.spotify.com/track/7BFYBSroOTNTkFFDuJ6BmV",
-                "youtube_link": "https://www.youtube.com/watch?v=4KGmLLsdWCM"
-            },
-            {
-                "Track_ID": "6umBxaxgV2q52o3Q8wH2Ma",
-                "Track_Name": "I Dreamed a Dream",
-                "Artist_Names": [
-                    "Susan Boyle"
-                ],
-                "Creator_Artist_IDs": [
-                    "1qAuetfG6mhtDgsVIffWQc"
-                ],
-                "Creation_Time": "2009-11-20",
-                "CDN_URL": "https://open.spotify.com/track/6umBxaxgV2q52o3Q8wH2Ma",
-                "youtube_link": "https://www.youtube.com/watch?v=TL0dfzK3Aqs"
-            },
-            {
-                "Track_ID": "5hslUAKq9I9CG2bAulFkHN",
-                "Track_Name": "It's the Most Wonderful Time of the Year",
-                "Artist_Names": [
-                    "Andy Williams"
-                ],
-                "Creator_Artist_IDs": [
-                    "4sj6D0zlMOl25nprDJBiU9"
-                ],
-                "Creation_Time": "1963-11-24",
-                "CDN_URL": "https://open.spotify.com/track/5hslUAKq9I9CG2bAulFkHN",
-                "youtube_link": "https://www.youtube.com/watch?v=AN_R4pR1hck"
-            }];
-
-        const urls = yturls.map(song => song.youtube_link);
-        
-        setDaylist(urls);
-        console.log("printing urls ", urls)
+        const songs = await axios.post('http://localhost:8001/playlists/daylist', { "username": spotify_user, "token": access_token });
+        const urls = songs.data.map(song => song.youtube_link);
         setDaylist(urls);
         //setYouTubeLinks(urls);
     }

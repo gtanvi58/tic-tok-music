@@ -71,7 +71,7 @@ export async function readNewArtists(n=5, lower=15, higher=30){
                 "username": artist.Username,
                 "spotify_id": artist.SpotifyId,
                 "genres": artist.genres,
-                "popularity": popularity
+                "popularity": popularity.toFixed(2)
              };
              artistInfo.push(artistInfoObject);
         });

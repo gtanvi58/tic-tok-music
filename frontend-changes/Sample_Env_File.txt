@@ -1,0 +1,3 @@
+REACT_APP_SPOTIFY_ACCESS_TOKEN=<your spotify access token>
+REACT_APP_SPOTIFY_USER_ID=<your spotify user id>
+REACT_APP_SPOTIFY_USERNAME=<your spotify username>

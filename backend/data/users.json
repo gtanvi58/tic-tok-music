@@ -3,14 +3,14 @@
     {
         "username": "Tanvi",
         "bio": "a 26-year-old music enthusiast with a passion for Coldplay's soulful melodies.",
-        "spotify_id": "7b04vuazql0yr1co3xty8v474",
+        "spotify_id": "7b04vuazql0yr1co3xta12313",
         "following_friends": [
             {
-                "spotify_id": "31ebdfyjsh5x5b3rejfp3akxdz3a",
+                "spotify_id": "31ebdfyjsh5x5jkahdb123sad3akxdz3a",
                 "username": "Siddarth"
             },
             {
-                "spotify_id": "31abuz3whtktugepv7f26ouajmne",
+                "spotify_id": "31abuz3whthijklyqetyepv7f26ouajmne",
                 "username": "Rithika"   
             }
         ],
@@ -22,14 +22,14 @@
     {
         "username": "Rithika",
         "bio": "a 24-year-old music enthusiast with a passion for Linkin Park.",
-        "spotify_id": "31abuz3whtktugepv7f26ouajmne",
+        "spotify_id": "31abuz3whthijklyqetyepv7f26ouajmne",
         "following_friends": [
             {
-                "spotify_id": "31ebdfyjsh5x5b3rejfp3akxdz3a",
+                "spotify_id": "31ebdfyjsh5x5jkahdb123sad3akxdz3a",
                 "username": "Siddarth"
             },
             {
-                "spotify_id": "7b04vuazql0yr1co3xty8v474",
+                "spotify_id": "7b04vuazql0yr1co3xta12313",
                 "username": "Tanvi"   
             }
         ],
@@ -41,14 +41,14 @@
     {
         "username": "Siddarth",
         "bio": "a 26-year-old music enthusiast with a passion for Metallica.",
-        "spotify_id": "31ebdfyjsh5x5b3rejfp3akxdz3a",
+        "spotify_id": "31ebdfyjsh5x5jkahdb123sad3akxdz3a",
         "following_friends": [
             {
-                "spotify_id": "31abuz3whtktugepv7f26ouajmne",
+                "spotify_id": "31abuz3whthijklyqetyepv7f26ouajmne",
                 "username": "Rithika"
             },
             {
-                "spotify_id": "7b04vuazql0yr1co3xty8v474",
+                "spotify_id": "7b04vuazql0yr1co3xta12313",
                 "username": "Tanvi"   
             }
         ],

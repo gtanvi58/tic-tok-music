@@ -7,20 +7,14 @@ import { useState } from 'react';
 
 const cx = classNames.bind(styles);
 
-// const recommendedArtists = [
-//     'Siddarth',
-//     'Rithika',
-//     'Tanvi',
-//     'Baar Baar Dine Yeh Aaye',
-//     'Baar Baar Din Yeh Jaaye'
-// ];
-
 const RecommendedArtists = (props) => {
+
+    const spotify_user = process.env.REACT_APP_SPOTIFY_USERNAME;
 
     const [recommendedArtists, setRecommendedArtists] = useState([]);
 
     const getRecommendedArtists = async () => {
-        const response = await axios.post('http://localhost:8001/artists/recommended', {username: "Tanvi" });
+        const response = await axios.post('http://localhost:8001/artists/recommended', {username: spotify_user });
         let updatedResp = response.data.map(artist => ({
             ...artist,
             isFollowed: false
