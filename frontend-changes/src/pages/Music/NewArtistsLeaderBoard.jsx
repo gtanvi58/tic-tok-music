@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import classNames from 'classnames/bind';
 import styles from './NewArtistsLeaderBoard.scss';
 import { FaHeart, FaRegHeart, FaMusic } from 'react-icons/fa';
-import config from '~/config';
+import config from '../../config';
 import axios from 'axios';
 import { useState } from 'react';
 

@@ -11,9 +11,9 @@ import {
     MusicIcon,
     MusicActionIcon,
     GameIcon
-} from '~/components/Icons';
-import SuggestedAccounts from '~/components/SuggestedAccounts';
-import config from '~/config';
+} from '../../../components/Icons';
+import SuggestedAccounts from '../../../components/SuggestedAccounts';
+import config from '../../../config';
 
 const cx = classNames.bind(styles);
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { NavLink } from "react-router-dom";
 import classNames from 'classnames/bind';
 import styles from './Games.scss';
-import config from '~/config';
+import config from '../../config';
 import PlayList from './PlayList';
 import LeaderBoard from './LeaderBoard'
 

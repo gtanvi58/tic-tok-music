@@ -3,7 +3,7 @@ import Tippy from '@tippyjs/react/headless';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
-import { Wrapper as PopperWrapper } from '~/components/Popper';
+import { Wrapper as PopperWrapper } from '../../components/Popper';
 import AccountPreview from './AccountPreview/AccountPreview';
 import styles from './SuggestedAccounts.module.scss';
 

@@ -1,18 +1,18 @@
-import config from '~/config';
+import config from '../config';
 
 // Layouts
-import layouts, { HeaderOnly } from '~/layouts';
+import layouts, { HeaderOnly } from '../layouts';
 
 // Pages
-import Home from '~/pages/Home';
-import Following from '~/pages/Following';
-import Profile from '~/pages/Profile';
-import Upload from '~/pages/Upload';
-import Search from '~/pages/Search';
-import Live from '~/pages/Live';
-import Music from '~/pages/Music'
-import Games from '~/pages/Games';
-import MagicTiles from '~/pages/MagicTiles'
+import Home from '../pages/Home';
+import Following from '../pages/Following';
+import Profile from '../pages/Profile';
+import Upload from '../pages/Upload';
+import Search from '../pages/Search';
+import Live from '../pages/Live';
+import Music from '../pages/Music'
+import Games from '../pages/Games';
+import MagicTiles from '../pages/MagicTiles'
 // import MagicTilesNew from '~/pages/MagicTilesNew'
 
 // Public routes
