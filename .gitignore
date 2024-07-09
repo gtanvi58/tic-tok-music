@@ -4,3 +4,4 @@ package-lock.json
 .env.local
 .cache
 __pycache__/
+.venv

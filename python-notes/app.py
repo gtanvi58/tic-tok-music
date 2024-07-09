@@ -35,7 +35,7 @@ app.add_middleware(
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-DOWNLOAD_DIR1 = '../src/play-music'
+DOWNLOAD_DIR1 = '../frontend-changes/src/assets/play-music'
 DOWNLOAD_DIR2 = './'
 
 # Ensure the directory exists

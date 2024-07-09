@@ -47,7 +47,7 @@ const MagicTiles = () => {
             console.log("printing response ", response.data)
             setNotes(response.data);
             if (audioRef.current) {
-                audioRef.current.src = require('../../../src/play-music/output.mp3');
+                audioRef.current.src = require('../../../src/assets/play-music/output.mp3');
                 // setIsPlaying(true);
             }
         } catch (error) {
@@ -56,8 +56,12 @@ const MagicTiles = () => {
     };
 
     useEffect(() => {
-        getNotes(audio_id);
-    }, [audio_id]);
+        console.log("Here the notes is!!" +  notes);
+        if(notes.length == 0){
+            console.log("Here inside!");
+            getNotes(audio_id);
+        }
+    }, []);
 
     // const getNotesInfo = () => {
     //     if (notes.length > 0) {
