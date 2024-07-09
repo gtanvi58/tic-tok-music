@@ -1,6 +1,15 @@
 # THIC-TOK MUSIC DISCOVERY<br/> Discover!! Play!!! Connect!!!!
 An enhanced music discovery system for new artists on TikTok. <br/>
 
+
+##Current Issues:
+Need to implement a loading page for Piano Tiles since it takes a few seconds to analyze the beat of the song.
+##Work around:
+Wait for around 10 to 30 seconds before beginning to play. 
+
+##Note:
+Sometimes even though the song starts the tiles are not generated because tiles are rendered according to the changes in the beat.
+
 ## Setup
 ### Initial Setup
 
