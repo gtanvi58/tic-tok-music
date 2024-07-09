@@ -18,20 +18,33 @@ origins = [
     "http://localhost.tiangolo.com",
     "https://localhost.tiangolo.com",
     "http://localhost",
+    "http://127.0.0.1",
     "http://localhost:5173",
     "http://localhost:3000",
     "http://localhost:8000",
     "http://localhost:8001",
     "http://localhost:8080",
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:8000",
+    "http://127.0.0.1:8001",
+    "http://127.0.0.1:8080",
+    "http://127.0.0.1:5173",
+    "https://localhost",
+    "https://127.0.0.1",
+    "https://localhost:5173",
+    "https://localhost:3000",
+    "https://localhost:8000",
+    "https://localhost:8001",
+    "https://localhost:8080",
+    "https://127.0.0.1:3000",
+    "https://127.0.0.1:8000",
+    "https://127.0.0.1:8001",
+    "https://127.0.0.1:8080",
+    "https://127.0.0.1:5173",
+    "http://localhost:3001"
 ]
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -146,6 +159,14 @@ async def root(audio_id: str):
 
     # Return the filtered final onsets as a JSON response
     return JSONResponse(content=jsonable_encoder(filtered_final_onsets))
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 if __name__ == "__main__":
     import uvicorn

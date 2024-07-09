@@ -4,6 +4,7 @@ import styles from './MagicTiles.scss';
 // import audioFile from '../../../src/play-music/output.mp3';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
+import LoadingOverlay from 'react-loading-overlay';
 
 const cx = classNames.bind(styles);
 
@@ -18,6 +19,7 @@ let isGameOver = false;
 let executed = false;
 const MagicTiles = () => {
     const [notes, setNotes] = useState([]);
+    const [isLoading, setIsLoading] = useState(false);
     const [myScore, setMyScore] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
     const [noteIndex, setNoteIndex] = useState(0);
@@ -50,6 +52,7 @@ const MagicTiles = () => {
                 audioRef.current.src = require('../../../src/assets/play-music/output.mp3');
                 // setIsPlaying(true);
             }
+            setIsLoading(false);
         } catch (error) {
             console.log("printing error ", error);
         }
@@ -60,6 +63,7 @@ const MagicTiles = () => {
         if(notes.length == 0){
             console.log("Here inside!");
             getNotes(audio_id);
+            setIsLoading(true);
         }
     }, []);
 
@@ -523,6 +527,11 @@ const MagicTiles = () => {
 
     return (
         <div className={cx('magic-wrapper')}>
+        <LoadingOverlay
+            active={isLoading}
+            spinner
+            text='Loading...'
+        ></LoadingOverlay>
 <canvas className={cx('score_bar')} ref={scoreBarRef} id="score_bar" width="300" height="100"></canvas>
 <canvas className={cx('game_over_bar')} ref={gameOverRef} id="game_over_bar" width="300" height="100"></canvas>
 
