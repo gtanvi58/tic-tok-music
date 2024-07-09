@@ -47,7 +47,7 @@ Ensure that the following libraries are installed in your python environment. Al
 2. spotipy (Refer to [Spotipy](https://spotipy.readthedocs.io/en/2.24.0/#installation))<br/>
 3. pydantic (Refer to [Pydantic](https://docs.pydantic.dev/latest/))<br/>
 4. pandas (Refer to [Pandas](https://pandas.pydata.org/))<br/>
-5. numpy Please Install latest 1.x version as 2.x version is not backward compatible with 1.x versions which are used by other dependencies(Refer to [Numpy](https://numpy.org/))<br/>
+5. numpy <br/>Please Install latest 1.x version as 2.x version is not backward compatible with 1.x versions which are used by other dependencies<br/>(Refer to [Numpy](https://numpy.org/))<br/>
 6. googleapiclient.discovery (Refer to [GoogleDeveloperClient](https://github.com/googleapis/google-api-python-client))<br/>
 7. pymongo (Refer to [PyMongo](https://pymongo.readthedocs.io/en/stable/))<br/>
 8. cachetools (Refer to [cachetools](https://pypi.org/project/cachetools/))<br/>
